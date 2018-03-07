@@ -1,5 +1,16 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
+		<type fullname="loadDelayIntro">
+			<method name="ModeSelect"/>
+		</type>
+		<type fullname="introController">
+			<method name="thirdScreenHide"/>
+			<method name="s2d1btn"/>
+			<method name="s2d2btn"/>
+			<method name="s3d2btn"/>
+			<method name="s3d1btn"/>
+			<method name="visualizeBtn"/>
+		</type>
 		<type fullname="thirdModule">
 			<method name="toThirdModBtn"/>
 		</type>
@@ -21,6 +32,11 @@
 		</type>
 		<type fullname="secondModule">
 			<method name="toSecondModBtn"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine">
+		<type fullname="UnityEngine.Animator">
+			<method name="Play"/>
 		</type>
 	</assembly>
 </linker>
