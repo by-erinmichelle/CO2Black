@@ -56,14 +56,14 @@ public class thirdmod : MonoBehaviour {
 
 
 	}
-	void OnCollisionEnter(Collision collision) {	
-		if (collision.gameObject.name == "fire" || collision.gameObject.name == "coal" || collision.gameObject.name == "gas") {
-
-			fireDefault.GetComponent<Animation> ().Play ();
+//	void OnCollisionEnter(Collision collision) {	
+//		if (collision.gameObject.name == "fire" || collision.gameObject.name == "coal" || collision.gameObject.name == "gas") {
+//
+//			fireDefault.GetComponent<Animation> ().Play ();
 //			StartCoroutine (negativeCoroutine ());
-
-		}
-	}
+//
+//		}
+//	}
 
 	void Update () {
 
@@ -99,7 +99,9 @@ public class thirdmod : MonoBehaviour {
 					if (hit.transform.tag == "fire"){
 						Debug.Log ("plz");
 
-						fireDefault.GetComponent<Animation> ().Play ();
+						Handheld.Vibrate();
+
+//						fireDefault.GetComponent<Animation> ().Play ();
 
 
 

@@ -12,6 +12,8 @@ TagManager:
   - screen3
   - laptop
   - fire
+  - coal
+  - gas
   layers:
   - Default
   - TransparentFX

@@ -20666,6 +20666,12 @@ extern "C" void co2Controller_tapSodaDialogue_trans_m1608899404 ();
 extern "C" void co2Controller_tapBottleDialogue_trans_m352326441 ();
 extern "C" void co2Controller_tapTrashDialogue_trans_m4276400617 ();
 extern "C" void co2Controller_tapFoamDialogue_trans_m3544537048 ();
+extern "C" void co2Controller_turnOnCoal_m749130670 ();
+extern "C" void co2Controller_turnOnGas_m1606028512 ();
+extern "C" void co2Controller_turnOnAll_m3124283378 ();
+extern "C" void co2Controller_turnOnCleanText_m3817543865 ();
+extern "C" void co2Controller_Update_m2009009566 ();
+extern "C" void co2Controller_hideAllModels_m3415226946 ();
 extern "C" void collideFreeze__ctor_m401516876 ();
 extern "C" void collideFreeze_OnCollisionEnter_m1587409106 ();
 extern "C" void collideScript__ctor_m169184456 ();
@@ -22915,7 +22921,6 @@ extern "C" void thirdmod_turnOnCoal_m3284482871 ();
 extern "C" void thirdmod_turnOnGas_m2003847463 ();
 extern "C" void thirdmod_turnOnAll_m1183722407 ();
 extern "C" void thirdmod_turnOnCleanText_m1376071330 ();
-extern "C" void thirdmod_OnCollisionEnter_m3114760132 ();
 extern "C" void thirdmod_Update_m1853300723 ();
 extern "C" void thirdmod_hideAllModels_m3208811679 ();
 extern "C" void thirdModule__ctor_m3104340124 ();
@@ -23950,7 +23955,7 @@ extern "C" void BallUserControl__ctor_m1854748185 ();
 extern "C" void BallUserControl_Awake_m4216224384 ();
 extern "C" void BallUserControl_Update_m1471660078 ();
 extern "C" void BallUserControl_FixedUpdate_m1908019444 ();
-extern const Il2CppMethodPointer g_MethodPointers[23933] = 
+extern const Il2CppMethodPointer g_MethodPointers[23938] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -44601,6 +44606,12 @@ extern const Il2CppMethodPointer g_MethodPointers[23933] =
 	co2Controller_tapBottleDialogue_trans_m352326441,
 	co2Controller_tapTrashDialogue_trans_m4276400617,
 	co2Controller_tapFoamDialogue_trans_m3544537048,
+	co2Controller_turnOnCoal_m749130670,
+	co2Controller_turnOnGas_m1606028512,
+	co2Controller_turnOnAll_m3124283378,
+	co2Controller_turnOnCleanText_m3817543865,
+	co2Controller_Update_m2009009566,
+	co2Controller_hideAllModels_m3415226946,
 	collideFreeze__ctor_m401516876,
 	collideFreeze_OnCollisionEnter_m1587409106,
 	collideScript__ctor_m169184456,
@@ -46850,7 +46861,6 @@ extern const Il2CppMethodPointer g_MethodPointers[23933] =
 	thirdmod_turnOnGas_m2003847463,
 	thirdmod_turnOnAll_m1183722407,
 	thirdmod_turnOnCleanText_m1376071330,
-	thirdmod_OnCollisionEnter_m3114760132,
 	thirdmod_Update_m1853300723,
 	thirdmod_hideAllModels_m3208811679,
 	thirdModule__ctor_m3104340124,
