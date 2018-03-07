@@ -24,6 +24,12 @@ public class learningLayerUp : MonoBehaviour {
 
 	public GameObject progBtn;
 
+	public GameObject secondModuleGroup;
+	public GameObject trashContainer;
+
+	public GameObject thirdModuleGroup;
+	public GameObject energyContainer;
+
 
 	// Use this for initialization
 	void Start () {
@@ -94,7 +100,13 @@ public class learningLayerUp : MonoBehaviour {
 		progBtn.SetActive (false);
 		closeBtn.SetActive (false);
 
+		//hide second module
+		secondModuleGroup.SetActive (false);
+		trashContainer.SetActive (false);
 
+		//show third module
+		thirdModuleGroup.SetActive (true);
+//		energyContainer.SetActive (true);
 
 	}
 
