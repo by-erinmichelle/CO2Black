@@ -2,7 +2,7 @@
 All Assemblies
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 2764
+  Total Type Removals = 2767
     Nested = 231
     Interfaces = 148
     Abstract Classes = 205
@@ -10,8 +10,8 @@ Summary:
     Generic Interfaces = 4
     Generic Abstract Classes = 0
     Attributes = 201
-  Total Field Removals = 1113
-  Total Method Removals = 15554
+  Total Field Removals = 1117
+  Total Method Removals = 15569
 ---------------------------------------------------
 ---------------------------------------------------
 Assembly: Mapbox.Json
@@ -15286,7 +15286,7 @@ Summary:
 Assembly: UnityEngine.CoreModule
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 390
+  Total Type Removals = 392
     Nested = 9
     Interfaces = 10
     Abstract Classes = 17
@@ -15295,7 +15295,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 44
   Total Field Removals = 27
-  Total Method Removals = 2714
+  Total Method Removals = 2708
   References Removed = 0
 ---------------------------------------------------
     JetBrains.Annotations.AssertionMethodAttribute
@@ -16383,9 +16383,6 @@ Summary:
     UnityEngine.GUILayer
         .ctor()
     UnityEngine.GUIStateObjects
-        .ctor()
-        QueryStateObject(System.Type,System.Int32)
-        Tests_ClearObjects()
     UnityEngine.GUITexture
         .ctor()
         get_border()
@@ -18240,9 +18237,6 @@ Summary:
     UnityEngine.StaticBatchingUtility
     UnityEngine.StereoTargetEyeMask
     UnityEngine.SystemClock
-        .ctor()
-        ToUnixTimeMilliseconds(System.DateTime)
-        ToUnixTimeSeconds(System.DateTime)
     UnityEngine.SystemInfo
         unsupportedIdentifier
         .ctor()
@@ -18728,7 +18722,7 @@ Summary:
 Assembly: UnityEngine.IMGUIModule
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 27
+  Total Type Removals = 28
     Nested = 12
     Interfaces = 1
     Abstract Classes = 1
@@ -18736,8 +18730,8 @@ Summary:
     Generic Interfaces = 0
     Generic Abstract Classes = 0
     Attributes = 0
-  Total Field Removals = 17
-  Total Method Removals = 669
+  Total Field Removals = 21
+  Total Method Removals = 690
   References Removed = 0
 ---------------------------------------------------
     UnityEngine.CursorPositionStylePainterParameters
@@ -18761,6 +18755,7 @@ Summary:
         get_pressure()
         get_shift()
         GetEventCount()
+        GetTypeForControl(System.Int32)
         InitCopy(UnityEngine.Event)
         InitPtr(System.IntPtr)
         INTERNAL_CALL_Internal_SetMouseDelta(UnityEngine.Event,UnityEngine.Vector2&)
@@ -18768,6 +18763,7 @@ Summary:
         Internal_GetMouseDelta(UnityEngine.Vector2&)
         Internal_SetMouseDelta(UnityEngine.Vector2)
         Internal_SetMousePosition(UnityEngine.Vector2)
+        Internal_Use()
         KeyboardEvent(System.String)
         set_alt(System.Boolean)
         set_button(System.Int32)
@@ -18787,10 +18783,12 @@ Summary:
         set_pressure(System.Single)
         set_shift(System.Boolean)
         set_type(UnityEngine.EventType)
+        Use()
     UnityEngine.EventInterests
     UnityEngine.ExitGUIException
         .ctor()
     UnityEngine.GUI
+        <scrollTroughSide>k__BackingField
         s_ScrollControlId
         s_ToolTipRect
         .ctor()
@@ -18852,14 +18850,18 @@ Summary:
         get_enabled()
         get_matrix()
         get_mouseTooltip()
+        get_nextScrollStepTime()
+        get_scrollTroughSide()
         get_tooltip()
         get_tooltipRect()
+        get_usePageScrollbars()
         GetNameOfFocusedControl()
         GetTopScrollView()
         HandleTextFieldEventForDesktop(UnityEngine.Rect,System.Int32,UnityEngine.GUIContent,System.Boolean,System.Int32,UnityEngine.GUIStyle,UnityEngine.TextEditor)
         HandleTextFieldEventForTouchscreen(UnityEngine.Rect,System.Int32,UnityEngine.GUIContent,System.Boolean,System.Int32,UnityEngine.GUIStyle,System.String,System.Char,UnityEngine.TextEditor)
         HorizontalScrollbar(UnityEngine.Rect,System.Single,System.Single,System.Single,System.Single)
         HorizontalScrollbar(UnityEngine.Rect,System.Single,System.Single,System.Single,System.Single,UnityEngine.GUIStyle)
+        HorizontalSlider(UnityEngine.Rect,System.Single,System.Single,System.Single)
         HorizontalSlider(UnityEngine.Rect,System.Single,System.Single,System.Single,UnityEngine.GUIStyle,UnityEngine.GUIStyle)
         InitializeGUIClipTexture()
         Internal_BeginWindows()
@@ -18877,6 +18879,8 @@ Summary:
         INTERNAL_set_backgroundColor(UnityEngine.Color&)
         INTERNAL_set_contentColor(UnityEngine.Color&)
         Internal_SetTooltip(System.String)
+        InternalRepaintEditorWindow()
+        Label(UnityEngine.Rect,System.String)
         Label(UnityEngine.Rect,System.String,UnityEngine.GUIStyle)
         Label(UnityEngine.Rect,UnityEngine.GUIContent)
         Label(UnityEngine.Rect,UnityEngine.Texture)
@@ -18913,9 +18917,11 @@ Summary:
         set_depth(System.Int32)
         set_enabled(System.Boolean)
         set_matrix(UnityEngine.Matrix4x4)
+        set_scrollTroughSide(System.Int32)
         set_tooltip(System.String)
         set_tooltipRect(UnityEngine.Rect)
         SetNextControlName(System.String)
+        Slider(UnityEngine.Rect,System.Single,System.Single,System.Single,System.Single,UnityEngine.GUIStyle,UnityEngine.GUIStyle,System.Boolean,System.Int32)
         TextArea(UnityEngine.Rect,System.String)
         TextArea(UnityEngine.Rect,System.String,System.Int32)
         TextArea(UnityEngine.Rect,System.String,System.Int32,UnityEngine.GUIStyle)
@@ -19152,6 +19158,8 @@ Summary:
         get_horizontalScrollbarLeftButton()
         get_horizontalScrollbarRightButton()
         get_horizontalScrollbarThumb()
+        get_horizontalSlider()
+        get_horizontalSliderThumb()
         get_scrollView()
         get_settings()
         get_textArea()
@@ -19311,29 +19319,37 @@ Summary:
         ExitGUI()
         get_guiIsExiting()
         get_hasModalWindow()
+        get_hotControl()
         get_keyboardControl()
         get_mouseUsed()
         get_textFieldInput()
         GetBuiltinSkin(System.Int32)
         GetChanged()
+        GetControlID(System.Int32,UnityEngine.FocusType,UnityEngine.Rect)
         GetControlID(UnityEngine.FocusType)
         GetControlID(UnityEngine.FocusType,UnityEngine.Rect)
         GetControlID(UnityEngine.GUIContent,UnityEngine.FocusType)
         GetControlID(UnityEngine.GUIContent,UnityEngine.FocusType,UnityEngine.Rect)
         GetDefaultSkin(System.Int32)
         GetPermanentControlID()
+        GetStateObject(System.Type,System.Int32)
         GUIToScreenPoint(UnityEngine.Vector2)
         GUIToScreenRect(UnityEngine.Rect)
         Internal_BeginContainer(System.Int32)
+        INTERNAL_CALL_Internal_GetNextControlID2(System.Int32,UnityEngine.FocusType,UnityEngine.Rect&)
         Internal_EndContainer()
         Internal_GetBuiltinSkin(System.Int32)
+        Internal_GetHotControl()
         Internal_GetKeyboardControl()
+        Internal_GetNextControlID2(System.Int32,UnityEngine.FocusType,UnityEngine.Rect)
+        Internal_SetHotControl(System.Int32)
         Internal_SetKeyboardControl(System.Int32)
         QueryStateObject(System.Type,System.Int32)
         RotateAroundPivot(System.Single,UnityEngine.Vector2)
         ScaleAroundPivot(UnityEngine.Vector2,UnityEngine.Vector2)
         ScreenToGUIPoint(UnityEngine.Vector2)
         ScreenToGUIRect(UnityEngine.Rect)
+        set_hotControl(System.Int32)
         set_keyboardControl(System.Int32)
         set_mouseUsed(System.Boolean)
         set_textFieldInput(System.Boolean)
@@ -19354,6 +19370,11 @@ Summary:
         ScrollNeeded(UnityEngine.Rect)
         ScrollTo(UnityEngine.Rect)
         ScrollTowards(UnityEngine.Rect,System.Single)
+    UnityEngine.SliderHandler
+    UnityEngine.SliderState
+        dragStartPos
+        dragStartValue
+        isDragging
     UnityEngine.StylePainter
     UnityEngine.TextClipping
     UnityEngine.TextEditor
@@ -21430,7 +21451,7 @@ Summary:
     UnityEngine.WWWAudioExtensions
 ---------------------------------------------------
 Mono.Cecil.ExportedType Removals:
-  Total: 987
+  Total: 990
 ---------------------------------------------------
 JetBrains.Annotations.AssertionMethodAttribute
 JetBrains.Annotations.BaseTypeRequiredAttribute
@@ -21907,6 +21928,7 @@ UnityEngine.GUILayout/AreaScope
 UnityEngine.GUILayout/HorizontalScope
 UnityEngine.GUILayout/ScrollViewScope
 UnityEngine.GUILayout/VerticalScope
+UnityEngine.GUIStateObjects
 UnityEngine.Halo
 UnityEngine.Hash128
 UnityEngine.HeadDoF
@@ -22256,6 +22278,7 @@ UnityEngine.SkinnedMeshRenderer
 UnityEngine.SkinQuality
 UnityEngine.Skybox
 UnityEngine.SleepTimeout
+UnityEngine.SliderHandler
 UnityEngine.SliderJoint2D
 UnityEngine.Social
 UnityEngine.SocialPlatforms.ActivePlatform
@@ -22291,6 +22314,7 @@ UnityEngine.StyleSheets.StyleValueHandle
 UnityEngine.StyleSheets.StyleValueKeyword
 UnityEngine.StyleSheets.StyleValueType
 UnityEngine.SurfaceEffector2D
+UnityEngine.SystemClock
 UnityEngine.SystemLanguage
 UnityEngine.TargetJoint2D
 UnityEngine.Terrain

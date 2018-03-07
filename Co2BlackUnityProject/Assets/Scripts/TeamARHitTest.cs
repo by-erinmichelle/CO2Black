@@ -26,6 +26,10 @@ namespace UnityEngine.XR.iOS
 
 		public Material lampShade;
 
+		public GameObject ScanningDots;
+
+		public GameObject planePrefab;
+
 
 		Collider m_Collider;
 
@@ -35,6 +39,8 @@ namespace UnityEngine.XR.iOS
 			List<ARHitTestResult> hitResults = UnityARSessionNativeInterface.GetARSessionNativeInterface ().HitTest (point, resultTypes);
 
 			if (hitResults.Count > 0) {
+				
+				ScanningDots.SetActive(false);
 
 				if (!cflBulb.activeInHierarchy) {
 					//works as long as theres only one condition?

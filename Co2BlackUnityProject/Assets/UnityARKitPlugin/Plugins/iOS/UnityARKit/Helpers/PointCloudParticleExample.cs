@@ -11,6 +11,8 @@ public class PointCloudParticleExample : MonoBehaviour {
     private bool frameUpdated = false;
     private ParticleSystem currentPS;
     private ParticleSystem.Particle [] particles;
+    public GameObject lampModel;
+    public bool includeChildren = true;
 //	public GameObject buildingFact;
 
 	// Use this for initialization
@@ -18,6 +20,7 @@ public class PointCloudParticleExample : MonoBehaviour {
         UnityARSessionNativeInterface.ARFrameUpdatedEvent += ARFrameUpdated;
         currentPS = Instantiate (pointCloudParticlePrefab);
         frameUpdated = false;
+
 	}
 	
     public void ARFrameUpdated(UnityARCamera camera)
@@ -47,6 +50,12 @@ public class PointCloudParticleExample : MonoBehaviour {
             }
             frameUpdated = false;
         }
+
+
+        if(lampModel.activeInHierarchy) {
+            currentPS.Clear();
+        }
+        
 //		if (buildingFact.activeInHierarchy) {
 //			currentPS.SetParticles (particles, 0);
 //			currentPS.Stop ();
