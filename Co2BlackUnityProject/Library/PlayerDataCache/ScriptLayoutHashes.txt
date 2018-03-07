@@ -333,7 +333,7 @@ d2af69ce28cda6fcf0b7728ae3f251b4 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Filters.FilterBase
 9ffb7700875db16ad444cf26872589b9 Assembly-CSharp.dll:.HexColorField
 602017ac837ce39de79e6b98478ee720 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.SimpleActivatorMenu
-3ceb71418d0f629b98485677ff838beb Assembly-CSharp.dll:.learningLayerUp
+cb0635352a207baa3c98935a89ec93fb Assembly-CSharp.dll:.learningLayerUp
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MoveScene
 bf09ee2e5fc51800c24bc9ad47088efd Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.AddMonoBehavioursModifier
 4db0663f9c228f9276322045ee5037d5 Assembly-CSharp.dll:.FocusSquare
@@ -358,7 +358,7 @@ b15500bf1b76bbde5922a3b83fc39627 Assembly-CSharp.dll:Mapbox.Examples.Playground.
 1db2689b3233b29a96c693c2c074a142 Assembly-CSharp.dll:Mapbox.Unity.Map.DynamicZoomMapVisualizer
 c9576c6a51e2e71bc5caab85a96801e8 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.SmokeParticles
 db3b233e35a88802fed1717d19c3d9ec Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.FollowTarget
-d79977baedb8fb3f69083e73e2bf78cb Assembly-CSharp.dll:.firstModule
+af1eb884532a038cbe4bcd14d1e52aa6 Assembly-CSharp.dll:.firstModule
 6ff378b4630d84f63e95fc3d2b45eaf7 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.TextureModifier
 3ab020542763dd872bb58dde7c918ece Assembly-CSharp.dll:.FadeAwayScript
 a8796ecdc9d5c260bbe32f30c4b10708 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.TouchPad
@@ -402,3 +402,5 @@ a1d41d38fc0ffc365dc294688f92cb95 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UnityARCameraNearFar
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
 658bf8334790d2ed35310347cc5219d9 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.ModifierStack
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.scri
+e31da5970c4bc36e51a5f16bbc41fe46 Assembly-CSharp.dll:.learningLayerLamp

@@ -31,6 +31,20 @@ public class learningLayerUp : MonoBehaviour {
 	public GameObject energyContainer;
 
 
+	public GameObject trashBagDialogue;
+	public GameObject trashBagDialogue_trans;
+	public GameObject boxDialogue;
+	public GameObject boxDialogue_trans;
+	public GameObject bottleDialogue;
+	public GameObject bottleDialogue_trans;
+	public GameObject foamCupDialogue;
+	public GameObject foamCupDialogue_trans;
+	public GameObject sodaDialogue;
+	public GameObject sodaDialogue_trans;
+
+	public GameObject congrats;
+
+
 	// Use this for initialization
 	void Start () {
 		trashScript = trashCan.GetComponent<changeTrashColor> ();
@@ -44,6 +58,21 @@ public class learningLayerUp : MonoBehaviour {
 	}
 
 	public void layerUp(){
+
+		trashBagDialogue.SetActive(false);
+		trashBagDialogue_trans.SetActive(false);
+
+		boxDialogue.SetActive(false);
+		boxDialogue_trans.SetActive(false);
+
+		bottleDialogue.SetActive(false);
+		bottleDialogue_trans.SetActive(false);
+
+		foamCupDialogue.SetActive(false);
+		foamCupDialogue_trans.SetActive(false);
+
+		sodaDialogue.SetActive(false);
+		sodaDialogue_trans.SetActive(false);
 
 		if (isLayerUp == false) {
 			
@@ -67,6 +96,7 @@ public class learningLayerUp : MonoBehaviour {
 			isBadgeUp = true;
 			nextBtn.SetActive (false);
 			progBtn.SetActive (true);
+			congrats.SetActive (true);
 
 
 
@@ -97,6 +127,7 @@ public class learningLayerUp : MonoBehaviour {
 
 	public void goToThirdModule(){
 		trashBadge.GetComponent<Animation> ().Play ("badgeOut");
+		congrats.SetActive (false);
 		progBtn.SetActive (false);
 		closeBtn.SetActive (false);
 

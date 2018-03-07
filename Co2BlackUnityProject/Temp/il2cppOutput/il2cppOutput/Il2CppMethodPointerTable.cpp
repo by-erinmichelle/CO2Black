@@ -13694,12 +13694,6 @@ extern "C" void Animator_INTERNAL_get_deltaPosition_m3275684743 ();
 extern "C" void Animator_set_applyRootMotion_m333705050 ();
 extern "C" void Animator_GetCurrentAnimatorStateInfo_m2354582050 ();
 extern "C" void Animator_set_speed_m3190202775 ();
-extern "C" void Animator_Play_m1354644779 ();
-extern "C" void Animator_Play_m577397764 ();
-extern "C" void Animator_Play_m1706432228 ();
-extern "C" void Animator_Play_m1244626253 ();
-extern "C" void Animator_Play_m1504254530 ();
-extern "C" void Animator_Play_m1824597217 ();
 extern "C" void Animator_get_hasBoundPlayables_m2257984562 ();
 extern "C" void Animator_StringToHash_m1845745834 ();
 extern "C" void Animator_SetFloatString_m4025347812 ();
@@ -20859,6 +20853,11 @@ extern "C" void LampHit2_outro_m4072552295 ();
 extern "C" void laptopHit__ctor_m506470644 ();
 extern "C" void laptopHit_Update_m1763138433 ();
 extern "C" void laptopHit__cctor_m1807984595 ();
+extern "C" void learningLayerLamp__ctor_m489281752 ();
+extern "C" void learningLayerLamp_Start_m4136633632 ();
+extern "C" void learningLayerLamp_layerUp_m3329000896 ();
+extern "C" void learningLayerLamp_layerClose_m3767682061 ();
+extern "C" void learningLayerLamp_goToSecondModule_m3047133233 ();
 extern "C" void learningLayerUp__ctor_m1234187573 ();
 extern "C" void learningLayerUp_Start_m3097824421 ();
 extern "C" void learningLayerUp_Update_m910695208 ();
@@ -22625,6 +22624,9 @@ extern "C" void screen2btns_desc1btn_m4133591244 ();
 extern "C" void screen2btns_desc2btn_m81834653 ();
 extern "C" void Screen3__ctor_m3020186296 ();
 extern "C" void Screen3_deActivate_m1029354880 ();
+extern "C" void scri__ctor_m1022743438 ();
+extern "C" void scri_Start_m1606388614 ();
+extern "C" void scri_Update_m2362970717 ();
 extern "C" void secondBuilding_dontForget__ctor_m2413203610 ();
 extern "C" void secondBuilding_dontForget_BuildingFactBotBtn_m2439269853 ();
 extern "C" void secondModule__ctor_m4004687197 ();
@@ -23955,11 +23957,7 @@ extern "C" void BallUserControl__ctor_m1854748185 ();
 extern "C" void BallUserControl_Awake_m4216224384 ();
 extern "C" void BallUserControl_Update_m1471660078 ();
 extern "C" void BallUserControl_FixedUpdate_m1908019444 ();
-<<<<<<< HEAD
-extern const Il2CppMethodPointer g_MethodPointers[23932] = 
-=======
-extern const Il2CppMethodPointer g_MethodPointers[23935] = 
->>>>>>> 2710811756972b6ff6b5ed8c58df5d86df5fddcc
+extern const Il2CppMethodPointer g_MethodPointers[23940] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -37638,12 +37636,6 @@ extern const Il2CppMethodPointer g_MethodPointers[23935] =
 	Animator_set_applyRootMotion_m333705050,
 	Animator_GetCurrentAnimatorStateInfo_m2354582050,
 	Animator_set_speed_m3190202775,
-	Animator_Play_m1354644779,
-	Animator_Play_m577397764,
-	Animator_Play_m1706432228,
-	Animator_Play_m1244626253,
-	Animator_Play_m1504254530,
-	Animator_Play_m1824597217,
 	Animator_get_hasBoundPlayables_m2257984562,
 	Animator_StringToHash_m1845745834,
 	Animator_SetFloatString_m4025347812,
@@ -44803,6 +44795,11 @@ extern const Il2CppMethodPointer g_MethodPointers[23935] =
 	laptopHit__ctor_m506470644,
 	laptopHit_Update_m1763138433,
 	laptopHit__cctor_m1807984595,
+	learningLayerLamp__ctor_m489281752,
+	learningLayerLamp_Start_m4136633632,
+	learningLayerLamp_layerUp_m3329000896,
+	learningLayerLamp_layerClose_m3767682061,
+	learningLayerLamp_goToSecondModule_m3047133233,
 	learningLayerUp__ctor_m1234187573,
 	learningLayerUp_Start_m3097824421,
 	learningLayerUp_Update_m910695208,
@@ -46569,6 +46566,9 @@ extern const Il2CppMethodPointer g_MethodPointers[23935] =
 	screen2btns_desc2btn_m81834653,
 	Screen3__ctor_m3020186296,
 	Screen3_deActivate_m1029354880,
+	scri__ctor_m1022743438,
+	scri_Start_m1606388614,
+	scri_Update_m2362970717,
 	secondBuilding_dontForget__ctor_m2413203610,
 	secondBuilding_dontForget_BuildingFactBotBtn_m2439269853,
 	secondModule__ctor_m4004687197,
