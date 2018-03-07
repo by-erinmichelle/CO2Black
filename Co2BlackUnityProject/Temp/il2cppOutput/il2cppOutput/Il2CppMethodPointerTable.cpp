@@ -13694,12 +13694,6 @@ extern "C" void Animator_INTERNAL_get_deltaPosition_m3275684743 ();
 extern "C" void Animator_set_applyRootMotion_m333705050 ();
 extern "C" void Animator_GetCurrentAnimatorStateInfo_m2354582050 ();
 extern "C" void Animator_set_speed_m3190202775 ();
-extern "C" void Animator_Play_m1354644779 ();
-extern "C" void Animator_Play_m577397764 ();
-extern "C" void Animator_Play_m1706432228 ();
-extern "C" void Animator_Play_m1244626253 ();
-extern "C" void Animator_Play_m1504254530 ();
-extern "C" void Animator_Play_m1824597217 ();
 extern "C" void Animator_get_hasBoundPlayables_m2257984562 ();
 extern "C" void Animator_StringToHash_m1845745834 ();
 extern "C" void Animator_SetFloatString_m4025347812 ();
@@ -22921,8 +22915,9 @@ extern "C" void thirdmod_turnOnCoal_m3284482871 ();
 extern "C" void thirdmod_turnOnGas_m2003847463 ();
 extern "C" void thirdmod_turnOnAll_m1183722407 ();
 extern "C" void thirdmod_turnOnCleanText_m1376071330 ();
+extern "C" void thirdmod_OnCollisionEnter_m3114760132 ();
+extern "C" void thirdmod_Update_m1853300723 ();
 extern "C" void thirdmod_hideAllModels_m3208811679 ();
-extern "C" void thirdmod_laptopHit_m661993073 ();
 extern "C" void thirdModule__ctor_m3104340124 ();
 extern "C" void thirdModule_toThirdModBtn_m2921471906 ();
 extern "C" void thirdModule_Update_m656854583 ();
@@ -23955,11 +23950,7 @@ extern "C" void BallUserControl__ctor_m1854748185 ();
 extern "C" void BallUserControl_Awake_m4216224384 ();
 extern "C" void BallUserControl_Update_m1471660078 ();
 extern "C" void BallUserControl_FixedUpdate_m1908019444 ();
-<<<<<<< HEAD
-extern const Il2CppMethodPointer g_MethodPointers[23932] = 
-=======
-extern const Il2CppMethodPointer g_MethodPointers[23935] = 
->>>>>>> 2710811756972b6ff6b5ed8c58df5d86df5fddcc
+extern const Il2CppMethodPointer g_MethodPointers[23933] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -37638,12 +37629,6 @@ extern const Il2CppMethodPointer g_MethodPointers[23935] =
 	Animator_set_applyRootMotion_m333705050,
 	Animator_GetCurrentAnimatorStateInfo_m2354582050,
 	Animator_set_speed_m3190202775,
-	Animator_Play_m1354644779,
-	Animator_Play_m577397764,
-	Animator_Play_m1706432228,
-	Animator_Play_m1244626253,
-	Animator_Play_m1504254530,
-	Animator_Play_m1824597217,
 	Animator_get_hasBoundPlayables_m2257984562,
 	Animator_StringToHash_m1845745834,
 	Animator_SetFloatString_m4025347812,
@@ -46865,8 +46850,9 @@ extern const Il2CppMethodPointer g_MethodPointers[23935] =
 	thirdmod_turnOnGas_m2003847463,
 	thirdmod_turnOnAll_m1183722407,
 	thirdmod_turnOnCleanText_m1376071330,
+	thirdmod_OnCollisionEnter_m3114760132,
+	thirdmod_Update_m1853300723,
 	thirdmod_hideAllModels_m3208811679,
-	thirdmod_laptopHit_m661993073,
 	thirdModule__ctor_m3104340124,
 	thirdModule_toThirdModBtn_m2921471906,
 	thirdModule_Update_m656854583,

@@ -2658,6 +2658,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fire: {fileID: 44688227}
+  fireDefault: {fileID: 715190722}
   coal: {fileID: 1627776396}
   gas: {fileID: 1502654844}
   clean: {fileID: 1698650455}
@@ -2666,6 +2667,7 @@ MonoBehaviour:
   gasEnergy: {fileID: 1280282400}
   allEnergy: {fileID: 470345050}
   getClean: {fileID: 212523150}
+  cleanEnergy: 1
   laptopFirstStep: {fileID: 1789347349}
   laptop: {fileID: 1187596963}
   table: {fileID: 2103979899}
@@ -5557,6 +5559,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fire: {fileID: 44688227}
+  fireDefault: {fileID: 0}
   coal: {fileID: 1627776396}
   gas: {fileID: 1502654844}
   clean: {fileID: 1698650455}
@@ -5565,6 +5568,7 @@ MonoBehaviour:
   gasEnergy: {fileID: 1280282400}
   allEnergy: {fileID: 470345050}
   getClean: {fileID: 212523150}
+  cleanEnergy: 1
   laptopFirstStep: {fileID: 1789347349}
   laptop: {fileID: 1187596963}
   table: {fileID: 2103979899}
@@ -5706,6 +5710,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fire: {fileID: 44688227}
+  fireDefault: {fileID: 715190722}
   coal: {fileID: 1627776396}
   gas: {fileID: 1502654844}
   clean: {fileID: 1698650455}
@@ -5714,6 +5719,7 @@ MonoBehaviour:
   gasEnergy: {fileID: 1280282400}
   allEnergy: {fileID: 470345050}
   getClean: {fileID: 212523150}
+  cleanEnergy: 1
   laptopFirstStep: {fileID: 1789347349}
   laptop: {fileID: 1187596963}
   table: {fileID: 2103979899}
@@ -9000,6 +9006,25 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 713741543}
   m_Mesh: {fileID: 4300076, guid: 4af9b7b4c802c61419bb4fc29d521d00, type: 3}
+--- !u!1 &715190722 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 0046769b54649eb4aa98fcaed4b52d25, type: 3}
+  m_PrefabInternal: {fileID: 890931684}
+--- !u!111 &715190726
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 715190722}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 7eef7aae8f6d34294bf1e66a15636ef9, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 7eef7aae8f6d34294bf1e66a15636ef9, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &715950152
 GameObject:
   m_ObjectHideFlags: 0
@@ -11031,6 +11056,10 @@ Prefab:
     - target: {fileID: 400002, guid: 0046769b54649eb4aa98fcaed4b52d25, type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0046769b54649eb4aa98fcaed4b52d25, type: 3}
+      propertyPath: m_TagString
+      value: fire
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0046769b54649eb4aa98fcaed4b52d25, type: 3}
@@ -14012,6 +14041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fire: {fileID: 44688227}
+  fireDefault: {fileID: 715190722}
   coal: {fileID: 1627776396}
   gas: {fileID: 1502654844}
   clean: {fileID: 1698650455}
@@ -14020,6 +14050,7 @@ MonoBehaviour:
   gasEnergy: {fileID: 1280282400}
   allEnergy: {fileID: 470345050}
   getClean: {fileID: 212523150}
+  cleanEnergy: 1
   laptopFirstStep: {fileID: 1789347349}
   laptop: {fileID: 1187596963}
   table: {fileID: 2103979899}
@@ -18413,6 +18444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fire: {fileID: 44688227}
+  fireDefault: {fileID: 715190722}
   coal: {fileID: 1627776396}
   gas: {fileID: 1502654844}
   clean: {fileID: 1698650455}
@@ -18421,6 +18453,7 @@ MonoBehaviour:
   gasEnergy: {fileID: 1280282400}
   allEnergy: {fileID: 470345050}
   getClean: {fileID: 212523150}
+  cleanEnergy: 1
   laptopFirstStep: {fileID: 1789347349}
   laptop: {fileID: 1187596963}
   table: {fileID: 2103979899}
@@ -19951,7 +19984,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1383080356
 Transform:
   m_ObjectHideFlags: 0
@@ -21097,7 +21130,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1502654845
 Transform:
   m_ObjectHideFlags: 0
@@ -22686,7 +22719,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1627776397
 Transform:
   m_ObjectHideFlags: 0

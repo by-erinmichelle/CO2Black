@@ -7,6 +7,7 @@ using UnityEngine.EventSystems;
 public class thirdmod : MonoBehaviour {
 
 	public GameObject fire;
+	public GameObject fireDefault;
 	public GameObject coal;
 	public GameObject gas;
 	public GameObject clean;
@@ -17,6 +18,8 @@ public class thirdmod : MonoBehaviour {
 	public GameObject allEnergy;
 
 	public GameObject getClean;
+	public bool cleanEnergy = true;
+
 
 	public GameObject laptopFirstStep;
 	public GameObject laptop;
@@ -50,7 +53,67 @@ public class thirdmod : MonoBehaviour {
 	public void turnOnCleanText() {
 		allEnergy.SetActive (false);
 		getClean.SetActive (true);
+
+
 	}
+	void OnCollisionEnter(Collision collision) {	
+		if (collision.gameObject.name == "fire" || collision.gameObject.name == "coal" || collision.gameObject.name == "gas") {
+
+			fireDefault.GetComponent<Animation> ().Play ();
+//			StartCoroutine (negativeCoroutine ());
+
+		}
+	}
+
+	void Update () {
+
+		Debug.Log ("workin");
+
+		int fingerCount = 0;
+		foreach (Touch touch in Input.touches) {
+			if (touch.phase != TouchPhase.Ended && touch.phase != TouchPhase.Canceled)
+				fingerCount++;
+		}
+
+		if (fingerCount > 0)
+			print("User has " + fingerCount + " finger(s) touching the screen");
+
+
+		if (Input.touchCount > 0) {
+
+			Debug.Log("touch");
+
+
+			Touch touch = Input.GetTouch (0);
+			if (touch.phase == TouchPhase.Began  && !EventSystem.current.IsPointerOverGameObject(0)) {
+
+				Debug.Log("touch2");
+
+				Ray ray = Camera.main.ScreenPointToRay (touch.position);
+				RaycastHit hit;
+
+				if (Physics.Raycast (ray, out hit, 100)) {
+
+					Debug.Log("raysent");
+
+					if (hit.transform.tag == "fire"){
+						Debug.Log ("plz");
+
+						fireDefault.GetComponent<Animation> ().Play ();
+
+
+
+					}
+						
+
+				}
+			}
+		}
+
+
+
+	}
+
 
 //	hide all the models, show laptop first screen ui
 	public void hideAllModels() {
@@ -65,50 +128,7 @@ public class thirdmod : MonoBehaviour {
 		Debug.Log("boiiiii");
 	}
 
-	void laptopHit () {
-		Debug.Log ("I was hit by a Ray!!!!!!!!!!");
 
-		if (Input.touchCount > 0) {
-
-			Touch touch = Input.GetTouch (0);
-			if (touch.phase == TouchPhase.Began  && !EventSystem.current.IsPointerOverGameObject(0)) {
-
-				Ray ray = Camera.main.ScreenPointToRay (touch.position);
-				RaycastHit hit;
-
-				if (Physics.Raycast (ray, out hit, 100)) {
-
-					if (hit.transform.gameObject.tag == "screen1"){
-						Debug.Log ("plz");
-
-						screen1 = hit.transform.gameObject;
-						screen1.SetActive (false);
-						screen2.SetActive (true);
-
-					}
-
-
-					else if (hit.transform.gameObject.tag == "screen2"){
-						Debug.Log ("popp");
-
-						screen2 = hit.transform.gameObject;
-						screen2.SetActive (false);
-						screen3.SetActive (true);
-					}
-
-				}
-			}
-		}
-//		if (screen1.activeInHierarchy) {
-//			screen1.SetActive (false);
-//			screen2.SetActive (true);
-//		}
-//		if (screen2.activeInHierarchy) {
-//			screen2.SetActive (false);
-//			screen3.SetActive (true);
-//		}
-
-	}
 
 
 }

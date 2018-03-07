@@ -423,28 +423,28 @@ RegisterBuiltinTypes();
 	RegisterClass<FlareLayer>();
 	//75. RenderSettings
 	RegisterClass<RenderSettings>();
-	//76. LightmapSettings
-	RegisterClass<LightmapSettings>();
-	//77. CGProgram
-	RegisterClass<CGProgram>();
-	//78. Motion
-	RegisterClass<Motion>();
-	//79. AnimatorController
-	RegisterClass<AnimatorController>();
-	//80. RuntimeAnimatorController
-	RegisterClass<RuntimeAnimatorController>();
-	//81. ParticleSystemRenderer
-	RegisterClass<ParticleSystemRenderer>();
-	//82. LightProbes
-	RegisterClass<LightProbes>();
-	//83. AnimationClip
-	RegisterClass<AnimationClip>();
-	//84. SpriteRenderer
+	//76. SpriteRenderer
 	RegisterClass<SpriteRenderer>();
-	//85. PhysicMaterial
+	//77. LightmapSettings
+	RegisterClass<LightmapSettings>();
+	//78. CGProgram
+	RegisterClass<CGProgram>();
+	//79. PhysicMaterial
 	RegisterClass<PhysicMaterial>();
-	//86. Avatar
+	//80. Motion
+	RegisterClass<Motion>();
+	//81. AnimatorController
+	RegisterClass<AnimatorController>();
+	//82. RuntimeAnimatorController
+	RegisterClass<RuntimeAnimatorController>();
+	//83. ParticleSystemRenderer
+	RegisterClass<ParticleSystemRenderer>();
+	//84. Avatar
 	RegisterClass<Avatar>();
+	//85. LightProbes
+	RegisterClass<LightProbes>();
+	//86. AnimationClip
+	RegisterClass<AnimationClip>();
 	//87. NavMeshSettings
 	RegisterClass<NavMeshSettings>();
 

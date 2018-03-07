@@ -6013,34 +6013,38 @@ struct  thirdmod_t3672307499  : public MonoBehaviour_t1158329972
 public:
 	// UnityEngine.GameObject thirdmod::fire
 	GameObject_t1756533147 * ___fire_2;
+	// UnityEngine.GameObject thirdmod::fireDefault
+	GameObject_t1756533147 * ___fireDefault_3;
 	// UnityEngine.GameObject thirdmod::coal
-	GameObject_t1756533147 * ___coal_3;
+	GameObject_t1756533147 * ___coal_4;
 	// UnityEngine.GameObject thirdmod::gas
-	GameObject_t1756533147 * ___gas_4;
+	GameObject_t1756533147 * ___gas_5;
 	// UnityEngine.GameObject thirdmod::clean
-	GameObject_t1756533147 * ___clean_5;
+	GameObject_t1756533147 * ___clean_6;
 	// UnityEngine.GameObject thirdmod::woodEnergy
-	GameObject_t1756533147 * ___woodEnergy_6;
+	GameObject_t1756533147 * ___woodEnergy_7;
 	// UnityEngine.GameObject thirdmod::coalEnergy
-	GameObject_t1756533147 * ___coalEnergy_7;
+	GameObject_t1756533147 * ___coalEnergy_8;
 	// UnityEngine.GameObject thirdmod::gasEnergy
-	GameObject_t1756533147 * ___gasEnergy_8;
+	GameObject_t1756533147 * ___gasEnergy_9;
 	// UnityEngine.GameObject thirdmod::allEnergy
-	GameObject_t1756533147 * ___allEnergy_9;
+	GameObject_t1756533147 * ___allEnergy_10;
 	// UnityEngine.GameObject thirdmod::getClean
-	GameObject_t1756533147 * ___getClean_10;
+	GameObject_t1756533147 * ___getClean_11;
+	// System.Boolean thirdmod::cleanEnergy
+	bool ___cleanEnergy_12;
 	// UnityEngine.GameObject thirdmod::laptopFirstStep
-	GameObject_t1756533147 * ___laptopFirstStep_11;
+	GameObject_t1756533147 * ___laptopFirstStep_13;
 	// UnityEngine.GameObject thirdmod::laptop
-	GameObject_t1756533147 * ___laptop_12;
+	GameObject_t1756533147 * ___laptop_14;
 	// UnityEngine.GameObject thirdmod::table
-	GameObject_t1756533147 * ___table_13;
+	GameObject_t1756533147 * ___table_15;
 	// UnityEngine.GameObject thirdmod::screen1
-	GameObject_t1756533147 * ___screen1_14;
+	GameObject_t1756533147 * ___screen1_16;
 	// UnityEngine.GameObject thirdmod::screen2
-	GameObject_t1756533147 * ___screen2_15;
+	GameObject_t1756533147 * ___screen2_17;
 	// UnityEngine.GameObject thirdmod::screen3
-	GameObject_t1756533147 * ___screen3_16;
+	GameObject_t1756533147 * ___screen3_18;
 
 public:
 	inline static int32_t get_offset_of_fire_2() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___fire_2)); }
@@ -6052,130 +6056,147 @@ public:
 		Il2CppCodeGenWriteBarrier((&___fire_2), value);
 	}
 
-	inline static int32_t get_offset_of_coal_3() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___coal_3)); }
-	inline GameObject_t1756533147 * get_coal_3() const { return ___coal_3; }
-	inline GameObject_t1756533147 ** get_address_of_coal_3() { return &___coal_3; }
-	inline void set_coal_3(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_fireDefault_3() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___fireDefault_3)); }
+	inline GameObject_t1756533147 * get_fireDefault_3() const { return ___fireDefault_3; }
+	inline GameObject_t1756533147 ** get_address_of_fireDefault_3() { return &___fireDefault_3; }
+	inline void set_fireDefault_3(GameObject_t1756533147 * value)
 	{
-		___coal_3 = value;
-		Il2CppCodeGenWriteBarrier((&___coal_3), value);
+		___fireDefault_3 = value;
+		Il2CppCodeGenWriteBarrier((&___fireDefault_3), value);
 	}
 
-	inline static int32_t get_offset_of_gas_4() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___gas_4)); }
-	inline GameObject_t1756533147 * get_gas_4() const { return ___gas_4; }
-	inline GameObject_t1756533147 ** get_address_of_gas_4() { return &___gas_4; }
-	inline void set_gas_4(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_coal_4() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___coal_4)); }
+	inline GameObject_t1756533147 * get_coal_4() const { return ___coal_4; }
+	inline GameObject_t1756533147 ** get_address_of_coal_4() { return &___coal_4; }
+	inline void set_coal_4(GameObject_t1756533147 * value)
 	{
-		___gas_4 = value;
-		Il2CppCodeGenWriteBarrier((&___gas_4), value);
+		___coal_4 = value;
+		Il2CppCodeGenWriteBarrier((&___coal_4), value);
 	}
 
-	inline static int32_t get_offset_of_clean_5() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___clean_5)); }
-	inline GameObject_t1756533147 * get_clean_5() const { return ___clean_5; }
-	inline GameObject_t1756533147 ** get_address_of_clean_5() { return &___clean_5; }
-	inline void set_clean_5(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_gas_5() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___gas_5)); }
+	inline GameObject_t1756533147 * get_gas_5() const { return ___gas_5; }
+	inline GameObject_t1756533147 ** get_address_of_gas_5() { return &___gas_5; }
+	inline void set_gas_5(GameObject_t1756533147 * value)
 	{
-		___clean_5 = value;
-		Il2CppCodeGenWriteBarrier((&___clean_5), value);
+		___gas_5 = value;
+		Il2CppCodeGenWriteBarrier((&___gas_5), value);
 	}
 
-	inline static int32_t get_offset_of_woodEnergy_6() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___woodEnergy_6)); }
-	inline GameObject_t1756533147 * get_woodEnergy_6() const { return ___woodEnergy_6; }
-	inline GameObject_t1756533147 ** get_address_of_woodEnergy_6() { return &___woodEnergy_6; }
-	inline void set_woodEnergy_6(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_clean_6() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___clean_6)); }
+	inline GameObject_t1756533147 * get_clean_6() const { return ___clean_6; }
+	inline GameObject_t1756533147 ** get_address_of_clean_6() { return &___clean_6; }
+	inline void set_clean_6(GameObject_t1756533147 * value)
 	{
-		___woodEnergy_6 = value;
-		Il2CppCodeGenWriteBarrier((&___woodEnergy_6), value);
+		___clean_6 = value;
+		Il2CppCodeGenWriteBarrier((&___clean_6), value);
 	}
 
-	inline static int32_t get_offset_of_coalEnergy_7() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___coalEnergy_7)); }
-	inline GameObject_t1756533147 * get_coalEnergy_7() const { return ___coalEnergy_7; }
-	inline GameObject_t1756533147 ** get_address_of_coalEnergy_7() { return &___coalEnergy_7; }
-	inline void set_coalEnergy_7(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_woodEnergy_7() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___woodEnergy_7)); }
+	inline GameObject_t1756533147 * get_woodEnergy_7() const { return ___woodEnergy_7; }
+	inline GameObject_t1756533147 ** get_address_of_woodEnergy_7() { return &___woodEnergy_7; }
+	inline void set_woodEnergy_7(GameObject_t1756533147 * value)
 	{
-		___coalEnergy_7 = value;
-		Il2CppCodeGenWriteBarrier((&___coalEnergy_7), value);
+		___woodEnergy_7 = value;
+		Il2CppCodeGenWriteBarrier((&___woodEnergy_7), value);
 	}
 
-	inline static int32_t get_offset_of_gasEnergy_8() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___gasEnergy_8)); }
-	inline GameObject_t1756533147 * get_gasEnergy_8() const { return ___gasEnergy_8; }
-	inline GameObject_t1756533147 ** get_address_of_gasEnergy_8() { return &___gasEnergy_8; }
-	inline void set_gasEnergy_8(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_coalEnergy_8() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___coalEnergy_8)); }
+	inline GameObject_t1756533147 * get_coalEnergy_8() const { return ___coalEnergy_8; }
+	inline GameObject_t1756533147 ** get_address_of_coalEnergy_8() { return &___coalEnergy_8; }
+	inline void set_coalEnergy_8(GameObject_t1756533147 * value)
 	{
-		___gasEnergy_8 = value;
-		Il2CppCodeGenWriteBarrier((&___gasEnergy_8), value);
+		___coalEnergy_8 = value;
+		Il2CppCodeGenWriteBarrier((&___coalEnergy_8), value);
 	}
 
-	inline static int32_t get_offset_of_allEnergy_9() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___allEnergy_9)); }
-	inline GameObject_t1756533147 * get_allEnergy_9() const { return ___allEnergy_9; }
-	inline GameObject_t1756533147 ** get_address_of_allEnergy_9() { return &___allEnergy_9; }
-	inline void set_allEnergy_9(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_gasEnergy_9() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___gasEnergy_9)); }
+	inline GameObject_t1756533147 * get_gasEnergy_9() const { return ___gasEnergy_9; }
+	inline GameObject_t1756533147 ** get_address_of_gasEnergy_9() { return &___gasEnergy_9; }
+	inline void set_gasEnergy_9(GameObject_t1756533147 * value)
 	{
-		___allEnergy_9 = value;
-		Il2CppCodeGenWriteBarrier((&___allEnergy_9), value);
+		___gasEnergy_9 = value;
+		Il2CppCodeGenWriteBarrier((&___gasEnergy_9), value);
 	}
 
-	inline static int32_t get_offset_of_getClean_10() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___getClean_10)); }
-	inline GameObject_t1756533147 * get_getClean_10() const { return ___getClean_10; }
-	inline GameObject_t1756533147 ** get_address_of_getClean_10() { return &___getClean_10; }
-	inline void set_getClean_10(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_allEnergy_10() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___allEnergy_10)); }
+	inline GameObject_t1756533147 * get_allEnergy_10() const { return ___allEnergy_10; }
+	inline GameObject_t1756533147 ** get_address_of_allEnergy_10() { return &___allEnergy_10; }
+	inline void set_allEnergy_10(GameObject_t1756533147 * value)
 	{
-		___getClean_10 = value;
-		Il2CppCodeGenWriteBarrier((&___getClean_10), value);
+		___allEnergy_10 = value;
+		Il2CppCodeGenWriteBarrier((&___allEnergy_10), value);
 	}
 
-	inline static int32_t get_offset_of_laptopFirstStep_11() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___laptopFirstStep_11)); }
-	inline GameObject_t1756533147 * get_laptopFirstStep_11() const { return ___laptopFirstStep_11; }
-	inline GameObject_t1756533147 ** get_address_of_laptopFirstStep_11() { return &___laptopFirstStep_11; }
-	inline void set_laptopFirstStep_11(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_getClean_11() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___getClean_11)); }
+	inline GameObject_t1756533147 * get_getClean_11() const { return ___getClean_11; }
+	inline GameObject_t1756533147 ** get_address_of_getClean_11() { return &___getClean_11; }
+	inline void set_getClean_11(GameObject_t1756533147 * value)
 	{
-		___laptopFirstStep_11 = value;
-		Il2CppCodeGenWriteBarrier((&___laptopFirstStep_11), value);
+		___getClean_11 = value;
+		Il2CppCodeGenWriteBarrier((&___getClean_11), value);
 	}
 
-	inline static int32_t get_offset_of_laptop_12() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___laptop_12)); }
-	inline GameObject_t1756533147 * get_laptop_12() const { return ___laptop_12; }
-	inline GameObject_t1756533147 ** get_address_of_laptop_12() { return &___laptop_12; }
-	inline void set_laptop_12(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_cleanEnergy_12() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___cleanEnergy_12)); }
+	inline bool get_cleanEnergy_12() const { return ___cleanEnergy_12; }
+	inline bool* get_address_of_cleanEnergy_12() { return &___cleanEnergy_12; }
+	inline void set_cleanEnergy_12(bool value)
 	{
-		___laptop_12 = value;
-		Il2CppCodeGenWriteBarrier((&___laptop_12), value);
+		___cleanEnergy_12 = value;
 	}
 
-	inline static int32_t get_offset_of_table_13() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___table_13)); }
-	inline GameObject_t1756533147 * get_table_13() const { return ___table_13; }
-	inline GameObject_t1756533147 ** get_address_of_table_13() { return &___table_13; }
-	inline void set_table_13(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_laptopFirstStep_13() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___laptopFirstStep_13)); }
+	inline GameObject_t1756533147 * get_laptopFirstStep_13() const { return ___laptopFirstStep_13; }
+	inline GameObject_t1756533147 ** get_address_of_laptopFirstStep_13() { return &___laptopFirstStep_13; }
+	inline void set_laptopFirstStep_13(GameObject_t1756533147 * value)
 	{
-		___table_13 = value;
-		Il2CppCodeGenWriteBarrier((&___table_13), value);
+		___laptopFirstStep_13 = value;
+		Il2CppCodeGenWriteBarrier((&___laptopFirstStep_13), value);
 	}
 
-	inline static int32_t get_offset_of_screen1_14() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___screen1_14)); }
-	inline GameObject_t1756533147 * get_screen1_14() const { return ___screen1_14; }
-	inline GameObject_t1756533147 ** get_address_of_screen1_14() { return &___screen1_14; }
-	inline void set_screen1_14(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_laptop_14() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___laptop_14)); }
+	inline GameObject_t1756533147 * get_laptop_14() const { return ___laptop_14; }
+	inline GameObject_t1756533147 ** get_address_of_laptop_14() { return &___laptop_14; }
+	inline void set_laptop_14(GameObject_t1756533147 * value)
 	{
-		___screen1_14 = value;
-		Il2CppCodeGenWriteBarrier((&___screen1_14), value);
+		___laptop_14 = value;
+		Il2CppCodeGenWriteBarrier((&___laptop_14), value);
 	}
 
-	inline static int32_t get_offset_of_screen2_15() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___screen2_15)); }
-	inline GameObject_t1756533147 * get_screen2_15() const { return ___screen2_15; }
-	inline GameObject_t1756533147 ** get_address_of_screen2_15() { return &___screen2_15; }
-	inline void set_screen2_15(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_table_15() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___table_15)); }
+	inline GameObject_t1756533147 * get_table_15() const { return ___table_15; }
+	inline GameObject_t1756533147 ** get_address_of_table_15() { return &___table_15; }
+	inline void set_table_15(GameObject_t1756533147 * value)
 	{
-		___screen2_15 = value;
-		Il2CppCodeGenWriteBarrier((&___screen2_15), value);
+		___table_15 = value;
+		Il2CppCodeGenWriteBarrier((&___table_15), value);
 	}
 
-	inline static int32_t get_offset_of_screen3_16() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___screen3_16)); }
-	inline GameObject_t1756533147 * get_screen3_16() const { return ___screen3_16; }
-	inline GameObject_t1756533147 ** get_address_of_screen3_16() { return &___screen3_16; }
-	inline void set_screen3_16(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_screen1_16() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___screen1_16)); }
+	inline GameObject_t1756533147 * get_screen1_16() const { return ___screen1_16; }
+	inline GameObject_t1756533147 ** get_address_of_screen1_16() { return &___screen1_16; }
+	inline void set_screen1_16(GameObject_t1756533147 * value)
 	{
-		___screen3_16 = value;
-		Il2CppCodeGenWriteBarrier((&___screen3_16), value);
+		___screen1_16 = value;
+		Il2CppCodeGenWriteBarrier((&___screen1_16), value);
+	}
+
+	inline static int32_t get_offset_of_screen2_17() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___screen2_17)); }
+	inline GameObject_t1756533147 * get_screen2_17() const { return ___screen2_17; }
+	inline GameObject_t1756533147 ** get_address_of_screen2_17() { return &___screen2_17; }
+	inline void set_screen2_17(GameObject_t1756533147 * value)
+	{
+		___screen2_17 = value;
+		Il2CppCodeGenWriteBarrier((&___screen2_17), value);
+	}
+
+	inline static int32_t get_offset_of_screen3_18() { return static_cast<int32_t>(offsetof(thirdmod_t3672307499, ___screen3_18)); }
+	inline GameObject_t1756533147 * get_screen3_18() const { return ___screen3_18; }
+	inline GameObject_t1756533147 ** get_address_of_screen3_18() { return &___screen3_18; }
+	inline void set_screen3_18(GameObject_t1756533147 * value)
+	{
+		___screen3_18 = value;
+		Il2CppCodeGenWriteBarrier((&___screen3_18), value);
 	}
 };
 
@@ -7672,23 +7693,25 @@ extern const int32_t g_FieldOffsetTable3479[15] =
 	TeamARHitTest_t380672585::get_offset_of_m_Collider_16(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3480 = { sizeof (thirdmod_t3672307499), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable3480[15] = 
+extern const int32_t g_FieldOffsetTable3480[17] = 
 {
 	thirdmod_t3672307499::get_offset_of_fire_2(),
-	thirdmod_t3672307499::get_offset_of_coal_3(),
-	thirdmod_t3672307499::get_offset_of_gas_4(),
-	thirdmod_t3672307499::get_offset_of_clean_5(),
-	thirdmod_t3672307499::get_offset_of_woodEnergy_6(),
-	thirdmod_t3672307499::get_offset_of_coalEnergy_7(),
-	thirdmod_t3672307499::get_offset_of_gasEnergy_8(),
-	thirdmod_t3672307499::get_offset_of_allEnergy_9(),
-	thirdmod_t3672307499::get_offset_of_getClean_10(),
-	thirdmod_t3672307499::get_offset_of_laptopFirstStep_11(),
-	thirdmod_t3672307499::get_offset_of_laptop_12(),
-	thirdmod_t3672307499::get_offset_of_table_13(),
-	thirdmod_t3672307499::get_offset_of_screen1_14(),
-	thirdmod_t3672307499::get_offset_of_screen2_15(),
-	thirdmod_t3672307499::get_offset_of_screen3_16(),
+	thirdmod_t3672307499::get_offset_of_fireDefault_3(),
+	thirdmod_t3672307499::get_offset_of_coal_4(),
+	thirdmod_t3672307499::get_offset_of_gas_5(),
+	thirdmod_t3672307499::get_offset_of_clean_6(),
+	thirdmod_t3672307499::get_offset_of_woodEnergy_7(),
+	thirdmod_t3672307499::get_offset_of_coalEnergy_8(),
+	thirdmod_t3672307499::get_offset_of_gasEnergy_9(),
+	thirdmod_t3672307499::get_offset_of_allEnergy_10(),
+	thirdmod_t3672307499::get_offset_of_getClean_11(),
+	thirdmod_t3672307499::get_offset_of_cleanEnergy_12(),
+	thirdmod_t3672307499::get_offset_of_laptopFirstStep_13(),
+	thirdmod_t3672307499::get_offset_of_laptop_14(),
+	thirdmod_t3672307499::get_offset_of_table_15(),
+	thirdmod_t3672307499::get_offset_of_screen1_16(),
+	thirdmod_t3672307499::get_offset_of_screen2_17(),
+	thirdmod_t3672307499::get_offset_of_screen3_18(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3481 = { sizeof (thirdModule_t1718044623), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3481[7] = 
