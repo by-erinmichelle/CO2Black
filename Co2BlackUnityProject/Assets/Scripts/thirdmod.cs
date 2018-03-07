@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.iOS;
+using UnityEngine.EventSystems;
 
 public class thirdmod : MonoBehaviour {
 
@@ -63,17 +65,48 @@ public class thirdmod : MonoBehaviour {
 		Debug.Log("boiiiii");
 	}
 
-	void HitByRayThird () {
-		Debug.Log ("I was hit by a Ray");
-		if (screen1.activeInHierarchy) {
-			screen1.SetActive (false);
-			screen2.SetActive (true);
+	void laptopHit () {
+		Debug.Log ("I was hit by a Ray!!!!!!!!!!");
 
+		if (Input.touchCount > 0) {
+
+			Touch touch = Input.GetTouch (0);
+			if (touch.phase == TouchPhase.Began  && !EventSystem.current.IsPointerOverGameObject(0)) {
+
+				Ray ray = Camera.main.ScreenPointToRay (touch.position);
+				RaycastHit hit;
+
+				if (Physics.Raycast (ray, out hit, 100)) {
+
+					if (hit.transform.gameObject.tag == "screen1"){
+						Debug.Log ("plz");
+
+						screen1 = hit.transform.gameObject;
+						screen1.SetActive (false);
+						screen2.SetActive (true);
+
+					}
+
+
+					else if (hit.transform.gameObject.tag == "screen2"){
+						Debug.Log ("popp");
+
+						screen2 = hit.transform.gameObject;
+						screen2.SetActive (false);
+						screen3.SetActive (true);
+					}
+
+				}
+			}
 		}
-		if (screen2.activeInHierarchy) {
-			screen2.SetActive (false);
-			screen3.SetActive (true);
-		}
+//		if (screen1.activeInHierarchy) {
+//			screen1.SetActive (false);
+//			screen2.SetActive (true);
+//		}
+//		if (screen2.activeInHierarchy) {
+//			screen2.SetActive (false);
+//			screen3.SetActive (true);
+//		}
 
 	}
 
