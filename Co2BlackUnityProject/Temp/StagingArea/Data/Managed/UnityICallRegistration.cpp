@@ -850,10 +850,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Event_Internal_SetNativeEvent();
 		Register_UnityEngine_Event_Internal_SetNativeEvent();
 
-		//System.Void UnityEngine.Event::Internal_Use()
-		void Register_UnityEngine_Event_Internal_Use();
-		Register_UnityEngine_Event_Internal_Use();
-
 		//System.Void UnityEngine.Event::set_displayIndex(System.Int32)
 		void Register_UnityEngine_Event_set_displayIndex();
 		Register_UnityEngine_Event_set_displayIndex();
@@ -861,10 +857,6 @@ void RegisterAllStrippedInternalCalls()
 		//UnityEngine.EventModifiers UnityEngine.Event::get_modifiers()
 		void Register_UnityEngine_Event_get_modifiers();
 		Register_UnityEngine_Event_get_modifiers();
-
-		//UnityEngine.EventType UnityEngine.Event::GetTypeForControl(System.Int32)
-		void Register_UnityEngine_Event_GetTypeForControl();
-		Register_UnityEngine_Event_GetTypeForControl();
 
 		//UnityEngine.EventType UnityEngine.Event::get_rawType()
 		void Register_UnityEngine_Event_get_rawType();
@@ -1026,10 +1018,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_GUI_INTERNAL_CALL_DoButton();
 		Register_UnityEngine_GUI_INTERNAL_CALL_DoButton();
 
-		//System.Boolean UnityEngine.GUI::get_usePageScrollbars()
-		void Register_UnityEngine_GUI_get_usePageScrollbars();
-		Register_UnityEngine_GUI_get_usePageScrollbars();
-
 		//System.Void UnityEngine.GUI::INTERNAL_CALL_DoLabel(UnityEngine.Rect&,UnityEngine.GUIContent,System.IntPtr)
 		void Register_UnityEngine_GUI_INTERNAL_CALL_DoLabel();
 		Register_UnityEngine_GUI_INTERNAL_CALL_DoLabel();
@@ -1041,10 +1029,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.GUI::INTERNAL_set_color(UnityEngine.Color&)
 		void Register_UnityEngine_GUI_INTERNAL_set_color();
 		Register_UnityEngine_GUI_INTERNAL_set_color();
-
-		//System.Void UnityEngine.GUI::InternalRepaintEditorWindow()
-		void Register_UnityEngine_GUI_InternalRepaintEditorWindow();
-		Register_UnityEngine_GUI_InternalRepaintEditorWindow();
 
 		//System.Void UnityEngine.GUI::set_changed(System.Boolean)
 		void Register_UnityEngine_GUI_set_changed();
@@ -1178,17 +1162,9 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_GUIUtility_GetControlID();
 		Register_UnityEngine_GUIUtility_GetControlID();
 
-		//System.Int32 UnityEngine.GUIUtility::INTERNAL_CALL_Internal_GetNextControlID2(System.Int32,UnityEngine.FocusType,UnityEngine.Rect&)
-		void Register_UnityEngine_GUIUtility_INTERNAL_CALL_Internal_GetNextControlID2();
-		Register_UnityEngine_GUIUtility_INTERNAL_CALL_Internal_GetNextControlID2();
-
 		//System.Int32 UnityEngine.GUIUtility::Internal_GetGUIDepth()
 		void Register_UnityEngine_GUIUtility_Internal_GetGUIDepth();
 		Register_UnityEngine_GUIUtility_Internal_GetGUIDepth();
-
-		//System.Int32 UnityEngine.GUIUtility::Internal_GetHotControl()
-		void Register_UnityEngine_GUIUtility_Internal_GetHotControl();
-		Register_UnityEngine_GUIUtility_Internal_GetHotControl();
 
 		//System.Single UnityEngine.GUIUtility::Internal_GetPixelsPerPoint()
 		void Register_UnityEngine_GUIUtility_Internal_GetPixelsPerPoint();
@@ -1201,10 +1177,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.GUIUtility::Internal_ExitGUI()
 		void Register_UnityEngine_GUIUtility_Internal_ExitGUI();
 		Register_UnityEngine_GUIUtility_Internal_ExitGUI();
-
-		//System.Void UnityEngine.GUIUtility::Internal_SetHotControl(System.Int32)
-		void Register_UnityEngine_GUIUtility_Internal_SetHotControl();
-		Register_UnityEngine_GUIUtility_Internal_SetHotControl();
 
 		//System.Void UnityEngine.GUIUtility::set_systemCopyBuffer(System.String)
 		void Register_UnityEngine_GUIUtility_set_systemCopyBuffer();

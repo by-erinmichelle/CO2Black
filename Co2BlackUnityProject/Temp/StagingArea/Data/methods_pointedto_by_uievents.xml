@@ -17,16 +17,35 @@
 			<method name="BuildingFact_ReplaceBulb"/>
 			<method name="hideAllModels"/>
 		</type>
+<<<<<<< HEAD
+		<type fullname="learningLayerLamp">
+			<method name="goToSecondModule"/>
+			<method name="layerUp"/>
+=======
 		<type fullname="thirdModule">
 			<method name="toThirdModBtn"/>
 		</type>
+<<<<<<< HEAD
+=======
+		<type fullname="thirdmod">
+			<method name="hideAllModels"/>
+			<method name="turnOnCleanText"/>
+			<method name="turnOnCoal"/>
+			<method name="turnOnGas"/>
+			<method name="turnOnAll"/>
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
+		</type>
+>>>>>>> ac581073108f911ebc4f4206d17af30caf91c4d7
 		<type fullname="learningLayerUp">
 			<method name="goToThirdModule"/>
 			<method name="layerUp"/>
 			<method name="layerClose"/>
 		</type>
+<<<<<<< HEAD
+=======
 		<type fullname="secondModule">
 			<method name="toSecondModBtn"/>
 		</type>
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 	</assembly>
 </linker>

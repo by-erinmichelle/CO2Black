@@ -182,10 +182,8 @@ UnityEngine.Event::Cleanup
 UnityEngine.Event::Init
 UnityEngine.Event::Internal_GetMousePosition
 UnityEngine.Event::Internal_SetNativeEvent
-UnityEngine.Event::Internal_Use
 UnityEngine.Event::set_displayIndex
 UnityEngine.Event::get_modifiers
-UnityEngine.Event::GetTypeForControl
 UnityEngine.Event::get_rawType
 UnityEngine.Event::get_type
 UnityEngine.Event::get_keyCode
@@ -220,11 +218,9 @@ UnityEngine.Gradient::Init
 UnityEngine.Graphics::Internal_GetMaxDrawMeshInstanceCount
 UnityEngine.Graphics::Internal_DrawTexture
 UnityEngine.GUI::INTERNAL_CALL_DoButton
-UnityEngine.GUI::get_usePageScrollbars
 UnityEngine.GUI::INTERNAL_CALL_DoLabel
 UnityEngine.GUI::INTERNAL_get_color
 UnityEngine.GUI::INTERNAL_set_color
-UnityEngine.GUI::InternalRepaintEditorWindow
 UnityEngine.GUI::set_changed
 UnityEngine.GUI::get_blendMaterial
 UnityEngine.GUI::get_blitMaterial
@@ -252,13 +248,10 @@ UnityEngine.GUIStyleState::Cleanup
 UnityEngine.GUIStyleState::Init
 UnityEngine.GUIText::set_text
 UnityEngine.GUIUtility::GetControlID
-UnityEngine.GUIUtility::INTERNAL_CALL_Internal_GetNextControlID2
 UnityEngine.GUIUtility::Internal_GetGUIDepth
-UnityEngine.GUIUtility::Internal_GetHotControl
 UnityEngine.GUIUtility::Internal_GetPixelsPerPoint
 UnityEngine.GUIUtility::get_systemCopyBuffer
 UnityEngine.GUIUtility::Internal_ExitGUI
-UnityEngine.GUIUtility::Internal_SetHotControl
 UnityEngine.GUIUtility::set_systemCopyBuffer
 UnityEngine.GUIUtility::Internal_GetDefaultSkin
 UnityEngine.Handheld::Vibrate
