@@ -14,6 +14,13 @@
 			<method name="tapSodaDialogue_trans"/>
 			<method name="BuildingFact_ReplaceBulb"/>
 		</type>
+		<type fullname="thirdmod">
+			<method name="hideAllModels"/>
+			<method name="turnOnCleanText"/>
+			<method name="turnOnCoal"/>
+			<method name="turnOnGas"/>
+			<method name="turnOnAll"/>
+		</type>
 		<type fullname="learningLayerUp">
 			<method name="goToThirdModule"/>
 			<method name="layerUp"/>

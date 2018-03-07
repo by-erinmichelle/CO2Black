@@ -2735,7 +2735,6 @@ RuntimeClass* UnityAction_1_t3395805984_il2cpp_TypeInfo_var;
 RuntimeClass* Color32_t874517518_il2cpp_TypeInfo_var;
 RuntimeClass* HsvColor_t1057062332_il2cpp_TypeInfo_var;
 RuntimeClass* UnityARAnchorManager_t1086564192_il2cpp_TypeInfo_var;
-RuntimeClass* laptopHit_t512163681_il2cpp_TypeInfo_var;
 RuntimeClass* U3CWaitU3Ec__Iterator0_t3224720862_il2cpp_TypeInfo_var;
 RuntimeClass* U3CWaitU3Ec__Iterator0_t2594885874_il2cpp_TypeInfo_var;
 RuntimeClass* U3CWaitU3Ec__Iterator0_t262560494_il2cpp_TypeInfo_var;
@@ -11391,9 +11390,13 @@ Il2CppCodeGenString* _stringLiteral1157228709;
 Il2CppCodeGenString* _stringLiteral3733755006;
 Il2CppCodeGenString* _stringLiteral1382688219;
 Il2CppCodeGenString* _stringLiteral246927987;
+Il2CppCodeGenString* _stringLiteral2214692436;
 Il2CppCodeGenString* _stringLiteral3222651663;
 Il2CppCodeGenString* _stringLiteral3215707971;
-Il2CppCodeGenString* _stringLiteral926785302;
+Il2CppCodeGenString* _stringLiteral795236313;
+Il2CppCodeGenString* _stringLiteral3868229427;
+Il2CppCodeGenString* _stringLiteral3379672060;
+Il2CppCodeGenString* _stringLiteral2938324177;
 Il2CppCodeGenString* _stringLiteral4231482204;
 Il2CppCodeGenString* _stringLiteral2938324180;
 Il2CppCodeGenString* _stringLiteral1461299495;
@@ -11908,6 +11911,7 @@ Il2CppCodeGenString* _stringLiteral502685590;
 Il2CppCodeGenString* _stringLiteral1231564665;
 Il2CppCodeGenString* _stringLiteral1755104483;
 Il2CppCodeGenString* _stringLiteral3423395264;
+Il2CppCodeGenString* _stringLiteral303824561;
 Il2CppCodeGenString* _stringLiteral625315786;
 Il2CppCodeGenString* _stringLiteral3894961131;
 Il2CppCodeGenString* _stringLiteral1276931801;
@@ -12165,7 +12169,7 @@ Il2CppCodeGenString* _stringLiteral273729679;
 Il2CppCodeGenString* _stringLiteral2779811765;
 Il2CppCodeGenString* _stringLiteral3025533088;
 Il2CppCodeGenString* _stringLiteral3687436746;
-extern void** const g_MetadataUsages[12148] = 
+extern void** const g_MetadataUsages[12152] = 
 {
 	(void**)(&Contraction_t1673853792_0_0_0_var),
 	(void**)(&Level2Map_t3322505726_0_0_0_var),
@@ -14885,7 +14889,6 @@ extern void** const g_MetadataUsages[12148] =
 	(void**)(&Color32_t874517518_il2cpp_TypeInfo_var),
 	(void**)(&HsvColor_t1057062332_il2cpp_TypeInfo_var),
 	(void**)(&UnityARAnchorManager_t1086564192_il2cpp_TypeInfo_var),
-	(void**)(&laptopHit_t512163681_il2cpp_TypeInfo_var),
 	(void**)(&U3CWaitU3Ec__Iterator0_t3224720862_il2cpp_TypeInfo_var),
 	(void**)(&U3CWaitU3Ec__Iterator0_t2594885874_il2cpp_TypeInfo_var),
 	(void**)(&U3CWaitU3Ec__Iterator0_t262560494_il2cpp_TypeInfo_var),
@@ -23541,9 +23544,13 @@ extern void** const g_MetadataUsages[12148] =
 	(void**)(&_stringLiteral3733755006),
 	(void**)(&_stringLiteral1382688219),
 	(void**)(&_stringLiteral246927987),
+	(void**)(&_stringLiteral2214692436),
 	(void**)(&_stringLiteral3222651663),
 	(void**)(&_stringLiteral3215707971),
-	(void**)(&_stringLiteral926785302),
+	(void**)(&_stringLiteral795236313),
+	(void**)(&_stringLiteral3868229427),
+	(void**)(&_stringLiteral3379672060),
+	(void**)(&_stringLiteral2938324177),
 	(void**)(&_stringLiteral4231482204),
 	(void**)(&_stringLiteral2938324180),
 	(void**)(&_stringLiteral1461299495),
@@ -24058,6 +24065,7 @@ extern void** const g_MetadataUsages[12148] =
 	(void**)(&_stringLiteral1231564665),
 	(void**)(&_stringLiteral1755104483),
 	(void**)(&_stringLiteral3423395264),
+	(void**)(&_stringLiteral303824561),
 	(void**)(&_stringLiteral625315786),
 	(void**)(&_stringLiteral3894961131),
 	(void**)(&_stringLiteral1276931801),
@@ -37168,7 +37176,7 @@ extern const uint32_t TextWriter_Synchronized_m1237756643_MetadataUsageId = 1284
 extern const uint32_t TextWriter_Write_m2354498908_MetadataUsageId = 12849;
 extern const uint32_t TextWriter_Write_m3244403173_MetadataUsageId = 12850;
 extern const uint32_t thirdmod_hideAllModels_m3208811679_MetadataUsageId = 12851;
-extern const uint32_t thirdmod_HitByRayThird_m1915462929_MetadataUsageId = 12852;
+extern const uint32_t thirdmod_laptopHit_m661993073_MetadataUsageId = 12852;
 extern const uint32_t thirdModule_toThirdModBtn_m2921471906_MetadataUsageId = 12853;
 extern const uint32_t ThirdPersonCharacter_ApplyExtraTurnRotation_m2992115070_MetadataUsageId = 12854;
 extern const uint32_t ThirdPersonCharacter_CheckGroundStatus_m2508098784_MetadataUsageId = 12855;

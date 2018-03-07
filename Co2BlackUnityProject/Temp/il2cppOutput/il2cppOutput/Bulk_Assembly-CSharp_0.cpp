@@ -821,10 +821,13 @@ extern const uint32_t LampHit2_nextBtn_m4209837131_MetadataUsageId;
 extern Il2CppCodeGenString* _stringLiteral246927987;
 extern const uint32_t LampHit2_thirdModuleBtn_m2453879945_MetadataUsageId;
 extern RuntimeClass* EventSystem_t3466835263_il2cpp_TypeInfo_var;
-extern RuntimeClass* laptopHit_t512163681_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2214692436;
 extern Il2CppCodeGenString* _stringLiteral3222651663;
 extern Il2CppCodeGenString* _stringLiteral3215707971;
-extern Il2CppCodeGenString* _stringLiteral926785302;
+extern Il2CppCodeGenString* _stringLiteral795236313;
+extern Il2CppCodeGenString* _stringLiteral3868229427;
+extern Il2CppCodeGenString* _stringLiteral3379672060;
+extern Il2CppCodeGenString* _stringLiteral2938324177;
 extern Il2CppCodeGenString* _stringLiteral4231482204;
 extern Il2CppCodeGenString* _stringLiteral2938324180;
 extern Il2CppCodeGenString* _stringLiteral1461299495;
@@ -17244,8 +17247,10 @@ extern "C"  Ray_t2469606224  Camera_ScreenPointToRay_m3033403101 (Camera_t189460
 extern "C"  bool Physics_Raycast_m240935337 (RuntimeObject * __this /* static, unused */, Ray_t2469606224  p0, RaycastHit_t87180320 * p1, float p2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Transform UnityEngine.RaycastHit::get_transform()
 extern "C"  Transform_t3275118058 * RaycastHit_get_transform_m2333455049 (RaycastHit_t87180320 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.String UnityEngine.GameObject::get_tag()
-extern "C"  String_t* GameObject_get_tag_m3359901967 (GameObject_t1756533147 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.Component::get_tag()
+extern "C"  String_t* Component_get_tag_m124558427 (Component_t3819376471 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.GameObject UnityEngine.GameObject::FindWithTag(System.String)
+extern "C"  GameObject_t1756533147 * GameObject_FindWithTag_m3831463693 (RuntimeObject * __this /* static, unused */, String_t* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // !!0 UnityEngine.GameObject::GetComponent<changeTrashColor>()
 #define GameObject_GetComponent_TischangeTrashColor_t3290538537_m1109092000(__this, method) ((  changeTrashColor_t3290538537 * (*) (GameObject_t1756533147 *, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m2812611596_gshared)(__this, method)
 // System.Boolean UnityEngine.Animation::Play(System.String)
@@ -29878,180 +29883,172 @@ extern "C"  void laptopHit_Update_m1763138433 (laptopHit_t512163681 * __this, co
 	RaycastHit_t87180320  V_6;
 	memset(&V_6, 0, sizeof(V_6));
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
-		int32_t L_0 = Input_get_touchCount_m814531925(NULL /*static, unused*/, /*hidden argument*/NULL);
-		int32_t L_1 = L_0;
-		RuntimeObject * L_2 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_1);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
-		Debug_Log_m2923680153(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		Debug_Log_m2923680153(NULL /*static, unused*/, _stringLiteral2214692436, /*hidden argument*/NULL);
 		V_0 = 0;
-		TouchU5BU5D_t3887265178* L_3 = Input_get_touches_m793401621(NULL /*static, unused*/, /*hidden argument*/NULL);
-		V_2 = L_3;
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		TouchU5BU5D_t3887265178* L_0 = Input_get_touches_m793401621(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_2 = L_0;
 		V_3 = 0;
-		goto IL_004d;
+		goto IL_0048;
 	}
 
-IL_001e:
+IL_0019:
 	{
-		TouchU5BU5D_t3887265178* L_4 = V_2;
-		int32_t L_5 = V_3;
-		NullCheck(L_4);
-		V_1 = (*(Touch_t407273883 *)((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5))));
-		int32_t L_6 = Touch_get_phase_m972231807((&V_1), /*hidden argument*/NULL);
-		if ((((int32_t)L_6) == ((int32_t)3)))
+		TouchU5BU5D_t3887265178* L_1 = V_2;
+		int32_t L_2 = V_3;
+		NullCheck(L_1);
+		V_1 = (*(Touch_t407273883 *)((L_1)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2))));
+		int32_t L_3 = Touch_get_phase_m972231807((&V_1), /*hidden argument*/NULL);
+		if ((((int32_t)L_3) == ((int32_t)3)))
 		{
-			goto IL_0049;
+			goto IL_0044;
 		}
 	}
 	{
-		int32_t L_7 = Touch_get_phase_m972231807((&V_1), /*hidden argument*/NULL);
-		if ((((int32_t)L_7) == ((int32_t)4)))
+		int32_t L_4 = Touch_get_phase_m972231807((&V_1), /*hidden argument*/NULL);
+		if ((((int32_t)L_4) == ((int32_t)4)))
 		{
-			goto IL_0049;
+			goto IL_0044;
 		}
 	}
 	{
-		int32_t L_8 = V_0;
-		V_0 = ((int32_t)((int32_t)L_8+(int32_t)1));
+		int32_t L_5 = V_0;
+		V_0 = ((int32_t)((int32_t)L_5+(int32_t)1));
 	}
 
-IL_0049:
+IL_0044:
 	{
-		int32_t L_9 = V_3;
-		V_3 = ((int32_t)((int32_t)L_9+(int32_t)1));
+		int32_t L_6 = V_3;
+		V_3 = ((int32_t)((int32_t)L_6+(int32_t)1));
 	}
 
-IL_004d:
+IL_0048:
 	{
-		int32_t L_10 = V_3;
-		TouchU5BU5D_t3887265178* L_11 = V_2;
-		NullCheck(L_11);
-		if ((((int32_t)L_10) < ((int32_t)(((int32_t)((int32_t)(((RuntimeArray *)L_11)->max_length)))))))
+		int32_t L_7 = V_3;
+		TouchU5BU5D_t3887265178* L_8 = V_2;
+		NullCheck(L_8);
+		if ((((int32_t)L_7) < ((int32_t)(((int32_t)((int32_t)(((RuntimeArray *)L_8)->max_length)))))))
 		{
-			goto IL_001e;
+			goto IL_0019;
 		}
 	}
 	{
-		int32_t L_12 = V_0;
-		if ((((int32_t)L_12) <= ((int32_t)0)))
+		int32_t L_9 = V_0;
+		if ((((int32_t)L_9) <= ((int32_t)0)))
 		{
-			goto IL_0077;
+			goto IL_0072;
 		}
 	}
 	{
-		int32_t L_13 = V_0;
-		int32_t L_14 = L_13;
-		RuntimeObject * L_15 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_14);
+		int32_t L_10 = V_0;
+		int32_t L_11 = L_10;
+		RuntimeObject * L_12 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_11);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_16 = String_Concat_m2000667605(NULL /*static, unused*/, _stringLiteral3222651663, L_15, _stringLiteral3215707971, /*hidden argument*/NULL);
-		MonoBehaviour_print_m2057071471(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		String_t* L_13 = String_Concat_m2000667605(NULL /*static, unused*/, _stringLiteral3222651663, L_12, _stringLiteral3215707971, /*hidden argument*/NULL);
+		MonoBehaviour_print_m2057071471(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
 	}
 
-IL_0077:
+IL_0072:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
-		int32_t L_17 = Input_get_touchCount_m814531925(NULL /*static, unused*/, /*hidden argument*/NULL);
-		if ((((int32_t)L_17) <= ((int32_t)0)))
+		int32_t L_14 = Input_get_touchCount_m814531925(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((((int32_t)L_14) <= ((int32_t)0)))
 		{
-			goto IL_017c;
+			goto IL_0178;
 		}
 	}
 	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m2923680153(NULL /*static, unused*/, _stringLiteral795236313, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
-		Touch_t407273883  L_18 = Input_GetTouch_m3258362431(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
-		V_4 = L_18;
-		int32_t L_19 = Touch_get_phase_m972231807((&V_4), /*hidden argument*/NULL);
-		if (L_19)
+		Touch_t407273883  L_15 = Input_GetTouch_m3258362431(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		V_4 = L_15;
+		int32_t L_16 = Touch_get_phase_m972231807((&V_4), /*hidden argument*/NULL);
+		if (L_16)
 		{
-			goto IL_017c;
+			goto IL_0178;
 		}
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(EventSystem_t3466835263_il2cpp_TypeInfo_var);
-		EventSystem_t3466835263 * L_20 = EventSystem_get_current_m319019811(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_20);
-		bool L_21 = EventSystem_IsPointerOverGameObject_m2415000115(L_20, 0, /*hidden argument*/NULL);
-		if (L_21)
+		EventSystem_t3466835263 * L_17 = EventSystem_get_current_m319019811(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		bool L_18 = EventSystem_IsPointerOverGameObject_m2415000115(L_17, 0, /*hidden argument*/NULL);
+		if (L_18)
 		{
-			goto IL_017c;
+			goto IL_0178;
 		}
 	}
 	{
-		Camera_t189460977 * L_22 = Camera_get_main_m881971336(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Vector2_t2243707579  L_23 = Touch_get_position_m261108426((&V_4), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m2923680153(NULL /*static, unused*/, _stringLiteral3868229427, /*hidden argument*/NULL);
+		Camera_t189460977 * L_19 = Camera_get_main_m881971336(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_20 = Touch_get_position_m261108426((&V_4), /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Vector2_t2243707579_il2cpp_TypeInfo_var);
-		Vector3_t2243707580  L_24 = Vector2_op_Implicit_m129629632(NULL /*static, unused*/, L_23, /*hidden argument*/NULL);
-		NullCheck(L_22);
-		Ray_t2469606224  L_25 = Camera_ScreenPointToRay_m3033403101(L_22, L_24, /*hidden argument*/NULL);
-		V_5 = L_25;
-		Ray_t2469606224  L_26 = V_5;
-		bool L_27 = Physics_Raycast_m240935337(NULL /*static, unused*/, L_26, (&V_6), (100.0f), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_21 = Vector2_op_Implicit_m129629632(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		Ray_t2469606224  L_22 = Camera_ScreenPointToRay_m3033403101(L_19, L_21, /*hidden argument*/NULL);
+		V_5 = L_22;
+		Ray_t2469606224  L_23 = V_5;
+		bool L_24 = Physics_Raycast_m240935337(NULL /*static, unused*/, L_23, (&V_6), (100.0f), /*hidden argument*/NULL);
+		if (!L_24)
+		{
+			goto IL_0178;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m2923680153(NULL /*static, unused*/, _stringLiteral3379672060, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_25 = RaycastHit_get_transform_m2333455049((&V_6), /*hidden argument*/NULL);
+		NullCheck(L_25);
+		String_t* L_26 = Component_get_tag_m124558427(L_25, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_27 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_26, _stringLiteral2938324177, /*hidden argument*/NULL);
 		if (!L_27)
 		{
-			goto IL_017c;
-		}
-	}
-	{
-		Transform_t3275118058 * L_28 = RaycastHit_get_transform_m2333455049((&V_6), /*hidden argument*/NULL);
-		NullCheck(L_28);
-		GameObject_t1756533147 * L_29 = Component_get_gameObject_m2159020946(L_28, /*hidden argument*/NULL);
-		NullCheck(L_29);
-		String_t* L_30 = GameObject_get_tag_m3359901967(L_29, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_31 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_30, _stringLiteral926785302, /*hidden argument*/NULL);
-		if (!L_31)
-		{
-			goto IL_0129;
+			goto IL_013b;
 		}
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
 		Debug_Log_m2923680153(NULL /*static, unused*/, _stringLiteral4231482204, /*hidden argument*/NULL);
-		Transform_t3275118058 * L_32 = RaycastHit_get_transform_m2333455049((&V_6), /*hidden argument*/NULL);
-		NullCheck(L_32);
-		GameObject_t1756533147 * L_33 = Component_get_gameObject_m2159020946(L_32, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(laptopHit_t512163681_il2cpp_TypeInfo_var);
-		((laptopHit_t512163681_StaticFields*)il2cpp_codegen_static_fields_for(laptopHit_t512163681_il2cpp_TypeInfo_var))->set_laptopSelect_5(L_33);
-		GameObject_t1756533147 * L_34 = __this->get_screen1_2();
-		NullCheck(L_34);
-		GameObject_SetActive_m2693135142(L_34, (bool)0, /*hidden argument*/NULL);
-		GameObject_t1756533147 * L_35 = __this->get_screen2_3();
-		NullCheck(L_35);
-		GameObject_SetActive_m2693135142(L_35, (bool)1, /*hidden argument*/NULL);
-		goto IL_017c;
+		GameObject_t1756533147 * L_28 = GameObject_FindWithTag_m3831463693(NULL /*static, unused*/, _stringLiteral2938324177, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m3959286051(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_29 = __this->get_screen1_2();
+		NullCheck(L_29);
+		GameObject_SetActive_m2693135142(L_29, (bool)0, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_30 = __this->get_screen2_3();
+		NullCheck(L_30);
+		GameObject_SetActive_m2693135142(L_30, (bool)1, /*hidden argument*/NULL);
+		goto IL_0178;
 	}
 
-IL_0129:
+IL_013b:
 	{
-		Transform_t3275118058 * L_36 = RaycastHit_get_transform_m2333455049((&V_6), /*hidden argument*/NULL);
-		NullCheck(L_36);
-		GameObject_t1756533147 * L_37 = Component_get_gameObject_m2159020946(L_36, /*hidden argument*/NULL);
-		NullCheck(L_37);
-		String_t* L_38 = GameObject_get_tag_m3359901967(L_37, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_31 = RaycastHit_get_transform_m2333455049((&V_6), /*hidden argument*/NULL);
+		NullCheck(L_31);
+		String_t* L_32 = Component_get_tag_m124558427(L_31, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_39 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_38, _stringLiteral2938324180, /*hidden argument*/NULL);
-		if (!L_39)
+		bool L_33 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_32, _stringLiteral2938324180, /*hidden argument*/NULL);
+		if (!L_33)
 		{
-			goto IL_017c;
+			goto IL_0178;
 		}
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
 		Debug_Log_m2923680153(NULL /*static, unused*/, _stringLiteral1461299495, /*hidden argument*/NULL);
-		Transform_t3275118058 * L_40 = RaycastHit_get_transform_m2333455049((&V_6), /*hidden argument*/NULL);
-		NullCheck(L_40);
-		GameObject_t1756533147 * L_41 = Component_get_gameObject_m2159020946(L_40, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(laptopHit_t512163681_il2cpp_TypeInfo_var);
-		((laptopHit_t512163681_StaticFields*)il2cpp_codegen_static_fields_for(laptopHit_t512163681_il2cpp_TypeInfo_var))->set_screenTwoSelect_6(L_41);
-		GameObject_t1756533147 * L_42 = __this->get_screen2_3();
-		NullCheck(L_42);
-		GameObject_SetActive_m2693135142(L_42, (bool)0, /*hidden argument*/NULL);
-		GameObject_t1756533147 * L_43 = __this->get_screen3_4();
-		NullCheck(L_43);
-		GameObject_SetActive_m2693135142(L_43, (bool)1, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_34 = __this->get_screen2_3();
+		NullCheck(L_34);
+		GameObject_SetActive_m2693135142(L_34, (bool)0, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_35 = __this->get_screen3_4();
+		NullCheck(L_35);
+		GameObject_SetActive_m2693135142(L_35, (bool)1, /*hidden argument*/NULL);
 	}
 
-IL_017c:
+IL_0178:
 	{
 		return;
 	}

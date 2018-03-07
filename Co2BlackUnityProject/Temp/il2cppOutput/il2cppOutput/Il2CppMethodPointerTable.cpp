@@ -10038,6 +10038,7 @@ extern "C" void Component_GetComponentInChildren_m851865951 ();
 extern "C" void Component_GetComponentInParent_m1617315419 ();
 extern "C" void Component_GetComponentsForListInternal_m3603953018 ();
 extern "C" void Component_GetComponents_m1868822382 ();
+extern "C" void Component_get_tag_m124558427 ();
 extern "C" void Component_SendMessage_m249844248 ();
 extern "C" void Component_SendMessage_m1609215742 ();
 extern "C" void Component_BroadcastMessage_m2361284473 ();
@@ -10194,6 +10195,8 @@ extern "C" void GameObject_SetActive_m2693135142 ();
 extern "C" void GameObject_get_activeSelf_m2643917226 ();
 extern "C" void GameObject_get_activeInHierarchy_m2532098784 ();
 extern "C" void GameObject_get_tag_m3359901967 ();
+extern "C" void GameObject_FindGameObjectWithTag_m1433464258 ();
+extern "C" void GameObject_FindWithTag_m3831463693 ();
 extern "C" void GameObject_SendMessage_m3423113156 ();
 extern "C" void GameObject_BroadcastMessage_m558501737 ();
 extern "C" void GameObject_BroadcastMessage_m2344171971 ();
@@ -22913,7 +22916,7 @@ extern "C" void thirdmod_turnOnGas_m2003847463 ();
 extern "C" void thirdmod_turnOnAll_m1183722407 ();
 extern "C" void thirdmod_turnOnCleanText_m1376071330 ();
 extern "C" void thirdmod_hideAllModels_m3208811679 ();
-extern "C" void thirdmod_HitByRayThird_m1915462929 ();
+extern "C" void thirdmod_laptopHit_m661993073 ();
 extern "C" void thirdModule__ctor_m3104340124 ();
 extern "C" void thirdModule_toThirdModBtn_m2921471906 ();
 extern "C" void thirdModule_Update_m656854583 ();
@@ -23946,7 +23949,7 @@ extern "C" void BallUserControl__ctor_m1854748185 ();
 extern "C" void BallUserControl_Awake_m4216224384 ();
 extern "C" void BallUserControl_Update_m1471660078 ();
 extern "C" void BallUserControl_FixedUpdate_m1908019444 ();
-extern const Il2CppMethodPointer g_MethodPointers[23929] = 
+extern const Il2CppMethodPointer g_MethodPointers[23932] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -33969,6 +33972,7 @@ extern const Il2CppMethodPointer g_MethodPointers[23929] =
 	Component_GetComponentInParent_m1617315419,
 	Component_GetComponentsForListInternal_m3603953018,
 	Component_GetComponents_m1868822382,
+	Component_get_tag_m124558427,
 	Component_SendMessage_m249844248,
 	Component_SendMessage_m1609215742,
 	Component_BroadcastMessage_m2361284473,
@@ -34125,6 +34129,8 @@ extern const Il2CppMethodPointer g_MethodPointers[23929] =
 	GameObject_get_activeSelf_m2643917226,
 	GameObject_get_activeInHierarchy_m2532098784,
 	GameObject_get_tag_m3359901967,
+	GameObject_FindGameObjectWithTag_m1433464258,
+	GameObject_FindWithTag_m3831463693,
 	GameObject_SendMessage_m3423113156,
 	GameObject_BroadcastMessage_m558501737,
 	GameObject_BroadcastMessage_m2344171971,
@@ -46844,7 +46850,7 @@ extern const Il2CppMethodPointer g_MethodPointers[23929] =
 	thirdmod_turnOnAll_m1183722407,
 	thirdmod_turnOnCleanText_m1376071330,
 	thirdmod_hideAllModels_m3208811679,
-	thirdmod_HitByRayThird_m1915462929,
+	thirdmod_laptopHit_m661993073,
 	thirdModule__ctor_m3104340124,
 	thirdModule_toThirdModBtn_m2921471906,
 	thirdModule_Update_m656854583,

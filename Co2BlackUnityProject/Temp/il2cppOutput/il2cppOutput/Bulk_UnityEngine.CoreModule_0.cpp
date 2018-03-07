@@ -8780,6 +8780,8 @@ extern "C"  Component_t3819376471 * GameObject_GetComponentInChildren_m172098369
 extern "C"  Component_t3819376471 * GameObject_GetComponentInParent_m1178052983 (GameObject_t1756533147 * __this, Type_t * ___type0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Component::GetComponentsForListInternal(System.Type,System.Object)
 extern "C"  void Component_GetComponentsForListInternal_m3603953018 (Component_t3819376471 * __this, Type_t * ___searchType0, RuntimeObject * ___resultList1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.GameObject::get_tag()
+extern "C"  String_t* GameObject_get_tag_m3359901967 (GameObject_t1756533147 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Component::SendMessage(System.String,System.Object,UnityEngine.SendMessageOptions)
 extern "C"  void Component_SendMessage_m249844248 (Component_t3819376471 * __this, String_t* ___methodName0, RuntimeObject * ___value1, int32_t ___options2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Component::BroadcastMessage(System.String,System.Object,UnityEngine.SendMessageOptions)
@@ -9012,6 +9014,8 @@ extern "C"  void RenderPipelineManager_CleanupRenderPipeline_m1580527075 (Runtim
 extern "C"  void GameObject_Internal_CreateGameObject_m336418144 (RuntimeObject * __this /* static, unused */, GameObject_t1756533147 * ___mono0, String_t* ___name1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Component UnityEngine.GameObject::AddComponent(System.Type)
 extern "C"  Component_t3819376471 * GameObject_AddComponent_m540062519 (GameObject_t1756533147 * __this, Type_t * ___componentType0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.GameObject UnityEngine.GameObject::FindGameObjectWithTag(System.String)
+extern "C"  GameObject_t1756533147 * GameObject_FindGameObjectWithTag_m1433464258 (RuntimeObject * __this /* static, unused */, String_t* ___tag0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GameObject::BroadcastMessage(System.String,System.Object,UnityEngine.SendMessageOptions)
 extern "C"  void GameObject_BroadcastMessage_m558501737 (GameObject_t1756533147 * __this, String_t* ___methodName0, RuntimeObject * ___parameter1, int32_t ___options2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Component UnityEngine.GameObject::Internal_AddComponentWithType(System.Type)
@@ -12324,6 +12328,24 @@ extern "C"  void Component_GetComponents_m1868822382 (Component_t3819376471 * __
 		List_1_t3188497603 * L_1 = ___results1;
 		Component_GetComponentsForListInternal_m3603953018(__this, L_0, L_1, /*hidden argument*/NULL);
 		return;
+	}
+}
+// System.String UnityEngine.Component::get_tag()
+extern "C"  String_t* Component_get_tag_m124558427 (Component_t3819376471 * __this, const RuntimeMethod* method)
+{
+	String_t* V_0 = NULL;
+	{
+		GameObject_t1756533147 * L_0 = Component_get_gameObject_m2159020946(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		String_t* L_1 = GameObject_get_tag_m3359901967(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		goto IL_0012;
+	}
+
+IL_0012:
+	{
+		String_t* L_2 = V_0;
+		return L_2;
 	}
 }
 // System.Void UnityEngine.Component::SendMessage(System.String,System.Object,UnityEngine.SendMessageOptions)
@@ -16367,6 +16389,33 @@ extern "C"  String_t* GameObject_get_tag_m3359901967 (GameObject_t1756533147 * _
 	_il2cpp_icall_func = (GameObject_get_tag_m3359901967_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GameObject::get_tag()");
 	String_t* retVal = _il2cpp_icall_func(__this);
 	return retVal;
+}
+// UnityEngine.GameObject UnityEngine.GameObject::FindGameObjectWithTag(System.String)
+extern "C"  GameObject_t1756533147 * GameObject_FindGameObjectWithTag_m1433464258 (RuntimeObject * __this /* static, unused */, String_t* ___tag0, const RuntimeMethod* method)
+{
+	typedef GameObject_t1756533147 * (*GameObject_FindGameObjectWithTag_m1433464258_ftn) (String_t*);
+	static GameObject_FindGameObjectWithTag_m1433464258_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (GameObject_FindGameObjectWithTag_m1433464258_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GameObject::FindGameObjectWithTag(System.String)");
+	GameObject_t1756533147 * retVal = _il2cpp_icall_func(___tag0);
+	return retVal;
+}
+// UnityEngine.GameObject UnityEngine.GameObject::FindWithTag(System.String)
+extern "C"  GameObject_t1756533147 * GameObject_FindWithTag_m3831463693 (RuntimeObject * __this /* static, unused */, String_t* ___tag0, const RuntimeMethod* method)
+{
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		String_t* L_0 = ___tag0;
+		GameObject_t1756533147 * L_1 = GameObject_FindGameObjectWithTag_m1433464258(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		GameObject_t1756533147 * L_2 = V_0;
+		return L_2;
+	}
 }
 // System.Void UnityEngine.GameObject::SendMessage(System.String,System.Object,UnityEngine.SendMessageOptions)
 extern "C"  void GameObject_SendMessage_m3423113156 (GameObject_t1756533147 * __this, String_t* ___methodName0, RuntimeObject * ___value1, int32_t ___options2, const RuntimeMethod* method)
