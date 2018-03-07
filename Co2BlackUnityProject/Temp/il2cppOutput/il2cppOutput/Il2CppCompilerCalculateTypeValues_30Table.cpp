@@ -9132,16 +9132,20 @@ public:
 	GameObject_t1756533147 * ___reject_35;
 	// UnityEngine.GameObject co2Controller::reject_Trans
 	GameObject_t1756533147 * ___reject_Trans_36;
+	// UnityEngine.GameObject co2Controller::good
+	GameObject_t1756533147 * ___good_37;
+	// UnityEngine.GameObject co2Controller::good_Trans
+	GameObject_t1756533147 * ___good_Trans_38;
 	// UnityEngine.GameObject co2Controller::laptop
-	GameObject_t1756533147 * ___laptop_37;
+	GameObject_t1756533147 * ___laptop_39;
 	// UnityEngine.GameObject co2Controller::table
-	GameObject_t1756533147 * ___table_38;
+	GameObject_t1756533147 * ___table_40;
 	// UnityEngine.GameObject co2Controller::screen1
-	GameObject_t1756533147 * ___screen1_39;
+	GameObject_t1756533147 * ___screen1_41;
 	// UnityEngine.GameObject co2Controller::screen2
-	GameObject_t1756533147 * ___screen2_40;
+	GameObject_t1756533147 * ___screen2_42;
 	// UnityEngine.GameObject co2Controller::screen3
-	GameObject_t1756533147 * ___screen3_41;
+	GameObject_t1756533147 * ___screen3_43;
 
 public:
 	inline static int32_t get_offset_of_BuildingFact_2() { return static_cast<int32_t>(offsetof(co2Controller_t3468545204, ___BuildingFact_2)); }
@@ -9459,49 +9463,67 @@ public:
 		Il2CppCodeGenWriteBarrier((&___reject_Trans_36), value);
 	}
 
-	inline static int32_t get_offset_of_laptop_37() { return static_cast<int32_t>(offsetof(co2Controller_t3468545204, ___laptop_37)); }
-	inline GameObject_t1756533147 * get_laptop_37() const { return ___laptop_37; }
-	inline GameObject_t1756533147 ** get_address_of_laptop_37() { return &___laptop_37; }
-	inline void set_laptop_37(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_good_37() { return static_cast<int32_t>(offsetof(co2Controller_t3468545204, ___good_37)); }
+	inline GameObject_t1756533147 * get_good_37() const { return ___good_37; }
+	inline GameObject_t1756533147 ** get_address_of_good_37() { return &___good_37; }
+	inline void set_good_37(GameObject_t1756533147 * value)
 	{
-		___laptop_37 = value;
-		Il2CppCodeGenWriteBarrier((&___laptop_37), value);
+		___good_37 = value;
+		Il2CppCodeGenWriteBarrier((&___good_37), value);
 	}
 
-	inline static int32_t get_offset_of_table_38() { return static_cast<int32_t>(offsetof(co2Controller_t3468545204, ___table_38)); }
-	inline GameObject_t1756533147 * get_table_38() const { return ___table_38; }
-	inline GameObject_t1756533147 ** get_address_of_table_38() { return &___table_38; }
-	inline void set_table_38(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_good_Trans_38() { return static_cast<int32_t>(offsetof(co2Controller_t3468545204, ___good_Trans_38)); }
+	inline GameObject_t1756533147 * get_good_Trans_38() const { return ___good_Trans_38; }
+	inline GameObject_t1756533147 ** get_address_of_good_Trans_38() { return &___good_Trans_38; }
+	inline void set_good_Trans_38(GameObject_t1756533147 * value)
 	{
-		___table_38 = value;
-		Il2CppCodeGenWriteBarrier((&___table_38), value);
+		___good_Trans_38 = value;
+		Il2CppCodeGenWriteBarrier((&___good_Trans_38), value);
 	}
 
-	inline static int32_t get_offset_of_screen1_39() { return static_cast<int32_t>(offsetof(co2Controller_t3468545204, ___screen1_39)); }
-	inline GameObject_t1756533147 * get_screen1_39() const { return ___screen1_39; }
-	inline GameObject_t1756533147 ** get_address_of_screen1_39() { return &___screen1_39; }
-	inline void set_screen1_39(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_laptop_39() { return static_cast<int32_t>(offsetof(co2Controller_t3468545204, ___laptop_39)); }
+	inline GameObject_t1756533147 * get_laptop_39() const { return ___laptop_39; }
+	inline GameObject_t1756533147 ** get_address_of_laptop_39() { return &___laptop_39; }
+	inline void set_laptop_39(GameObject_t1756533147 * value)
 	{
-		___screen1_39 = value;
-		Il2CppCodeGenWriteBarrier((&___screen1_39), value);
+		___laptop_39 = value;
+		Il2CppCodeGenWriteBarrier((&___laptop_39), value);
 	}
 
-	inline static int32_t get_offset_of_screen2_40() { return static_cast<int32_t>(offsetof(co2Controller_t3468545204, ___screen2_40)); }
-	inline GameObject_t1756533147 * get_screen2_40() const { return ___screen2_40; }
-	inline GameObject_t1756533147 ** get_address_of_screen2_40() { return &___screen2_40; }
-	inline void set_screen2_40(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_table_40() { return static_cast<int32_t>(offsetof(co2Controller_t3468545204, ___table_40)); }
+	inline GameObject_t1756533147 * get_table_40() const { return ___table_40; }
+	inline GameObject_t1756533147 ** get_address_of_table_40() { return &___table_40; }
+	inline void set_table_40(GameObject_t1756533147 * value)
 	{
-		___screen2_40 = value;
-		Il2CppCodeGenWriteBarrier((&___screen2_40), value);
+		___table_40 = value;
+		Il2CppCodeGenWriteBarrier((&___table_40), value);
 	}
 
-	inline static int32_t get_offset_of_screen3_41() { return static_cast<int32_t>(offsetof(co2Controller_t3468545204, ___screen3_41)); }
-	inline GameObject_t1756533147 * get_screen3_41() const { return ___screen3_41; }
-	inline GameObject_t1756533147 ** get_address_of_screen3_41() { return &___screen3_41; }
-	inline void set_screen3_41(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_screen1_41() { return static_cast<int32_t>(offsetof(co2Controller_t3468545204, ___screen1_41)); }
+	inline GameObject_t1756533147 * get_screen1_41() const { return ___screen1_41; }
+	inline GameObject_t1756533147 ** get_address_of_screen1_41() { return &___screen1_41; }
+	inline void set_screen1_41(GameObject_t1756533147 * value)
 	{
-		___screen3_41 = value;
-		Il2CppCodeGenWriteBarrier((&___screen3_41), value);
+		___screen1_41 = value;
+		Il2CppCodeGenWriteBarrier((&___screen1_41), value);
+	}
+
+	inline static int32_t get_offset_of_screen2_42() { return static_cast<int32_t>(offsetof(co2Controller_t3468545204, ___screen2_42)); }
+	inline GameObject_t1756533147 * get_screen2_42() const { return ___screen2_42; }
+	inline GameObject_t1756533147 ** get_address_of_screen2_42() { return &___screen2_42; }
+	inline void set_screen2_42(GameObject_t1756533147 * value)
+	{
+		___screen2_42 = value;
+		Il2CppCodeGenWriteBarrier((&___screen2_42), value);
+	}
+
+	inline static int32_t get_offset_of_screen3_43() { return static_cast<int32_t>(offsetof(co2Controller_t3468545204, ___screen3_43)); }
+	inline GameObject_t1756533147 * get_screen3_43() const { return ___screen3_43; }
+	inline GameObject_t1756533147 ** get_address_of_screen3_43() { return &___screen3_43; }
+	inline void set_screen3_43(GameObject_t1756533147 * value)
+	{
+		___screen3_43 = value;
+		Il2CppCodeGenWriteBarrier((&___screen3_43), value);
 	}
 };
 
@@ -10154,7 +10176,7 @@ extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3045 = { sizeof (__St
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3046 = { sizeof (U3CModuleU3E_t3783534243), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3047 = { sizeof (closeLayer_t2167678179), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3048 = { sizeof (co2Controller_t3468545204), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable3048[40] = 
+extern const int32_t g_FieldOffsetTable3048[42] = 
 {
 	co2Controller_t3468545204::get_offset_of_BuildingFact_2(),
 	co2Controller_t3468545204::get_offset_of_BuildingFact_Trans_3(),
@@ -10191,11 +10213,13 @@ extern const int32_t g_FieldOffsetTable3048[40] =
 	co2Controller_t3468545204::get_offset_of_getClean_Trans_34(),
 	co2Controller_t3468545204::get_offset_of_reject_35(),
 	co2Controller_t3468545204::get_offset_of_reject_Trans_36(),
-	co2Controller_t3468545204::get_offset_of_laptop_37(),
-	co2Controller_t3468545204::get_offset_of_table_38(),
-	co2Controller_t3468545204::get_offset_of_screen1_39(),
-	co2Controller_t3468545204::get_offset_of_screen2_40(),
-	co2Controller_t3468545204::get_offset_of_screen3_41(),
+	co2Controller_t3468545204::get_offset_of_good_37(),
+	co2Controller_t3468545204::get_offset_of_good_Trans_38(),
+	co2Controller_t3468545204::get_offset_of_laptop_39(),
+	co2Controller_t3468545204::get_offset_of_table_40(),
+	co2Controller_t3468545204::get_offset_of_screen1_41(),
+	co2Controller_t3468545204::get_offset_of_screen2_42(),
+	co2Controller_t3468545204::get_offset_of_screen3_43(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3049 = { sizeof (dontForget_turnOff_t3746796999), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3049[3] = 

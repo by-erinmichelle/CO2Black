@@ -663,6 +663,8 @@ extern Il2CppCodeGenString* _stringLiteral3457518718;
 extern Il2CppCodeGenString* _stringLiteral204391461;
 extern Il2CppCodeGenString* _stringLiteral696029381;
 extern Il2CppCodeGenString* _stringLiteral4231482204;
+extern Il2CppCodeGenString* _stringLiteral613662421;
+extern Il2CppCodeGenString* _stringLiteral696030073;
 extern const uint32_t co2Controller_Update_m2009009566_MetadataUsageId;
 extern Il2CppCodeGenString* _stringLiteral3423395264;
 extern const uint32_t co2Controller_hideAllModels_m3415226946_MetadataUsageId;
@@ -10848,16 +10850,20 @@ public:
 	GameObject_t1756533147 * ___reject_35;
 	// UnityEngine.GameObject co2Controller::reject_Trans
 	GameObject_t1756533147 * ___reject_Trans_36;
+	// UnityEngine.GameObject co2Controller::good
+	GameObject_t1756533147 * ___good_37;
+	// UnityEngine.GameObject co2Controller::good_Trans
+	GameObject_t1756533147 * ___good_Trans_38;
 	// UnityEngine.GameObject co2Controller::laptop
-	GameObject_t1756533147 * ___laptop_37;
+	GameObject_t1756533147 * ___laptop_39;
 	// UnityEngine.GameObject co2Controller::table
-	GameObject_t1756533147 * ___table_38;
+	GameObject_t1756533147 * ___table_40;
 	// UnityEngine.GameObject co2Controller::screen1
-	GameObject_t1756533147 * ___screen1_39;
+	GameObject_t1756533147 * ___screen1_41;
 	// UnityEngine.GameObject co2Controller::screen2
-	GameObject_t1756533147 * ___screen2_40;
+	GameObject_t1756533147 * ___screen2_42;
 	// UnityEngine.GameObject co2Controller::screen3
-	GameObject_t1756533147 * ___screen3_41;
+	GameObject_t1756533147 * ___screen3_43;
 
 public:
 	inline static int32_t get_offset_of_BuildingFact_2() { return static_cast<int32_t>(offsetof(co2Controller_t3468545204, ___BuildingFact_2)); }
@@ -11175,49 +11181,67 @@ public:
 		Il2CppCodeGenWriteBarrier((&___reject_Trans_36), value);
 	}
 
-	inline static int32_t get_offset_of_laptop_37() { return static_cast<int32_t>(offsetof(co2Controller_t3468545204, ___laptop_37)); }
-	inline GameObject_t1756533147 * get_laptop_37() const { return ___laptop_37; }
-	inline GameObject_t1756533147 ** get_address_of_laptop_37() { return &___laptop_37; }
-	inline void set_laptop_37(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_good_37() { return static_cast<int32_t>(offsetof(co2Controller_t3468545204, ___good_37)); }
+	inline GameObject_t1756533147 * get_good_37() const { return ___good_37; }
+	inline GameObject_t1756533147 ** get_address_of_good_37() { return &___good_37; }
+	inline void set_good_37(GameObject_t1756533147 * value)
 	{
-		___laptop_37 = value;
-		Il2CppCodeGenWriteBarrier((&___laptop_37), value);
+		___good_37 = value;
+		Il2CppCodeGenWriteBarrier((&___good_37), value);
 	}
 
-	inline static int32_t get_offset_of_table_38() { return static_cast<int32_t>(offsetof(co2Controller_t3468545204, ___table_38)); }
-	inline GameObject_t1756533147 * get_table_38() const { return ___table_38; }
-	inline GameObject_t1756533147 ** get_address_of_table_38() { return &___table_38; }
-	inline void set_table_38(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_good_Trans_38() { return static_cast<int32_t>(offsetof(co2Controller_t3468545204, ___good_Trans_38)); }
+	inline GameObject_t1756533147 * get_good_Trans_38() const { return ___good_Trans_38; }
+	inline GameObject_t1756533147 ** get_address_of_good_Trans_38() { return &___good_Trans_38; }
+	inline void set_good_Trans_38(GameObject_t1756533147 * value)
 	{
-		___table_38 = value;
-		Il2CppCodeGenWriteBarrier((&___table_38), value);
+		___good_Trans_38 = value;
+		Il2CppCodeGenWriteBarrier((&___good_Trans_38), value);
 	}
 
-	inline static int32_t get_offset_of_screen1_39() { return static_cast<int32_t>(offsetof(co2Controller_t3468545204, ___screen1_39)); }
-	inline GameObject_t1756533147 * get_screen1_39() const { return ___screen1_39; }
-	inline GameObject_t1756533147 ** get_address_of_screen1_39() { return &___screen1_39; }
-	inline void set_screen1_39(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_laptop_39() { return static_cast<int32_t>(offsetof(co2Controller_t3468545204, ___laptop_39)); }
+	inline GameObject_t1756533147 * get_laptop_39() const { return ___laptop_39; }
+	inline GameObject_t1756533147 ** get_address_of_laptop_39() { return &___laptop_39; }
+	inline void set_laptop_39(GameObject_t1756533147 * value)
 	{
-		___screen1_39 = value;
-		Il2CppCodeGenWriteBarrier((&___screen1_39), value);
+		___laptop_39 = value;
+		Il2CppCodeGenWriteBarrier((&___laptop_39), value);
 	}
 
-	inline static int32_t get_offset_of_screen2_40() { return static_cast<int32_t>(offsetof(co2Controller_t3468545204, ___screen2_40)); }
-	inline GameObject_t1756533147 * get_screen2_40() const { return ___screen2_40; }
-	inline GameObject_t1756533147 ** get_address_of_screen2_40() { return &___screen2_40; }
-	inline void set_screen2_40(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_table_40() { return static_cast<int32_t>(offsetof(co2Controller_t3468545204, ___table_40)); }
+	inline GameObject_t1756533147 * get_table_40() const { return ___table_40; }
+	inline GameObject_t1756533147 ** get_address_of_table_40() { return &___table_40; }
+	inline void set_table_40(GameObject_t1756533147 * value)
 	{
-		___screen2_40 = value;
-		Il2CppCodeGenWriteBarrier((&___screen2_40), value);
+		___table_40 = value;
+		Il2CppCodeGenWriteBarrier((&___table_40), value);
 	}
 
-	inline static int32_t get_offset_of_screen3_41() { return static_cast<int32_t>(offsetof(co2Controller_t3468545204, ___screen3_41)); }
-	inline GameObject_t1756533147 * get_screen3_41() const { return ___screen3_41; }
-	inline GameObject_t1756533147 ** get_address_of_screen3_41() { return &___screen3_41; }
-	inline void set_screen3_41(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_screen1_41() { return static_cast<int32_t>(offsetof(co2Controller_t3468545204, ___screen1_41)); }
+	inline GameObject_t1756533147 * get_screen1_41() const { return ___screen1_41; }
+	inline GameObject_t1756533147 ** get_address_of_screen1_41() { return &___screen1_41; }
+	inline void set_screen1_41(GameObject_t1756533147 * value)
 	{
-		___screen3_41 = value;
-		Il2CppCodeGenWriteBarrier((&___screen3_41), value);
+		___screen1_41 = value;
+		Il2CppCodeGenWriteBarrier((&___screen1_41), value);
+	}
+
+	inline static int32_t get_offset_of_screen2_42() { return static_cast<int32_t>(offsetof(co2Controller_t3468545204, ___screen2_42)); }
+	inline GameObject_t1756533147 * get_screen2_42() const { return ___screen2_42; }
+	inline GameObject_t1756533147 ** get_address_of_screen2_42() { return &___screen2_42; }
+	inline void set_screen2_42(GameObject_t1756533147 * value)
+	{
+		___screen2_42 = value;
+		Il2CppCodeGenWriteBarrier((&___screen2_42), value);
+	}
+
+	inline static int32_t get_offset_of_screen3_43() { return static_cast<int32_t>(offsetof(co2Controller_t3468545204, ___screen3_43)); }
+	inline GameObject_t1756533147 * get_screen3_43() const { return ___screen3_43; }
+	inline GameObject_t1756533147 ** get_address_of_screen3_43() { return &___screen3_43; }
+	inline void set_screen3_43(GameObject_t1756533147 * value)
+	{
+		___screen3_43 = value;
+		Il2CppCodeGenWriteBarrier((&___screen3_43), value);
 	}
 };
 
@@ -24055,10 +24079,10 @@ extern "C"  void co2Controller_turnOnGas_m1606028512 (co2Controller_t3468545204 
 extern "C"  void co2Controller_turnOnAll_m3124283378 (co2Controller_t3468545204 * __this, const RuntimeMethod* method)
 {
 	{
-		GameObject_t1756533147 * L_0 = __this->get_gas_23();
+		GameObject_t1756533147 * L_0 = __this->get_gasEnergy_29();
 		NullCheck(L_0);
 		GameObject_SetActive_m2693135142(L_0, (bool)0, /*hidden argument*/NULL);
-		GameObject_t1756533147 * L_1 = __this->get_gasEnergy_29();
+		GameObject_t1756533147 * L_1 = __this->get_gasEnergy_Trans_30();
 		NullCheck(L_1);
 		GameObject_SetActive_m2693135142(L_1, (bool)0, /*hidden argument*/NULL);
 		GameObject_t1756533147 * L_2 = __this->get_clean_24();
@@ -24067,9 +24091,6 @@ extern "C"  void co2Controller_turnOnAll_m3124283378 (co2Controller_t3468545204 
 		GameObject_t1756533147 * L_3 = __this->get_allEnergy_31();
 		NullCheck(L_3);
 		GameObject_SetActive_m2693135142(L_3, (bool)1, /*hidden argument*/NULL);
-		GameObject_t1756533147 * L_4 = __this->get_allEnergy_Trans_32();
-		NullCheck(L_4);
-		GameObject_SetActive_m2693135142(L_4, (bool)1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -24080,15 +24101,6 @@ extern "C"  void co2Controller_turnOnCleanText_m3817543865 (co2Controller_t34685
 		GameObject_t1756533147 * L_0 = __this->get_allEnergy_31();
 		NullCheck(L_0);
 		GameObject_SetActive_m2693135142(L_0, (bool)0, /*hidden argument*/NULL);
-		GameObject_t1756533147 * L_1 = __this->get_allEnergy_Trans_32();
-		NullCheck(L_1);
-		GameObject_SetActive_m2693135142(L_1, (bool)0, /*hidden argument*/NULL);
-		GameObject_t1756533147 * L_2 = __this->get_getClean_33();
-		NullCheck(L_2);
-		GameObject_SetActive_m2693135142(L_2, (bool)1, /*hidden argument*/NULL);
-		GameObject_t1756533147 * L_3 = __this->get_getClean_Trans_34();
-		NullCheck(L_3);
-		GameObject_SetActive_m2693135142(L_3, (bool)1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -24185,7 +24197,7 @@ IL_0072:
 		int32_t L_14 = Input_get_touchCount_m814531925(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((((int32_t)L_14) <= ((int32_t)0)))
 		{
-			goto IL_017a;
+			goto IL_01ec;
 		}
 	}
 	{
@@ -24197,7 +24209,7 @@ IL_0072:
 		int32_t L_16 = Touch_get_phase_m972231807((&V_4), /*hidden argument*/NULL);
 		if (L_16)
 		{
-			goto IL_017a;
+			goto IL_01ec;
 		}
 	}
 	{
@@ -24207,7 +24219,7 @@ IL_0072:
 		bool L_18 = EventSystem_IsPointerOverGameObject_m2415000115(L_17, 0, /*hidden argument*/NULL);
 		if (L_18)
 		{
-			goto IL_017a;
+			goto IL_01ec;
 		}
 	}
 	{
@@ -24224,7 +24236,7 @@ IL_0072:
 		bool L_24 = Physics_Raycast_m240935337(NULL /*static, unused*/, L_23, (&V_6), (100.0f), /*hidden argument*/NULL);
 		if (!L_24)
 		{
-			goto IL_017a;
+			goto IL_01ec;
 		}
 	}
 	{
@@ -24259,7 +24271,7 @@ IL_0072:
 		bool L_33 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_32, _stringLiteral696029381, /*hidden argument*/NULL);
 		if (!L_33)
 		{
-			goto IL_017a;
+			goto IL_017f;
 		}
 	}
 
@@ -24273,16 +24285,52 @@ IL_013b:
 		GameObject_t1756533147 * L_35 = __this->get_getClean_Trans_34();
 		NullCheck(L_35);
 		GameObject_SetActive_m2693135142(L_35, (bool)0, /*hidden argument*/NULL);
-		Handheld_Vibrate_m752722291(NULL /*static, unused*/, /*hidden argument*/NULL);
-		GameObject_t1756533147 * L_36 = __this->get_reject_35();
+		GameObject_t1756533147 * L_36 = __this->get_allEnergy_31();
 		NullCheck(L_36);
-		GameObject_SetActive_m2693135142(L_36, (bool)1, /*hidden argument*/NULL);
-		GameObject_t1756533147 * L_37 = __this->get_reject_Trans_36();
+		GameObject_SetActive_m2693135142(L_36, (bool)0, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_37 = __this->get_reject_35();
 		NullCheck(L_37);
 		GameObject_SetActive_m2693135142(L_37, (bool)1, /*hidden argument*/NULL);
+		Handheld_Vibrate_m752722291(NULL /*static, unused*/, /*hidden argument*/NULL);
+		goto IL_01ec;
 	}
 
-IL_017a:
+IL_017f:
+	{
+		Transform_t3275118058 * L_38 = RaycastHit_get_transform_m2333455049((&V_6), /*hidden argument*/NULL);
+		NullCheck(L_38);
+		String_t* L_39 = Component_get_tag_m124558427(L_38, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_40 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_39, _stringLiteral613662421, /*hidden argument*/NULL);
+		if (!L_40)
+		{
+			goto IL_01ec;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m2923680153(NULL /*static, unused*/, _stringLiteral696030073, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_41 = __this->get_getClean_33();
+		NullCheck(L_41);
+		GameObject_SetActive_m2693135142(L_41, (bool)0, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_42 = __this->get_getClean_Trans_34();
+		NullCheck(L_42);
+		GameObject_SetActive_m2693135142(L_42, (bool)0, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_43 = __this->get_allEnergy_31();
+		NullCheck(L_43);
+		GameObject_SetActive_m2693135142(L_43, (bool)0, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_44 = __this->get_reject_35();
+		NullCheck(L_44);
+		GameObject_SetActive_m2693135142(L_44, (bool)0, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_45 = __this->get_good_37();
+		NullCheck(L_45);
+		GameObject_SetActive_m2693135142(L_45, (bool)1, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_46 = __this->get_good_Trans_38();
+		NullCheck(L_46);
+		GameObject_SetActive_m2693135142(L_46, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_01ec:
 	{
 		return;
 	}
@@ -24312,15 +24360,21 @@ extern "C"  void co2Controller_hideAllModels_m3415226946 (co2Controller_t3468545
 		GameObject_t1756533147 * L_4 = __this->get_clean_24();
 		NullCheck(L_4);
 		GameObject_SetActive_m2693135142(L_4, (bool)0, /*hidden argument*/NULL);
-		GameObject_t1756533147 * L_5 = __this->get_laptop_37();
+		GameObject_t1756533147 * L_5 = __this->get_good_37();
 		NullCheck(L_5);
-		GameObject_SetActive_m2693135142(L_5, (bool)1, /*hidden argument*/NULL);
-		GameObject_t1756533147 * L_6 = __this->get_table_38();
+		GameObject_SetActive_m2693135142(L_5, (bool)0, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_6 = __this->get_good_Trans_38();
 		NullCheck(L_6);
-		GameObject_SetActive_m2693135142(L_6, (bool)1, /*hidden argument*/NULL);
-		GameObject_t1756533147 * L_7 = __this->get_screen1_39();
+		GameObject_SetActive_m2693135142(L_6, (bool)0, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_7 = __this->get_laptop_39();
 		NullCheck(L_7);
 		GameObject_SetActive_m2693135142(L_7, (bool)1, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_8 = __this->get_table_40();
+		NullCheck(L_8);
+		GameObject_SetActive_m2693135142(L_8, (bool)1, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_9 = __this->get_screen1_41();
+		NullCheck(L_9);
+		GameObject_SetActive_m2693135142(L_9, (bool)1, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
 		Debug_Log_m2923680153(NULL /*static, unused*/, _stringLiteral3423395264, /*hidden argument*/NULL);
 		return;

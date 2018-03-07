@@ -11,21 +11,14 @@
 			<method name="tapBoxDialogue_trans"/>
 			<method name="tapTrashDialogue_trans"/>
 			<method name="BuildingFact_ReplaceBulb"/>
-			<method name="turnOnCleanText"/>
 			<method name="turnOnAll"/>
 			<method name="DontForget_TurnOff"/>
 			<method name="tapSodaDialogue_trans"/>
 			<method name="BuildingFact_ReplaceBulb"/>
+			<method name="hideAllModels"/>
 		</type>
 		<type fullname="thirdModule">
 			<method name="toThirdModBtn"/>
-		</type>
-		<type fullname="thirdmod">
-			<method name="hideAllModels"/>
-			<method name="turnOnCleanText"/>
-			<method name="turnOnCoal"/>
-			<method name="turnOnGas"/>
-			<method name="turnOnAll"/>
 		</type>
 		<type fullname="learningLayerUp">
 			<method name="goToThirdModule"/>

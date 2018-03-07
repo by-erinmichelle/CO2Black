@@ -1429,6 +1429,7 @@
 					"-weak-lSystem",
 					"-ObjC",
 					"-lz",
+					"-ObjC -lz",
 				);
 				PRODUCT_NAME = co2black;
 				PROVISIONING_PROFILE = "";
@@ -1494,6 +1495,7 @@
 					"-weak-lSystem",
 					"-ObjC",
 					"-lz",
+					"-ObjC -lz",
 				);
 				PRODUCT_NAME = co2black;
 				PROVISIONING_PROFILE = "";
@@ -1681,6 +1683,7 @@
 					"-weak-lSystem",
 					"-ObjC",
 					"-lz",
+					"-ObjC -lz",
 				);
 				PRODUCT_NAME = co2black;
 				PROVISIONING_PROFILE = "";
@@ -1813,6 +1816,7 @@
 					"-weak-lSystem",
 					"-ObjC",
 					"-lz",
+					"-ObjC -lz",
 				);
 				PRODUCT_NAME = co2black;
 				PROVISIONING_PROFILE = "";
