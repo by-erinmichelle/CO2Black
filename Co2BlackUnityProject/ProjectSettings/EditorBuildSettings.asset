@@ -6,5 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/_Scenes/master6.unity
     guid: 067f31bcf3f6d4a448d53cfe48c7a8d8
+=======
+    path: Assets/_Scenes/3rdmodUpdated.unity
+    guid: 26fd488f0edda47a3a12168df72020de
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1

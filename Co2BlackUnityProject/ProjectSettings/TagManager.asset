@@ -5,6 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - Fire
+  - badTrash
+  - screen1
+  - screen2
+  - goodTrash
+  - screen3
+  - laptop
+  - fire
+  - coal
+  - gas
   layers:
   - Default
   - TransparentFX

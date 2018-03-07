@@ -1,24 +1,48 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="co2Controller">
+			<method name="turnOnCoal"/>
+			<method name="turnOnGas"/>
 			<method name="DontForget_TurnOff"/>
+			<method name="turnOnCleanText"/>
 			<method name="tapBottleDialogue_trans"/>
 			<method name="tapFoamDialogue_trans"/>
+			<method name="turnOnCleanText"/>
 			<method name="tapBoxDialogue_trans"/>
 			<method name="tapTrashDialogue_trans"/>
 			<method name="BuildingFact_ReplaceBulb"/>
+			<method name="turnOnCleanText"/>
+			<method name="turnOnAll"/>
 			<method name="DontForget_TurnOff"/>
 			<method name="tapSodaDialogue_trans"/>
 			<method name="BuildingFact_ReplaceBulb"/>
 		</type>
+<<<<<<< HEAD
 		<type fullname="learningLayerLamp">
 			<method name="goToSecondModule"/>
 			<method name="layerUp"/>
+=======
+		<type fullname="thirdModule">
+			<method name="toThirdModBtn"/>
+		</type>
+		<type fullname="thirdmod">
+			<method name="hideAllModels"/>
+			<method name="turnOnCleanText"/>
+			<method name="turnOnCoal"/>
+			<method name="turnOnGas"/>
+			<method name="turnOnAll"/>
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 		</type>
 		<type fullname="learningLayerUp">
 			<method name="goToThirdModule"/>
 			<method name="layerUp"/>
 			<method name="layerClose"/>
 		</type>
+<<<<<<< HEAD
+=======
+		<type fullname="secondModule">
+			<method name="toSecondModBtn"/>
+		</type>
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 	</assembly>
 </linker>

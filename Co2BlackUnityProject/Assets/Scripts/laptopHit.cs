@@ -75,30 +75,5 @@ public class laptopHit : MonoBehaviour {
 
 
 
-//		if (screen2.activeInHierarchy && hit.transform.gameObject.tag == "laptop"){
-//			laptopSelect = hit.transform.gameObject;
-//			//						Destroy(laptopSelect);
-//			screen2.SetActive (false);
-//			screen3.SetActive (true);
-//		}
-//		if (Input.touchCount > 1) {
-//
-//			Touch touch = Input.GetTouch (0);
-//			if (touch.phase == TouchPhase.Began  && !EventSystem.current.IsPointerOverGameObject(0)) {
-//				Ray ray = Camera.main.ScreenPointToRay (touch.position);
-//				RaycastHit hit;
-//
-//				if (Physics.Raycast (ray, out hit, 100)) {
-//
-//					if (hit.transform.gameObject.tag == "laptop"){
-//						laptopSelect = hit.transform.gameObject;
-//						//						Destroy(laptopSelect);
-//						screen2.SetActive (false);
-//						screen3.SetActive (true);
-//					}
-//
-//				}
-//			}
-//		}
 	}
 }

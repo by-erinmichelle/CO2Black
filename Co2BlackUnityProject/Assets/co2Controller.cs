@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.iOS;
+using UnityEngine.EventSystems;
 
 public class co2Controller : MonoBehaviour {
 
@@ -94,6 +96,161 @@ public class co2Controller : MonoBehaviour {
 		foamCupDialogue.SetActive(false);
 		foamCupDialogue_trans.SetActive(false);
 	}
+
+
+//THIRD MODULE
+
+		public GameObject fire;
+		public GameObject fireDefault;
+		public GameObject coal;
+		public GameObject gas;
+		public GameObject clean;
+
+		public GameObject woodEnergy;
+		public GameObject woodEnergy_Trans;
+
+		public GameObject coalEnergy;
+		public GameObject coalEnergy_Trans;
+
+		public GameObject gasEnergy;
+		public GameObject gasEnergy_Trans;
+
+		public GameObject allEnergy;
+		public GameObject allEnergy_Trans;
+
+		public GameObject getClean;
+		public GameObject getClean_Trans;
+
+		public GameObject reject;
+		public GameObject reject_Trans;
+
+		public GameObject laptop;
+		public GameObject table;
+		public GameObject screen1;
+		public GameObject screen2;
+		public GameObject screen3;
+
+		//	show coal model
+		public void turnOnCoal() {
+			woodEnergy.SetActive (false);
+			woodEnergy_Trans.SetActive (false);
+			coal.SetActive (true);
+			coalEnergy.SetActive (true);
+			coalEnergy_Trans.SetActive (true);
+
+		}
+
+		//	show gas model
+		public void turnOnGas(){
+			gas.SetActive (true);
+			gasEnergy.SetActive (true);
+			gasEnergy_Trans.SetActive (true);
+			coalEnergy.SetActive (false);
+			coalEnergy_Trans.SetActive (false);
+		}
+
+		//	show clean models
+		public void turnOnAll(){
+			gasEnergy.SetActive (false);
+			gasEnergy_Trans.SetActive (false);
+			clean.SetActive (true);
+			allEnergy.SetActive (true);
+			allEnergy_Trans.SetActive (true);
+//			gasEnergy.SetActive (false);
+		}
+
+		//	show "its simple" text
+		public void turnOnCleanText() {
+			allEnergy.SetActive (false);
+			allEnergy_Trans.SetActive (false);
+			getClean.SetActive (true);
+			getClean_Trans.SetActive (true);
+
+		}
+		//	void OnCollisionEnter(Collision collision) {	
+		//		if (collision.gameObject.name == "fire" || collision.gameObject.name == "coal" || collision.gameObject.name == "gas") {
+		//
+		//			fireDefault.GetComponent<Animation> ().Play ();
+		//			StartCoroutine (negativeCoroutine ());
+		//
+		//		}
+		//	}
+
+		void Update () {
+
+			Debug.Log ("workin");
+
+			int fingerCount = 0;
+			foreach (Touch touch in Input.touches) {
+				if (touch.phase != TouchPhase.Ended && touch.phase != TouchPhase.Canceled)
+					fingerCount++;
+			}
+
+			if (fingerCount > 0)
+				print("User has " + fingerCount + " finger(s) touching the screen");
+
+
+			if (Input.touchCount > 0) {
+
+				Debug.Log("touch");
+
+
+				Touch touch = Input.GetTouch (0);
+				if (touch.phase == TouchPhase.Began  && !EventSystem.current.IsPointerOverGameObject(0)) {
+
+					Debug.Log("touch2");
+
+					Ray ray = Camera.main.ScreenPointToRay (touch.position);
+					RaycastHit hit;
+
+					if (Physics.Raycast (ray, out hit, 100)) {
+
+						Debug.Log("raysent");
+
+					if (hit.transform.tag == "fire" || hit.transform.tag == "coal" || hit.transform.tag == "gas"){
+							Debug.Log ("plz");
+
+							getClean.SetActive (false);
+							getClean_Trans.SetActive (false);
+
+							Handheld.Vibrate();
+							reject.SetActive (true);
+							reject_Trans.SetActive (true);
+							
+
+							//						fireDefault.GetComponent<Animation> ().Play ();
+
+
+
+						}
+
+
+					}
+				}
+			}
+
+
+
+		}
+
+
+		//	hide all the models, show laptop first screen ui
+		public void hideAllModels() {
+			getClean.SetActive (false);
+			fire.SetActive (false);
+			coal.SetActive (false);
+			gas.SetActive (false);
+			clean.SetActive (false);
+			laptop.SetActive (true);
+			table.SetActive (true);
+			screen1.SetActive (true);
+			Debug.Log("boiiiii");
+		}
+
+
+
+
+
 
 
 

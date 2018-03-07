@@ -18,6 +18,7 @@
 #include "codegen/il2cpp-codegen.h"
 #include "object-internals.h"
 
+<<<<<<< HEAD
 // System.Action`1<Mapbox.Platform.Response>
 struct Action_1_t358943961;
 // Mapbox.Platform.Response
@@ -26,6 +27,14 @@ struct Response_t557144579;
 struct JsonConverterU5BU5D_t682998515;
 // System.String
 struct String_t;
+=======
+// System.Collections.Generic.Dictionary`2<System.String,Mapbox.Platform.MbTiles.MbTilesDb>
+struct Dictionary_2_t4059620286;
+// System.String
+struct String_t;
+// Mapbox.Json.JsonConverter[]
+struct JsonConverterU5BU5D_t682998515;
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 // System.Collections.IEnumerable
 struct IEnumerable_t2911409499;
 // SQLite4Unity3d.SQLiteConnection
@@ -42,14 +51,28 @@ struct PreparedSqlLiteInsertCommand_t794754523;
 struct Func_2_t1926261146;
 // System.Func`2<SQLite4Unity3d.TableMapping/Column,System.String>
 struct Func_2_t129906661;
+<<<<<<< HEAD
 // Mapbox.Platform.FileSource
 struct FileSource_t1347159135;
+=======
+// Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/TEdge
+struct TEdge_t2833881561;
+// Mapbox.Platform.FileSource
+struct FileSource_t1347159135;
+// System.Action`1<Mapbox.Platform.Response>
+struct Action_1_t358943961;
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 // System.Collections.Generic.Dictionary`2<System.String,Mapbox.Platform.Cache.MemoryCache/CacheItem>
 struct Dictionary_2_t969144863;
 // System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,Mapbox.Platform.Cache.MemoryCache/CacheItem>,System.Int64>
 struct Func_2_t3310448845;
+<<<<<<< HEAD
 // System.Collections.Generic.Dictionary`2<System.String,Mapbox.Platform.MbTiles.MbTilesDb>
 struct Dictionary_2_t4059620286;
+=======
+// System.Byte[]
+struct ByteU5BU5D_t3397334013;
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 // System.IntPtr[]
 struct IntPtrU5BU5D_t169632028;
 // System.Collections.IDictionary
@@ -58,24 +81,35 @@ struct IDictionary_t596158605;
 struct Func_2_t3512101922;
 // System.Func`2<Mapbox.VectorTile.Geometry.LatLng,System.String>
 struct Func_2_t2788816796;
+<<<<<<< HEAD
 // System.Byte[]
 struct ByteU5BU5D_t3397334013;
+=======
+// Mapbox.VectorTile.VectorTileFeature
+struct VectorTileFeature_t227912335;
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 // System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,System.String>,<>__AnonType0`2<System.Collections.Generic.KeyValuePair`2<System.String,System.String>,System.String>>
 struct Func_2_t2596070063;
 // System.Func`2<<>__AnonType0`2<System.Collections.Generic.KeyValuePair`2<System.String,System.String>,System.String>,<>__AnonType1`2<<>__AnonType0`2<System.Collections.Generic.KeyValuePair`2<System.String,System.String>,System.String>,System.String>>
 struct Func_2_t1780841342;
 // System.Func`2<<>__AnonType1`2<<>__AnonType0`2<System.Collections.Generic.KeyValuePair`2<System.String,System.String>,System.String>,System.String>,System.String>
 struct Func_2_t1459407154;
+<<<<<<< HEAD
 // Mapbox.VectorTile.VectorTileFeature
 struct VectorTileFeature_t227912335;
+=======
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 // System.Char[]
 struct CharU5BU5D_t1328083999;
 // System.Collections.Generic.List`1<SQLite4Unity3d.SQLiteConnection/IndexedColumn>
 struct List_1_t43281120;
 // System.Void
 struct Void_t1841601450;
+<<<<<<< HEAD
 // Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/TEdge
 struct TEdge_t2833881561;
+=======
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 // System.Collections.Generic.List`1<SQLite4Unity3d.SQLiteCommand/Binding>
 struct List_1_t1200698429;
 // System.Reflection.PropertyInfo
@@ -130,14 +164,20 @@ struct Dictionary_2_t222845231;
 #pragma clang diagnostic pop
 #endif
 #endif // RUNTIMEOBJECT_H
+<<<<<<< HEAD
 #ifndef U3CDELAYCACHEDRESPONSEU3EC__ITERATOR0_T850356768_H
 #define U3CDELAYCACHEDRESPONSEU3EC__ITERATOR0_T850356768_H
+=======
+#ifndef MBTILESCACHE_T4235426636_H
+#define MBTILESCACHE_T4235426636_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
+<<<<<<< HEAD
 // Mapbox.Platform.Cache.CachingWebFileSource/<DelayCachedResponse>c__Iterator0
 struct  U3CDelayCachedResponseU3Ec__Iterator0_t850356768  : public RuntimeObject
 {
@@ -196,12 +236,85 @@ public:
 	{
 		___U24PC_4 = value;
 	}
+=======
+// Mapbox.Platform.Cache.MbTilesCache
+struct  MbTilesCache_t4235426636  : public RuntimeObject
+{
+public:
+	// System.Boolean Mapbox.Platform.Cache.MbTilesCache::_disposed
+	bool ____disposed_0;
+	// System.UInt32 Mapbox.Platform.Cache.MbTilesCache::_maxCacheSize
+	uint32_t ____maxCacheSize_1;
+	// System.Object Mapbox.Platform.Cache.MbTilesCache::_lock
+	RuntimeObject * ____lock_2;
+	// System.Collections.Generic.Dictionary`2<System.String,Mapbox.Platform.MbTiles.MbTilesDb> Mapbox.Platform.Cache.MbTilesCache::_mbTiles
+	Dictionary_2_t4059620286 * ____mbTiles_3;
+
+public:
+	inline static int32_t get_offset_of__disposed_0() { return static_cast<int32_t>(offsetof(MbTilesCache_t4235426636, ____disposed_0)); }
+	inline bool get__disposed_0() const { return ____disposed_0; }
+	inline bool* get_address_of__disposed_0() { return &____disposed_0; }
+	inline void set__disposed_0(bool value)
+	{
+		____disposed_0 = value;
+	}
+
+	inline static int32_t get_offset_of__maxCacheSize_1() { return static_cast<int32_t>(offsetof(MbTilesCache_t4235426636, ____maxCacheSize_1)); }
+	inline uint32_t get__maxCacheSize_1() const { return ____maxCacheSize_1; }
+	inline uint32_t* get_address_of__maxCacheSize_1() { return &____maxCacheSize_1; }
+	inline void set__maxCacheSize_1(uint32_t value)
+	{
+		____maxCacheSize_1 = value;
+	}
+
+	inline static int32_t get_offset_of__lock_2() { return static_cast<int32_t>(offsetof(MbTilesCache_t4235426636, ____lock_2)); }
+	inline RuntimeObject * get__lock_2() const { return ____lock_2; }
+	inline RuntimeObject ** get_address_of__lock_2() { return &____lock_2; }
+	inline void set__lock_2(RuntimeObject * value)
+	{
+		____lock_2 = value;
+		Il2CppCodeGenWriteBarrier((&____lock_2), value);
+	}
+
+	inline static int32_t get_offset_of__mbTiles_3() { return static_cast<int32_t>(offsetof(MbTilesCache_t4235426636, ____mbTiles_3)); }
+	inline Dictionary_2_t4059620286 * get__mbTiles_3() const { return ____mbTiles_3; }
+	inline Dictionary_2_t4059620286 ** get_address_of__mbTiles_3() { return &____mbTiles_3; }
+	inline void set__mbTiles_3(Dictionary_2_t4059620286 * value)
+	{
+		____mbTiles_3 = value;
+		Il2CppCodeGenWriteBarrier((&____mbTiles_3), value);
+	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+#endif // MBTILESCACHE_T4235426636_H
+#ifndef CONSTANTS_T3012120737_H
+#define CONSTANTS_T3012120737_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Mapbox.Utils.Constants
+struct  Constants_t3012120737  : public RuntimeObject
+{
+public:
+
+public:
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+<<<<<<< HEAD
 #endif // U3CDELAYCACHEDRESPONSEU3EC__ITERATOR0_T850356768_H
+=======
+#endif // CONSTANTS_T3012120737_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifndef JSONCONVERTERS_T3738359027_H
 #define JSONCONVERTERS_T3738359027_H
 #ifdef __clang__
@@ -597,14 +710,20 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // U3CINSERTALLU3EC__ANONSTOREY0_T3272736510_H
+<<<<<<< HEAD
 #ifndef COLUMNINFO_T4209372729_H
 #define COLUMNINFO_T4209372729_H
+=======
+#ifndef COMPRESSION_T35425688_H
+#define COMPRESSION_T35425688_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
+<<<<<<< HEAD
 // SQLite4Unity3d.SQLiteConnection/ColumnInfo
 struct  ColumnInfo_t4209372729  : public RuntimeObject
 {
@@ -616,37 +735,9 @@ public:
 
 public:
 	inline static int32_t get_offset_of_U3CNameU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(ColumnInfo_t4209372729, ___U3CNameU3Ek__BackingField_0)); }
-	inline String_t* get_U3CNameU3Ek__BackingField_0() const { return ___U3CNameU3Ek__BackingField_0; }
-	inline String_t** get_address_of_U3CNameU3Ek__BackingField_0() { return &___U3CNameU3Ek__BackingField_0; }
-	inline void set_U3CNameU3Ek__BackingField_0(String_t* value)
-	{
-		___U3CNameU3Ek__BackingField_0 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CNameU3Ek__BackingField_0), value);
-	}
-
-	inline static int32_t get_offset_of_U3CnotnullU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(ColumnInfo_t4209372729, ___U3CnotnullU3Ek__BackingField_1)); }
-	inline int32_t get_U3CnotnullU3Ek__BackingField_1() const { return ___U3CnotnullU3Ek__BackingField_1; }
-	inline int32_t* get_address_of_U3CnotnullU3Ek__BackingField_1() { return &___U3CnotnullU3Ek__BackingField_1; }
-	inline void set_U3CnotnullU3Ek__BackingField_1(int32_t value)
-	{
-		___U3CnotnullU3Ek__BackingField_1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COLUMNINFO_T4209372729_H
-#ifndef CONSTANTS_T3012120737_H
-#define CONSTANTS_T3012120737_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// Mapbox.Utils.Constants
-struct  Constants_t3012120737  : public RuntimeObject
+=======
+// Mapbox.Utils.Compression
+struct  Compression_t35425688  : public RuntimeObject
 {
 public:
 
@@ -656,7 +747,103 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+#endif // COMPRESSION_T35425688_H
+#ifndef BINDING_T1831577297_H
+#define BINDING_T1831577297_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// SQLite4Unity3d.SQLiteCommand/Binding
+struct  Binding_t1831577297  : public RuntimeObject
+{
+public:
+	// System.String SQLite4Unity3d.SQLiteCommand/Binding::<Name>k__BackingField
+	String_t* ___U3CNameU3Ek__BackingField_0;
+	// System.Object SQLite4Unity3d.SQLiteCommand/Binding::<Value>k__BackingField
+	RuntimeObject * ___U3CValueU3Ek__BackingField_1;
+	// System.Int32 SQLite4Unity3d.SQLiteCommand/Binding::<Index>k__BackingField
+	int32_t ___U3CIndexU3Ek__BackingField_2;
+
+public:
+	inline static int32_t get_offset_of_U3CNameU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(Binding_t1831577297, ___U3CNameU3Ek__BackingField_0)); }
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
+	inline String_t* get_U3CNameU3Ek__BackingField_0() const { return ___U3CNameU3Ek__BackingField_0; }
+	inline String_t** get_address_of_U3CNameU3Ek__BackingField_0() { return &___U3CNameU3Ek__BackingField_0; }
+	inline void set_U3CNameU3Ek__BackingField_0(String_t* value)
+	{
+		___U3CNameU3Ek__BackingField_0 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CNameU3Ek__BackingField_0), value);
+	}
+
+<<<<<<< HEAD
+	inline static int32_t get_offset_of_U3CnotnullU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(ColumnInfo_t4209372729, ___U3CnotnullU3Ek__BackingField_1)); }
+	inline int32_t get_U3CnotnullU3Ek__BackingField_1() const { return ___U3CnotnullU3Ek__BackingField_1; }
+	inline int32_t* get_address_of_U3CnotnullU3Ek__BackingField_1() { return &___U3CnotnullU3Ek__BackingField_1; }
+	inline void set_U3CnotnullU3Ek__BackingField_1(int32_t value)
+	{
+		___U3CnotnullU3Ek__BackingField_1 = value;
+=======
+	inline static int32_t get_offset_of_U3CValueU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(Binding_t1831577297, ___U3CValueU3Ek__BackingField_1)); }
+	inline RuntimeObject * get_U3CValueU3Ek__BackingField_1() const { return ___U3CValueU3Ek__BackingField_1; }
+	inline RuntimeObject ** get_address_of_U3CValueU3Ek__BackingField_1() { return &___U3CValueU3Ek__BackingField_1; }
+	inline void set_U3CValueU3Ek__BackingField_1(RuntimeObject * value)
+	{
+		___U3CValueU3Ek__BackingField_1 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CValueU3Ek__BackingField_1), value);
+	}
+
+	inline static int32_t get_offset_of_U3CIndexU3Ek__BackingField_2() { return static_cast<int32_t>(offsetof(Binding_t1831577297, ___U3CIndexU3Ek__BackingField_2)); }
+	inline int32_t get_U3CIndexU3Ek__BackingField_2() const { return ___U3CIndexU3Ek__BackingField_2; }
+	inline int32_t* get_address_of_U3CIndexU3Ek__BackingField_2() { return &___U3CIndexU3Ek__BackingField_2; }
+	inline void set_U3CIndexU3Ek__BackingField_2(int32_t value)
+	{
+		___U3CIndexU3Ek__BackingField_2 = value;
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+<<<<<<< HEAD
+#endif // COLUMNINFO_T4209372729_H
+#ifndef CONSTANTS_T3012120737_H
+#define CONSTANTS_T3012120737_H
+=======
+#endif // BINDING_T1831577297_H
+#ifndef BASETABLEQUERY_T3770317269_H
+#define BASETABLEQUERY_T3770317269_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+<<<<<<< HEAD
+// Mapbox.Utils.Constants
+struct  Constants_t3012120737  : public RuntimeObject
+=======
+// SQLite4Unity3d.BaseTableQuery
+struct  BaseTableQuery_t3770317269  : public RuntimeObject
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+<<<<<<< HEAD
 #endif // CONSTANTS_T3012120737_H
+=======
+#endif // BASETABLEQUERY_T3770317269_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifndef ORM_T330478854_H
 #define ORM_T330478854_H
 #ifdef __clang__
@@ -737,26 +924,64 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // U3CFINDCOLUMNWITHPROPERTYNAMEU3EC__ANONSTOREY0_T1731627883_H
+<<<<<<< HEAD
 #ifndef BASETABLEQUERY_T3770317269_H
 #define BASETABLEQUERY_T3770317269_H
+=======
+#ifndef ORDERING_T1038862794_H
+#define ORDERING_T1038862794_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
+<<<<<<< HEAD
 // SQLite4Unity3d.BaseTableQuery
 struct  BaseTableQuery_t3770317269  : public RuntimeObject
 {
 public:
 
 public:
+=======
+// SQLite4Unity3d.BaseTableQuery/Ordering
+struct  Ordering_t1038862794  : public RuntimeObject
+{
+public:
+	// System.String SQLite4Unity3d.BaseTableQuery/Ordering::<ColumnName>k__BackingField
+	String_t* ___U3CColumnNameU3Ek__BackingField_0;
+	// System.Boolean SQLite4Unity3d.BaseTableQuery/Ordering::<Ascending>k__BackingField
+	bool ___U3CAscendingU3Ek__BackingField_1;
+
+public:
+	inline static int32_t get_offset_of_U3CColumnNameU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(Ordering_t1038862794, ___U3CColumnNameU3Ek__BackingField_0)); }
+	inline String_t* get_U3CColumnNameU3Ek__BackingField_0() const { return ___U3CColumnNameU3Ek__BackingField_0; }
+	inline String_t** get_address_of_U3CColumnNameU3Ek__BackingField_0() { return &___U3CColumnNameU3Ek__BackingField_0; }
+	inline void set_U3CColumnNameU3Ek__BackingField_0(String_t* value)
+	{
+		___U3CColumnNameU3Ek__BackingField_0 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CColumnNameU3Ek__BackingField_0), value);
+	}
+
+	inline static int32_t get_offset_of_U3CAscendingU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(Ordering_t1038862794, ___U3CAscendingU3Ek__BackingField_1)); }
+	inline bool get_U3CAscendingU3Ek__BackingField_1() const { return ___U3CAscendingU3Ek__BackingField_1; }
+	inline bool* get_address_of_U3CAscendingU3Ek__BackingField_1() { return &___U3CAscendingU3Ek__BackingField_1; }
+	inline void set_U3CAscendingU3Ek__BackingField_1(bool value)
+	{
+		___U3CAscendingU3Ek__BackingField_1 = value;
+	}
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+<<<<<<< HEAD
 #endif // BASETABLEQUERY_T3770317269_H
+=======
+#endif // ORDERING_T1038862794_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifndef TABLEMAPPING_T3898710812_H
 #define TABLEMAPPING_T3898710812_H
 #ifdef __clang__
@@ -935,6 +1160,7 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // TABLEMAPPING_T3898710812_H
+<<<<<<< HEAD
 #ifndef ORDERING_T1038862794_H
 #define ORDERING_T1038862794_H
 #ifdef __clang__
@@ -975,6 +1201,8 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // ORDERING_T1038862794_H
+=======
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifndef SQLITE3_T150757461_H
 #define SQLITE3_T150757461_H
 #ifdef __clang__
@@ -1023,14 +1251,20 @@ struct ValueType_t3507792607_marshaled_com
 {
 };
 #endif // VALUETYPE_T3507792607_H
+<<<<<<< HEAD
 #ifndef MYINTERSECTNODESORT_T2719717089_H
 #define MYINTERSECTNODESORT_T2719717089_H
+=======
+#ifndef LOCALMINIMA_T1268459690_H
+#define LOCALMINIMA_T1268459690_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
+<<<<<<< HEAD
 // Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/MyIntersectNodeSort
 struct  MyIntersectNodeSort_t2719717089  : public RuntimeObject
 {
@@ -1046,13 +1280,77 @@ public:
 #ifndef COMPRESSION_T35425688_H
 #define COMPRESSION_T35425688_H
 #ifdef __clang__
+=======
+// Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/LocalMinima
+struct  LocalMinima_t1268459690  : public RuntimeObject
+{
+public:
+	// System.Int64 Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/LocalMinima::Y
+	int64_t ___Y_0;
+	// Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/TEdge Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/LocalMinima::LeftBound
+	TEdge_t2833881561 * ___LeftBound_1;
+	// Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/TEdge Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/LocalMinima::RightBound
+	TEdge_t2833881561 * ___RightBound_2;
+	// Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/LocalMinima Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/LocalMinima::Next
+	LocalMinima_t1268459690 * ___Next_3;
+
+public:
+	inline static int32_t get_offset_of_Y_0() { return static_cast<int32_t>(offsetof(LocalMinima_t1268459690, ___Y_0)); }
+	inline int64_t get_Y_0() const { return ___Y_0; }
+	inline int64_t* get_address_of_Y_0() { return &___Y_0; }
+	inline void set_Y_0(int64_t value)
+	{
+		___Y_0 = value;
+	}
+
+	inline static int32_t get_offset_of_LeftBound_1() { return static_cast<int32_t>(offsetof(LocalMinima_t1268459690, ___LeftBound_1)); }
+	inline TEdge_t2833881561 * get_LeftBound_1() const { return ___LeftBound_1; }
+	inline TEdge_t2833881561 ** get_address_of_LeftBound_1() { return &___LeftBound_1; }
+	inline void set_LeftBound_1(TEdge_t2833881561 * value)
+	{
+		___LeftBound_1 = value;
+		Il2CppCodeGenWriteBarrier((&___LeftBound_1), value);
+	}
+
+	inline static int32_t get_offset_of_RightBound_2() { return static_cast<int32_t>(offsetof(LocalMinima_t1268459690, ___RightBound_2)); }
+	inline TEdge_t2833881561 * get_RightBound_2() const { return ___RightBound_2; }
+	inline TEdge_t2833881561 ** get_address_of_RightBound_2() { return &___RightBound_2; }
+	inline void set_RightBound_2(TEdge_t2833881561 * value)
+	{
+		___RightBound_2 = value;
+		Il2CppCodeGenWriteBarrier((&___RightBound_2), value);
+	}
+
+	inline static int32_t get_offset_of_Next_3() { return static_cast<int32_t>(offsetof(LocalMinima_t1268459690, ___Next_3)); }
+	inline LocalMinima_t1268459690 * get_Next_3() const { return ___Next_3; }
+	inline LocalMinima_t1268459690 ** get_address_of_Next_3() { return &___Next_3; }
+	inline void set_Next_3(LocalMinima_t1268459690 * value)
+	{
+		___Next_3 = value;
+		Il2CppCodeGenWriteBarrier((&___Next_3), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // LOCALMINIMA_T1268459690_H
+#ifndef MYINTERSECTNODESORT_T2719717089_H
+#define MYINTERSECTNODESORT_T2719717089_H
+#ifdef __clang__
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
+<<<<<<< HEAD
 // Mapbox.Utils.Compression
 struct  Compression_t35425688  : public RuntimeObject
+=======
+// Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/MyIntersectNodeSort
+struct  MyIntersectNodeSort_t2719717089  : public RuntimeObject
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 public:
 
@@ -1062,15 +1360,22 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+<<<<<<< HEAD
 #endif // COMPRESSION_T35425688_H
 #ifndef BINDING_T1831577297_H
 #define BINDING_T1831577297_H
+=======
+#endif // MYINTERSECTNODESORT_T2719717089_H
+#ifndef COLUMNINFO_T4209372729_H
+#define COLUMNINFO_T4209372729_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
+<<<<<<< HEAD
 // SQLite4Unity3d.SQLiteCommand/Binding
 struct  Binding_t1831577297  : public RuntimeObject
 {
@@ -1084,6 +1389,19 @@ public:
 
 public:
 	inline static int32_t get_offset_of_U3CNameU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(Binding_t1831577297, ___U3CNameU3Ek__BackingField_0)); }
+=======
+// SQLite4Unity3d.SQLiteConnection/ColumnInfo
+struct  ColumnInfo_t4209372729  : public RuntimeObject
+{
+public:
+	// System.String SQLite4Unity3d.SQLiteConnection/ColumnInfo::<Name>k__BackingField
+	String_t* ___U3CNameU3Ek__BackingField_0;
+	// System.Int32 SQLite4Unity3d.SQLiteConnection/ColumnInfo::<notnull>k__BackingField
+	int32_t ___U3CnotnullU3Ek__BackingField_1;
+
+public:
+	inline static int32_t get_offset_of_U3CNameU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(ColumnInfo_t4209372729, ___U3CNameU3Ek__BackingField_0)); }
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 	inline String_t* get_U3CNameU3Ek__BackingField_0() const { return ___U3CNameU3Ek__BackingField_0; }
 	inline String_t** get_address_of_U3CNameU3Ek__BackingField_0() { return &___U3CNameU3Ek__BackingField_0; }
 	inline void set_U3CNameU3Ek__BackingField_0(String_t* value)
@@ -1092,6 +1410,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___U3CNameU3Ek__BackingField_0), value);
 	}
 
+<<<<<<< HEAD
 	inline static int32_t get_offset_of_U3CValueU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(Binding_t1831577297, ___U3CValueU3Ek__BackingField_1)); }
 	inline RuntimeObject * get_U3CValueU3Ek__BackingField_1() const { return ___U3CValueU3Ek__BackingField_1; }
 	inline RuntimeObject ** get_address_of_U3CValueU3Ek__BackingField_1() { return &___U3CValueU3Ek__BackingField_1; }
@@ -1107,13 +1426,98 @@ public:
 	inline void set_U3CIndexU3Ek__BackingField_2(int32_t value)
 	{
 		___U3CIndexU3Ek__BackingField_2 = value;
+=======
+	inline static int32_t get_offset_of_U3CnotnullU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(ColumnInfo_t4209372729, ___U3CnotnullU3Ek__BackingField_1)); }
+	inline int32_t get_U3CnotnullU3Ek__BackingField_1() const { return ___U3CnotnullU3Ek__BackingField_1; }
+	inline int32_t* get_address_of_U3CnotnullU3Ek__BackingField_1() { return &___U3CnotnullU3Ek__BackingField_1; }
+	inline void set_U3CnotnullU3Ek__BackingField_1(int32_t value)
+	{
+		___U3CnotnullU3Ek__BackingField_1 = value;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+#endif // COLUMNINFO_T4209372729_H
+#ifndef METADATAREQUIRED_T1570823098_H
+#define METADATAREQUIRED_T1570823098_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Mapbox.Platform.MbTiles.MetaDataRequired
+struct  MetaDataRequired_t1570823098  : public RuntimeObject
+{
+public:
+	// System.String Mapbox.Platform.MbTiles.MetaDataRequired::<TilesetName>k__BackingField
+	String_t* ___U3CTilesetNameU3Ek__BackingField_0;
+	// System.String Mapbox.Platform.MbTiles.MetaDataRequired::<Type>k__BackingField
+	String_t* ___U3CTypeU3Ek__BackingField_1;
+	// System.Int32 Mapbox.Platform.MbTiles.MetaDataRequired::<Version>k__BackingField
+	int32_t ___U3CVersionU3Ek__BackingField_2;
+	// System.String Mapbox.Platform.MbTiles.MetaDataRequired::<Description>k__BackingField
+	String_t* ___U3CDescriptionU3Ek__BackingField_3;
+	// System.String Mapbox.Platform.MbTiles.MetaDataRequired::<Format>k__BackingField
+	String_t* ___U3CFormatU3Ek__BackingField_4;
+
+public:
+	inline static int32_t get_offset_of_U3CTilesetNameU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(MetaDataRequired_t1570823098, ___U3CTilesetNameU3Ek__BackingField_0)); }
+	inline String_t* get_U3CTilesetNameU3Ek__BackingField_0() const { return ___U3CTilesetNameU3Ek__BackingField_0; }
+	inline String_t** get_address_of_U3CTilesetNameU3Ek__BackingField_0() { return &___U3CTilesetNameU3Ek__BackingField_0; }
+	inline void set_U3CTilesetNameU3Ek__BackingField_0(String_t* value)
+	{
+		___U3CTilesetNameU3Ek__BackingField_0 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CTilesetNameU3Ek__BackingField_0), value);
+	}
+
+	inline static int32_t get_offset_of_U3CTypeU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(MetaDataRequired_t1570823098, ___U3CTypeU3Ek__BackingField_1)); }
+	inline String_t* get_U3CTypeU3Ek__BackingField_1() const { return ___U3CTypeU3Ek__BackingField_1; }
+	inline String_t** get_address_of_U3CTypeU3Ek__BackingField_1() { return &___U3CTypeU3Ek__BackingField_1; }
+	inline void set_U3CTypeU3Ek__BackingField_1(String_t* value)
+	{
+		___U3CTypeU3Ek__BackingField_1 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CTypeU3Ek__BackingField_1), value);
+	}
+
+	inline static int32_t get_offset_of_U3CVersionU3Ek__BackingField_2() { return static_cast<int32_t>(offsetof(MetaDataRequired_t1570823098, ___U3CVersionU3Ek__BackingField_2)); }
+	inline int32_t get_U3CVersionU3Ek__BackingField_2() const { return ___U3CVersionU3Ek__BackingField_2; }
+	inline int32_t* get_address_of_U3CVersionU3Ek__BackingField_2() { return &___U3CVersionU3Ek__BackingField_2; }
+	inline void set_U3CVersionU3Ek__BackingField_2(int32_t value)
+	{
+		___U3CVersionU3Ek__BackingField_2 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CDescriptionU3Ek__BackingField_3() { return static_cast<int32_t>(offsetof(MetaDataRequired_t1570823098, ___U3CDescriptionU3Ek__BackingField_3)); }
+	inline String_t* get_U3CDescriptionU3Ek__BackingField_3() const { return ___U3CDescriptionU3Ek__BackingField_3; }
+	inline String_t** get_address_of_U3CDescriptionU3Ek__BackingField_3() { return &___U3CDescriptionU3Ek__BackingField_3; }
+	inline void set_U3CDescriptionU3Ek__BackingField_3(String_t* value)
+	{
+		___U3CDescriptionU3Ek__BackingField_3 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CDescriptionU3Ek__BackingField_3), value);
+	}
+
+	inline static int32_t get_offset_of_U3CFormatU3Ek__BackingField_4() { return static_cast<int32_t>(offsetof(MetaDataRequired_t1570823098, ___U3CFormatU3Ek__BackingField_4)); }
+	inline String_t* get_U3CFormatU3Ek__BackingField_4() const { return ___U3CFormatU3Ek__BackingField_4; }
+	inline String_t** get_address_of_U3CFormatU3Ek__BackingField_4() { return &___U3CFormatU3Ek__BackingField_4; }
+	inline void set_U3CFormatU3Ek__BackingField_4(String_t* value)
+	{
+		___U3CFormatU3Ek__BackingField_4 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CFormatU3Ek__BackingField_4), value);
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+<<<<<<< HEAD
 #endif // BINDING_T1831577297_H
+=======
+#endif // METADATAREQUIRED_T1570823098_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifndef METADATA_T2735697541_H
 #define METADATA_T2735697541_H
 #ifdef __clang__
@@ -1426,14 +1830,20 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // MEMORYCACHE_T1161932639_H
+<<<<<<< HEAD
 #ifndef MBTILESCACHE_T4235426636_H
 #define MBTILESCACHE_T4235426636_H
+=======
+#ifndef TILES_T1582344175_H
+#define TILES_T1582344175_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
+<<<<<<< HEAD
 // Mapbox.Platform.Cache.MbTilesCache
 struct  MbTilesCache_t4235426636  : public RuntimeObject
 {
@@ -1480,21 +1890,85 @@ public:
 	{
 		____mbTiles_3 = value;
 		Il2CppCodeGenWriteBarrier((&____mbTiles_3), value);
+=======
+// Mapbox.Platform.MbTiles.tiles
+struct  tiles_t1582344175  : public RuntimeObject
+{
+public:
+	// System.Int32 Mapbox.Platform.MbTiles.tiles::<zoom_level>k__BackingField
+	int32_t ___U3Czoom_levelU3Ek__BackingField_0;
+	// System.Int64 Mapbox.Platform.MbTiles.tiles::<tile_column>k__BackingField
+	int64_t ___U3Ctile_columnU3Ek__BackingField_1;
+	// System.Int64 Mapbox.Platform.MbTiles.tiles::<tile_row>k__BackingField
+	int64_t ___U3Ctile_rowU3Ek__BackingField_2;
+	// System.Byte[] Mapbox.Platform.MbTiles.tiles::<tile_data>k__BackingField
+	ByteU5BU5D_t3397334013* ___U3Ctile_dataU3Ek__BackingField_3;
+	// System.Int32 Mapbox.Platform.MbTiles.tiles::<timestamp>k__BackingField
+	int32_t ___U3CtimestampU3Ek__BackingField_4;
+
+public:
+	inline static int32_t get_offset_of_U3Czoom_levelU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(tiles_t1582344175, ___U3Czoom_levelU3Ek__BackingField_0)); }
+	inline int32_t get_U3Czoom_levelU3Ek__BackingField_0() const { return ___U3Czoom_levelU3Ek__BackingField_0; }
+	inline int32_t* get_address_of_U3Czoom_levelU3Ek__BackingField_0() { return &___U3Czoom_levelU3Ek__BackingField_0; }
+	inline void set_U3Czoom_levelU3Ek__BackingField_0(int32_t value)
+	{
+		___U3Czoom_levelU3Ek__BackingField_0 = value;
+	}
+
+	inline static int32_t get_offset_of_U3Ctile_columnU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(tiles_t1582344175, ___U3Ctile_columnU3Ek__BackingField_1)); }
+	inline int64_t get_U3Ctile_columnU3Ek__BackingField_1() const { return ___U3Ctile_columnU3Ek__BackingField_1; }
+	inline int64_t* get_address_of_U3Ctile_columnU3Ek__BackingField_1() { return &___U3Ctile_columnU3Ek__BackingField_1; }
+	inline void set_U3Ctile_columnU3Ek__BackingField_1(int64_t value)
+	{
+		___U3Ctile_columnU3Ek__BackingField_1 = value;
+	}
+
+	inline static int32_t get_offset_of_U3Ctile_rowU3Ek__BackingField_2() { return static_cast<int32_t>(offsetof(tiles_t1582344175, ___U3Ctile_rowU3Ek__BackingField_2)); }
+	inline int64_t get_U3Ctile_rowU3Ek__BackingField_2() const { return ___U3Ctile_rowU3Ek__BackingField_2; }
+	inline int64_t* get_address_of_U3Ctile_rowU3Ek__BackingField_2() { return &___U3Ctile_rowU3Ek__BackingField_2; }
+	inline void set_U3Ctile_rowU3Ek__BackingField_2(int64_t value)
+	{
+		___U3Ctile_rowU3Ek__BackingField_2 = value;
+	}
+
+	inline static int32_t get_offset_of_U3Ctile_dataU3Ek__BackingField_3() { return static_cast<int32_t>(offsetof(tiles_t1582344175, ___U3Ctile_dataU3Ek__BackingField_3)); }
+	inline ByteU5BU5D_t3397334013* get_U3Ctile_dataU3Ek__BackingField_3() const { return ___U3Ctile_dataU3Ek__BackingField_3; }
+	inline ByteU5BU5D_t3397334013** get_address_of_U3Ctile_dataU3Ek__BackingField_3() { return &___U3Ctile_dataU3Ek__BackingField_3; }
+	inline void set_U3Ctile_dataU3Ek__BackingField_3(ByteU5BU5D_t3397334013* value)
+	{
+		___U3Ctile_dataU3Ek__BackingField_3 = value;
+		Il2CppCodeGenWriteBarrier((&___U3Ctile_dataU3Ek__BackingField_3), value);
+	}
+
+	inline static int32_t get_offset_of_U3CtimestampU3Ek__BackingField_4() { return static_cast<int32_t>(offsetof(tiles_t1582344175, ___U3CtimestampU3Ek__BackingField_4)); }
+	inline int32_t get_U3CtimestampU3Ek__BackingField_4() const { return ___U3CtimestampU3Ek__BackingField_4; }
+	inline int32_t* get_address_of_U3CtimestampU3Ek__BackingField_4() { return &___U3CtimestampU3Ek__BackingField_4; }
+	inline void set_U3CtimestampU3Ek__BackingField_4(int32_t value)
+	{
+		___U3CtimestampU3Ek__BackingField_4 = value;
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+<<<<<<< HEAD
 #endif // MBTILESCACHE_T4235426636_H
 #ifndef METADATAREQUIRED_T1570823098_H
 #define METADATAREQUIRED_T1570823098_H
+=======
+#endif // TILES_T1582344175_H
+#ifndef EXCEPTION_T1927440687_H
+#define EXCEPTION_T1927440687_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
+<<<<<<< HEAD
 // Mapbox.Platform.MbTiles.MetaDataRequired
 struct  MetaDataRequired_t1570823098  : public RuntimeObject
 {
@@ -1600,6 +2074,40 @@ public:
 	inline IntPtrU5BU5D_t169632028* get_trace_ips_0() const { return ___trace_ips_0; }
 	inline IntPtrU5BU5D_t169632028** get_address_of_trace_ips_0() { return &___trace_ips_0; }
 	inline void set_trace_ips_0(IntPtrU5BU5D_t169632028* value)
+=======
+// System.Exception
+struct  Exception_t1927440687  : public RuntimeObject
+{
+public:
+	// System.IntPtr[] System.Exception::trace_ips
+	IntPtrU5BU5D_t169632028* ___trace_ips_0;
+	// System.Exception System.Exception::inner_exception
+	Exception_t1927440687 * ___inner_exception_1;
+	// System.String System.Exception::message
+	String_t* ___message_2;
+	// System.String System.Exception::help_link
+	String_t* ___help_link_3;
+	// System.String System.Exception::class_name
+	String_t* ___class_name_4;
+	// System.String System.Exception::stack_trace
+	String_t* ___stack_trace_5;
+	// System.String System.Exception::_remoteStackTraceString
+	String_t* ____remoteStackTraceString_6;
+	// System.Int32 System.Exception::remote_stack_index
+	int32_t ___remote_stack_index_7;
+	// System.Int32 System.Exception::hresult
+	int32_t ___hresult_8;
+	// System.String System.Exception::source
+	String_t* ___source_9;
+	// System.Collections.IDictionary System.Exception::_data
+	RuntimeObject* ____data_10;
+
+public:
+	inline static int32_t get_offset_of_trace_ips_0() { return static_cast<int32_t>(offsetof(Exception_t1927440687, ___trace_ips_0)); }
+	inline IntPtrU5BU5D_t169632028* get_trace_ips_0() const { return ___trace_ips_0; }
+	inline IntPtrU5BU5D_t169632028** get_address_of_trace_ips_0() { return &___trace_ips_0; }
+	inline void set_trace_ips_0(IntPtrU5BU5D_t169632028* value)
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 	{
 		___trace_ips_0 = value;
 		Il2CppCodeGenWriteBarrier((&___trace_ips_0), value);
@@ -1840,36 +2348,101 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // U3CNOTNULLCONSTRAINTVIOLATIONEXCEPTIONU3EC__ANONSTOREY0_T1241528588_H
+<<<<<<< HEAD
 #ifndef VECTORTILEFEATUREEXTENSIONS_T471493353_H
 #define VECTORTILEFEATUREEXTENSIONS_T471493353_H
+=======
+#ifndef U3CGEOMETRYASWGS84U3EC__ANONSTOREY0_T1616374963_H
+#define U3CGEOMETRYASWGS84U3EC__ANONSTOREY0_T1616374963_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
+<<<<<<< HEAD
 // Mapbox.VectorTile.ExtensionMethods.VectorTileFeatureExtensions
 struct  VectorTileFeatureExtensions_t471493353  : public RuntimeObject
 {
 public:
 
 public:
+=======
+// Mapbox.VectorTile.ExtensionMethods.VectorTileFeatureExtensions/<GeometryAsWgs84>c__AnonStorey0
+struct  U3CGeometryAsWgs84U3Ec__AnonStorey0_t1616374963  : public RuntimeObject
+{
+public:
+	// System.UInt64 Mapbox.VectorTile.ExtensionMethods.VectorTileFeatureExtensions/<GeometryAsWgs84>c__AnonStorey0::zoom
+	uint64_t ___zoom_0;
+	// System.UInt64 Mapbox.VectorTile.ExtensionMethods.VectorTileFeatureExtensions/<GeometryAsWgs84>c__AnonStorey0::tileColumn
+	uint64_t ___tileColumn_1;
+	// System.UInt64 Mapbox.VectorTile.ExtensionMethods.VectorTileFeatureExtensions/<GeometryAsWgs84>c__AnonStorey0::tileRow
+	uint64_t ___tileRow_2;
+	// Mapbox.VectorTile.VectorTileFeature Mapbox.VectorTile.ExtensionMethods.VectorTileFeatureExtensions/<GeometryAsWgs84>c__AnonStorey0::feature
+	VectorTileFeature_t227912335 * ___feature_3;
+
+public:
+	inline static int32_t get_offset_of_zoom_0() { return static_cast<int32_t>(offsetof(U3CGeometryAsWgs84U3Ec__AnonStorey0_t1616374963, ___zoom_0)); }
+	inline uint64_t get_zoom_0() const { return ___zoom_0; }
+	inline uint64_t* get_address_of_zoom_0() { return &___zoom_0; }
+	inline void set_zoom_0(uint64_t value)
+	{
+		___zoom_0 = value;
+	}
+
+	inline static int32_t get_offset_of_tileColumn_1() { return static_cast<int32_t>(offsetof(U3CGeometryAsWgs84U3Ec__AnonStorey0_t1616374963, ___tileColumn_1)); }
+	inline uint64_t get_tileColumn_1() const { return ___tileColumn_1; }
+	inline uint64_t* get_address_of_tileColumn_1() { return &___tileColumn_1; }
+	inline void set_tileColumn_1(uint64_t value)
+	{
+		___tileColumn_1 = value;
+	}
+
+	inline static int32_t get_offset_of_tileRow_2() { return static_cast<int32_t>(offsetof(U3CGeometryAsWgs84U3Ec__AnonStorey0_t1616374963, ___tileRow_2)); }
+	inline uint64_t get_tileRow_2() const { return ___tileRow_2; }
+	inline uint64_t* get_address_of_tileRow_2() { return &___tileRow_2; }
+	inline void set_tileRow_2(uint64_t value)
+	{
+		___tileRow_2 = value;
+	}
+
+	inline static int32_t get_offset_of_feature_3() { return static_cast<int32_t>(offsetof(U3CGeometryAsWgs84U3Ec__AnonStorey0_t1616374963, ___feature_3)); }
+	inline VectorTileFeature_t227912335 * get_feature_3() const { return ___feature_3; }
+	inline VectorTileFeature_t227912335 ** get_address_of_feature_3() { return &___feature_3; }
+	inline void set_feature_3(VectorTileFeature_t227912335 * value)
+	{
+		___feature_3 = value;
+		Il2CppCodeGenWriteBarrier((&___feature_3), value);
+	}
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+<<<<<<< HEAD
 #endif // VECTORTILEFEATUREEXTENSIONS_T471493353_H
 #ifndef ATTRIBUTE_T542643598_H
 #define ATTRIBUTE_T542643598_H
+=======
+#endif // U3CGEOMETRYASWGS84U3EC__ANONSTOREY0_T1616374963_H
+#ifndef VECTORTILEFEATUREEXTENSIONS_T471493353_H
+#define VECTORTILEFEATUREEXTENSIONS_T471493353_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
+<<<<<<< HEAD
 // System.Attribute
 struct  Attribute_t542643598  : public RuntimeObject
+=======
+// Mapbox.VectorTile.ExtensionMethods.VectorTileFeatureExtensions
+struct  VectorTileFeatureExtensions_t471493353  : public RuntimeObject
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 public:
 
@@ -1879,15 +2452,22 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+<<<<<<< HEAD
 #endif // ATTRIBUTE_T542643598_H
 #ifndef TILES_T1582344175_H
 #define TILES_T1582344175_H
+=======
+#endif // VECTORTILEFEATUREEXTENSIONS_T471493353_H
+#ifndef ATTRIBUTE_T542643598_H
+#define ATTRIBUTE_T542643598_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
+<<<<<<< HEAD
 // Mapbox.Platform.MbTiles.tiles
 struct  tiles_t1582344175  : public RuntimeObject
 {
@@ -1944,12 +2524,24 @@ public:
 	{
 		___U3CtimestampU3Ek__BackingField_4 = value;
 	}
+=======
+// System.Attribute
+struct  Attribute_t542643598  : public RuntimeObject
+{
+public:
+
+public:
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+<<<<<<< HEAD
 #endif // TILES_T1582344175_H
+=======
+#endif // ATTRIBUTE_T542643598_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifndef RESOURCE_T2839633034_H
 #define RESOURCE_T2839633034_H
 #ifdef __clang__
@@ -2020,14 +2612,20 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // RESOURCE_T2839633034_H
+<<<<<<< HEAD
 #ifndef U3CGEOMETRYASWGS84U3EC__ANONSTOREY0_T1616374963_H
 #define U3CGEOMETRYASWGS84U3EC__ANONSTOREY0_T1616374963_H
+=======
+#ifndef MATHD_T3856345012_H
+#define MATHD_T3856345012_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
+<<<<<<< HEAD
 // Mapbox.VectorTile.ExtensionMethods.VectorTileFeatureExtensions/<GeometryAsWgs84>c__AnonStorey0
 struct  U3CGeometryAsWgs84U3Ec__AnonStorey0_t1616374963  : public RuntimeObject
 {
@@ -2073,13 +2671,109 @@ public:
 	{
 		___feature_3 = value;
 		Il2CppCodeGenWriteBarrier((&___feature_3), value);
+=======
+// Mapbox.Utils.Mathd
+struct  Mathd_t3856345012 
+{
+public:
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Mathd_t3856345012__padding[1];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // MATHD_T3856345012_H
+#ifndef INTPOINT_T2482359717_H
+#define INTPOINT_T2482359717_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/IntPoint
+struct  IntPoint_t2482359717 
+{
+public:
+	// System.Int64 Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/IntPoint::X
+	int64_t ___X_0;
+	// System.Int64 Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/IntPoint::Y
+	int64_t ___Y_1;
+
+public:
+	inline static int32_t get_offset_of_X_0() { return static_cast<int32_t>(offsetof(IntPoint_t2482359717, ___X_0)); }
+	inline int64_t get_X_0() const { return ___X_0; }
+	inline int64_t* get_address_of_X_0() { return &___X_0; }
+	inline void set_X_0(int64_t value)
+	{
+		___X_0 = value;
+	}
+
+	inline static int32_t get_offset_of_Y_1() { return static_cast<int32_t>(offsetof(IntPoint_t2482359717, ___Y_1)); }
+	inline int64_t get_Y_1() const { return ___Y_1; }
+	inline int64_t* get_address_of_Y_1() { return &___Y_1; }
+	inline void set_Y_1(int64_t value)
+	{
+		___Y_1 = value;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+#endif // INTPOINT_T2482359717_H
+#ifndef VECTOR2D_T3730485367_H
+#define VECTOR2D_T3730485367_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Mapbox.Utils.Vector2d
+struct  Vector2d_t3730485367 
+{
+public:
+	// System.Double Mapbox.Utils.Vector2d::x
+	double ___x_1;
+	// System.Double Mapbox.Utils.Vector2d::y
+	double ___y_2;
+
+public:
+	inline static int32_t get_offset_of_x_1() { return static_cast<int32_t>(offsetof(Vector2d_t3730485367, ___x_1)); }
+	inline double get_x_1() const { return ___x_1; }
+	inline double* get_address_of_x_1() { return &___x_1; }
+	inline void set_x_1(double value)
+	{
+		___x_1 = value;
+	}
+
+	inline static int32_t get_offset_of_y_2() { return static_cast<int32_t>(offsetof(Vector2d_t3730485367, ___y_2)); }
+	inline double get_y_2() const { return ___y_2; }
+	inline double* get_address_of_y_2() { return &___y_2; }
+	inline void set_y_2(double value)
+	{
+		___y_2 = value;
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+<<<<<<< HEAD
 #endif // U3CGEOMETRYASWGS84U3EC__ANONSTOREY0_T1616374963_H
+=======
+#endif // VECTOR2D_T3730485367_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifndef DOUBLEPOINT_T603255911_H
 #define DOUBLEPOINT_T603255911_H
 #ifdef __clang__
@@ -2148,6 +2842,7 @@ public:
 	inline static int32_t get_offset_of_lo_1() { return static_cast<int32_t>(offsetof(Int128_t3136052886, ___lo_1)); }
 	inline uint64_t get_lo_1() const { return ___lo_1; }
 	inline uint64_t* get_address_of_lo_1() { return &___lo_1; }
+<<<<<<< HEAD
 	inline void set_lo_1(uint64_t value)
 	{
 		___lo_1 = value;
@@ -2249,13 +2944,22 @@ public:
 	inline void set_y_2(double value)
 	{
 		___y_2 = value;
+=======
+	inline void set_lo_1(uint64_t value)
+	{
+		___lo_1 = value;
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+<<<<<<< HEAD
 #endif // VECTOR2D_T3730485367_H
+=======
+#endif // INT128_T3136052886_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifndef NULLABLE_1_T334943763_H
 #define NULLABLE_1_T334943763_H
 #ifdef __clang__
@@ -2295,6 +2999,7 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // NULLABLE_1_T334943763_H
+<<<<<<< HEAD
 #ifndef MATHD_T3856345012_H
 #define MATHD_T3856345012_H
 #ifdef __clang__
@@ -2322,6 +3027,8 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // MATHD_T3856345012_H
+=======
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifndef ENUM_T2459695545_H
 #define ENUM_T2459695545_H
 #ifdef __clang__
@@ -2557,14 +3264,20 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // COLUMNATTRIBUTE_T1775258172_H
+<<<<<<< HEAD
 #ifndef INTPOINT_T2482359717_H
 #define INTPOINT_T2482359717_H
+=======
+#ifndef INTRECT_T2996071385_H
+#define INTRECT_T2996071385_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
+<<<<<<< HEAD
 // Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/IntPoint
 struct  IntPoint_t2482359717 
 {
@@ -2589,13 +3302,63 @@ public:
 	inline void set_Y_1(int64_t value)
 	{
 		___Y_1 = value;
+=======
+// Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/IntRect
+struct  IntRect_t2996071385 
+{
+public:
+	// System.Int64 Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/IntRect::left
+	int64_t ___left_0;
+	// System.Int64 Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/IntRect::top
+	int64_t ___top_1;
+	// System.Int64 Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/IntRect::right
+	int64_t ___right_2;
+	// System.Int64 Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/IntRect::bottom
+	int64_t ___bottom_3;
+
+public:
+	inline static int32_t get_offset_of_left_0() { return static_cast<int32_t>(offsetof(IntRect_t2996071385, ___left_0)); }
+	inline int64_t get_left_0() const { return ___left_0; }
+	inline int64_t* get_address_of_left_0() { return &___left_0; }
+	inline void set_left_0(int64_t value)
+	{
+		___left_0 = value;
+	}
+
+	inline static int32_t get_offset_of_top_1() { return static_cast<int32_t>(offsetof(IntRect_t2996071385, ___top_1)); }
+	inline int64_t get_top_1() const { return ___top_1; }
+	inline int64_t* get_address_of_top_1() { return &___top_1; }
+	inline void set_top_1(int64_t value)
+	{
+		___top_1 = value;
+	}
+
+	inline static int32_t get_offset_of_right_2() { return static_cast<int32_t>(offsetof(IntRect_t2996071385, ___right_2)); }
+	inline int64_t get_right_2() const { return ___right_2; }
+	inline int64_t* get_address_of_right_2() { return &___right_2; }
+	inline void set_right_2(int64_t value)
+	{
+		___right_2 = value;
+	}
+
+	inline static int32_t get_offset_of_bottom_3() { return static_cast<int32_t>(offsetof(IntRect_t2996071385, ___bottom_3)); }
+	inline int64_t get_bottom_3() const { return ___bottom_3; }
+	inline int64_t* get_address_of_bottom_3() { return &___bottom_3; }
+	inline void set_bottom_3(int64_t value)
+	{
+		___bottom_3 = value;
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+<<<<<<< HEAD
 #endif // INTPOINT_T2482359717_H
+=======
+#endif // INTRECT_T2996071385_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifndef TIMESPAN_T3430258949_H
 #define TIMESPAN_T3430258949_H
 #ifdef __clang__
@@ -2857,6 +3620,7 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // INTPTR_T_H
+<<<<<<< HEAD
 #ifndef PRIMARYKEYATTRIBUTE_T1888986135_H
 #define PRIMARYKEYATTRIBUTE_T1888986135_H
 #ifdef __clang__
@@ -2877,6 +3641,8 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // PRIMARYKEYATTRIBUTE_T1888986135_H
+=======
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifndef IGNOREATTRIBUTE_T2062332784_H
 #define IGNOREATTRIBUTE_T2062332784_H
 #ifdef __clang__
@@ -2926,14 +3692,20 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // MAXLENGTHATTRIBUTE_T3545664484_H
+<<<<<<< HEAD
 #ifndef COLLATIONATTRIBUTE_T3767033145_H
 #define COLLATIONATTRIBUTE_T3767033145_H
+=======
+#ifndef CANONICALTILEID_T3196769505_H
+#define CANONICALTILEID_T3196769505_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
+<<<<<<< HEAD
 // SQLite4Unity3d.CollationAttribute
 struct  CollationAttribute_t3767033145  : public Attribute_t542643598
 {
@@ -2949,13 +3721,53 @@ public:
 	{
 		___U3CValueU3Ek__BackingField_0 = value;
 		Il2CppCodeGenWriteBarrier((&___U3CValueU3Ek__BackingField_0), value);
+=======
+// Mapbox.Map.CanonicalTileId
+struct  CanonicalTileId_t3196769505 
+{
+public:
+	// System.Int32 Mapbox.Map.CanonicalTileId::Z
+	int32_t ___Z_0;
+	// System.Int32 Mapbox.Map.CanonicalTileId::X
+	int32_t ___X_1;
+	// System.Int32 Mapbox.Map.CanonicalTileId::Y
+	int32_t ___Y_2;
+
+public:
+	inline static int32_t get_offset_of_Z_0() { return static_cast<int32_t>(offsetof(CanonicalTileId_t3196769505, ___Z_0)); }
+	inline int32_t get_Z_0() const { return ___Z_0; }
+	inline int32_t* get_address_of_Z_0() { return &___Z_0; }
+	inline void set_Z_0(int32_t value)
+	{
+		___Z_0 = value;
+	}
+
+	inline static int32_t get_offset_of_X_1() { return static_cast<int32_t>(offsetof(CanonicalTileId_t3196769505, ___X_1)); }
+	inline int32_t get_X_1() const { return ___X_1; }
+	inline int32_t* get_address_of_X_1() { return &___X_1; }
+	inline void set_X_1(int32_t value)
+	{
+		___X_1 = value;
+	}
+
+	inline static int32_t get_offset_of_Y_2() { return static_cast<int32_t>(offsetof(CanonicalTileId_t3196769505, ___Y_2)); }
+	inline int32_t get_Y_2() const { return ___Y_2; }
+	inline int32_t* get_address_of_Y_2() { return &___Y_2; }
+	inline void set_Y_2(int32_t value)
+	{
+		___Y_2 = value;
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+<<<<<<< HEAD
 #endif // COLLATIONATTRIBUTE_T3767033145_H
+=======
+#endif // CANONICALTILEID_T3196769505_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifndef NOTNULLATTRIBUTE_T3892473118_H
 #define NOTNULLATTRIBUTE_T3892473118_H
 #ifdef __clang__
@@ -3026,6 +3838,39 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // INDEXEDATTRIBUTE_T2684901191_H
+<<<<<<< HEAD
+=======
+#ifndef COLLATIONATTRIBUTE_T3767033145_H
+#define COLLATIONATTRIBUTE_T3767033145_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// SQLite4Unity3d.CollationAttribute
+struct  CollationAttribute_t3767033145  : public Attribute_t542643598
+{
+public:
+	// System.String SQLite4Unity3d.CollationAttribute::<Value>k__BackingField
+	String_t* ___U3CValueU3Ek__BackingField_0;
+
+public:
+	inline static int32_t get_offset_of_U3CValueU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(CollationAttribute_t3767033145, ___U3CValueU3Ek__BackingField_0)); }
+	inline String_t* get_U3CValueU3Ek__BackingField_0() const { return ___U3CValueU3Ek__BackingField_0; }
+	inline String_t** get_address_of_U3CValueU3Ek__BackingField_0() { return &___U3CValueU3Ek__BackingField_0; }
+	inline void set_U3CValueU3Ek__BackingField_0(String_t* value)
+	{
+		___U3CValueU3Ek__BackingField_0 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CValueU3Ek__BackingField_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COLLATIONATTRIBUTE_T3767033145_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifndef AUTOINCREMENTATTRIBUTE_T2551385678_H
 #define AUTOINCREMENTATTRIBUTE_T2551385678_H
 #ifdef __clang__
@@ -3124,14 +3969,20 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // NULLABLE_1_T3467111648_H
+<<<<<<< HEAD
 #ifndef CANONICALTILEID_T3196769505_H
 #define CANONICALTILEID_T3196769505_H
+=======
+#ifndef PRIMARYKEYATTRIBUTE_T1888986135_H
+#define PRIMARYKEYATTRIBUTE_T1888986135_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
+<<<<<<< HEAD
 // Mapbox.Map.CanonicalTileId
 struct  CanonicalTileId_t3196769505 
 {
@@ -3167,20 +4018,35 @@ public:
 	{
 		___Y_2 = value;
 	}
+=======
+// SQLite4Unity3d.PrimaryKeyAttribute
+struct  PrimaryKeyAttribute_t1888986135  : public Attribute_t542643598
+{
+public:
+
+public:
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+<<<<<<< HEAD
 #endif // CANONICALTILEID_T3196769505_H
 #ifndef CLIPTYPE_T2377340222_H
 #define CLIPTYPE_T2377340222_H
+=======
+#endif // PRIMARYKEYATTRIBUTE_T1888986135_H
+#ifndef POLYTYPE_T4167079442_H
+#define POLYTYPE_T4167079442_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
+<<<<<<< HEAD
 // Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/ClipType
 struct  ClipType_t2377340222 
 {
@@ -3190,6 +4056,17 @@ public:
 
 public:
 	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(ClipType_t2377340222, ___value___1)); }
+=======
+// Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/PolyType
+struct  PolyType_t4167079442 
+{
+public:
+	// System.Int32 Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/PolyType::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(PolyType_t4167079442, ___value___1)); }
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 	inline int32_t get_value___1() const { return ___value___1; }
 	inline int32_t* get_address_of_value___1() { return &___value___1; }
 	inline void set_value___1(int32_t value)
@@ -3201,15 +4078,22 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+<<<<<<< HEAD
 #endif // CLIPTYPE_T2377340222_H
 #ifndef ENDTYPE_T2757989145_H
 #define ENDTYPE_T2757989145_H
+=======
+#endif // POLYTYPE_T4167079442_H
+#ifndef CLIPTYPE_T2377340222_H
+#define CLIPTYPE_T2377340222_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
+<<<<<<< HEAD
 // Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/EndType
 struct  EndType_t2757989145 
 {
@@ -3219,6 +4103,17 @@ public:
 
 public:
 	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(EndType_t2757989145, ___value___1)); }
+=======
+// Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/ClipType
+struct  ClipType_t2377340222 
+{
+public:
+	// System.Int32 Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/ClipType::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(ClipType_t2377340222, ___value___1)); }
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 	inline int32_t get_value___1() const { return ___value___1; }
 	inline int32_t* get_address_of_value___1() { return &___value___1; }
 	inline void set_value___1(int32_t value)
@@ -3230,15 +4125,22 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+<<<<<<< HEAD
 #endif // ENDTYPE_T2757989145_H
 #ifndef POLYFILLTYPE_T1761575471_H
 #define POLYFILLTYPE_T1761575471_H
+=======
+#endif // CLIPTYPE_T2377340222_H
+#ifndef ENDTYPE_T2757989145_H
+#define ENDTYPE_T2757989145_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
+<<<<<<< HEAD
 // Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/PolyFillType
 struct  PolyFillType_t1761575471 
 {
@@ -3248,6 +4150,17 @@ public:
 
 public:
 	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(PolyFillType_t1761575471, ___value___1)); }
+=======
+// Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/EndType
+struct  EndType_t2757989145 
+{
+public:
+	// System.Int32 Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/EndType::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(EndType_t2757989145, ___value___1)); }
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 	inline int32_t get_value___1() const { return ___value___1; }
 	inline int32_t* get_address_of_value___1() { return &___value___1; }
 	inline void set_value___1(int32_t value)
@@ -3259,15 +4172,22 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+<<<<<<< HEAD
 #endif // POLYFILLTYPE_T1761575471_H
 #ifndef EDGESIDE_T290854666_H
 #define EDGESIDE_T290854666_H
+=======
+#endif // ENDTYPE_T2757989145_H
+#ifndef INTERSECTNODE_T2292763627_H
+#define INTERSECTNODE_T2292763627_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
+<<<<<<< HEAD
 // Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/EdgeSide
 struct  EdgeSide_t290854666 
 {
@@ -3282,79 +4202,7 @@ public:
 	inline void set_value___1(int32_t value)
 	{
 		___value___1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // EDGESIDE_T290854666_H
-#ifndef POLYTYPE_T4167079442_H
-#define POLYTYPE_T4167079442_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/PolyType
-struct  PolyType_t4167079442 
-{
-public:
-	// System.Int32 Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/PolyType::value__
-	int32_t ___value___1;
-
-public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(PolyType_t4167079442, ___value___1)); }
-	inline int32_t get_value___1() const { return ___value___1; }
-	inline int32_t* get_address_of_value___1() { return &___value___1; }
-	inline void set_value___1(int32_t value)
-	{
-		___value___1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // POLYTYPE_T4167079442_H
-#ifndef DIRECTION_T3891152711_H
-#define DIRECTION_T3891152711_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/Direction
-struct  Direction_t3891152711 
-{
-public:
-	// System.Int32 Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/Direction::value__
-	int32_t ___value___1;
-
-public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(Direction_t3891152711, ___value___1)); }
-	inline int32_t get_value___1() const { return ___value___1; }
-	inline int32_t* get_address_of_value___1() { return &___value___1; }
-	inline void set_value___1(int32_t value)
-	{
-		___value___1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // DIRECTION_T3891152711_H
-#ifndef INTERSECTNODE_T2292763627_H
-#define INTERSECTNODE_T2292763627_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
+=======
 // Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/IntersectNode
 struct  IntersectNode_t2292763627  : public RuntimeObject
 {
@@ -3391,13 +4239,171 @@ public:
 	inline void set_Pt_2(IntPoint_t2482359717  value)
 	{
 		___Pt_2 = value;
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+<<<<<<< HEAD
+#endif // EDGESIDE_T290854666_H
+#ifndef POLYTYPE_T4167079442_H
+#define POLYTYPE_T4167079442_H
+=======
 #endif // INTERSECTNODE_T2292763627_H
+#ifndef POLYFILLTYPE_T1761575471_H
+#define POLYFILLTYPE_T1761575471_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+<<<<<<< HEAD
+// Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/PolyType
+struct  PolyType_t4167079442 
+{
+public:
+	// System.Int32 Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/PolyType::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(PolyType_t4167079442, ___value___1)); }
+=======
+// Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/PolyFillType
+struct  PolyFillType_t1761575471 
+{
+public:
+	// System.Int32 Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/PolyFillType::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(PolyFillType_t1761575471, ___value___1)); }
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+<<<<<<< HEAD
+#endif // POLYTYPE_T4167079442_H
+=======
+#endif // POLYFILLTYPE_T1761575471_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
+#ifndef DIRECTION_T3891152711_H
+#define DIRECTION_T3891152711_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/Direction
+struct  Direction_t3891152711 
+{
+public:
+	// System.Int32 Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/Direction::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(Direction_t3891152711, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DIRECTION_T3891152711_H
+<<<<<<< HEAD
+#ifndef INTERSECTNODE_T2292763627_H
+#define INTERSECTNODE_T2292763627_H
+=======
+#ifndef EDGESIDE_T290854666_H
+#define EDGESIDE_T290854666_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+<<<<<<< HEAD
+// Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/IntersectNode
+struct  IntersectNode_t2292763627  : public RuntimeObject
+{
+public:
+	// Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/TEdge Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/IntersectNode::Edge1
+	TEdge_t2833881561 * ___Edge1_0;
+	// Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/TEdge Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/IntersectNode::Edge2
+	TEdge_t2833881561 * ___Edge2_1;
+	// Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/IntPoint Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/IntersectNode::Pt
+	IntPoint_t2482359717  ___Pt_2;
+
+public:
+	inline static int32_t get_offset_of_Edge1_0() { return static_cast<int32_t>(offsetof(IntersectNode_t2292763627, ___Edge1_0)); }
+	inline TEdge_t2833881561 * get_Edge1_0() const { return ___Edge1_0; }
+	inline TEdge_t2833881561 ** get_address_of_Edge1_0() { return &___Edge1_0; }
+	inline void set_Edge1_0(TEdge_t2833881561 * value)
+	{
+		___Edge1_0 = value;
+		Il2CppCodeGenWriteBarrier((&___Edge1_0), value);
+	}
+
+	inline static int32_t get_offset_of_Edge2_1() { return static_cast<int32_t>(offsetof(IntersectNode_t2292763627, ___Edge2_1)); }
+	inline TEdge_t2833881561 * get_Edge2_1() const { return ___Edge2_1; }
+	inline TEdge_t2833881561 ** get_address_of_Edge2_1() { return &___Edge2_1; }
+	inline void set_Edge2_1(TEdge_t2833881561 * value)
+	{
+		___Edge2_1 = value;
+		Il2CppCodeGenWriteBarrier((&___Edge2_1), value);
+	}
+
+	inline static int32_t get_offset_of_Pt_2() { return static_cast<int32_t>(offsetof(IntersectNode_t2292763627, ___Pt_2)); }
+	inline IntPoint_t2482359717  get_Pt_2() const { return ___Pt_2; }
+	inline IntPoint_t2482359717 * get_address_of_Pt_2() { return &___Pt_2; }
+	inline void set_Pt_2(IntPoint_t2482359717  value)
+	{
+		___Pt_2 = value;
+=======
+// Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/EdgeSide
+struct  EdgeSide_t290854666 
+{
+public:
+	// System.Int32 Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/EdgeSide::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(EdgeSide_t290854666, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+<<<<<<< HEAD
+#endif // INTERSECTNODE_T2292763627_H
+=======
+#endif // EDGESIDE_T290854666_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifndef JOINTYPE_T1181879188_H
 #define JOINTYPE_T1181879188_H
 #ifdef __clang__
@@ -4477,6 +5483,7 @@ struct BearingFilter_t3685642986_marshaled_com
 	Nullable_1_t2341081996  ___Range_1;
 };
 #endif // BEARINGFILTER_T3685642986_H
+<<<<<<< HEAD
 #ifndef SQLITEEXCEPTION_T827126597_H
 #define SQLITEEXCEPTION_T827126597_H
 #ifdef __clang__
@@ -4506,6 +5513,8 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // SQLITEEXCEPTION_T827126597_H
+=======
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifndef DATETIME_T693205669_H
 #define DATETIME_T693205669_H
 #ifdef __clang__
@@ -4989,14 +5998,20 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // TEDGE_T2833881561_H
+<<<<<<< HEAD
 #ifndef NOTNULLCONSTRAINTVIOLATIONEXCEPTION_T3522211949_H
 #define NOTNULLCONSTRAINTVIOLATIONEXCEPTION_T3522211949_H
+=======
+#ifndef SQLITEEXCEPTION_T827126597_H
+#define SQLITEEXCEPTION_T827126597_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
+<<<<<<< HEAD
 // SQLite4Unity3d.NotNullConstraintViolationException
 struct  NotNullConstraintViolationException_t3522211949  : public SQLiteException_t827126597
 {
@@ -5012,13 +6027,63 @@ public:
 	{
 		___U3CColumnsU3Ek__BackingField_12 = value;
 		Il2CppCodeGenWriteBarrier((&___U3CColumnsU3Ek__BackingField_12), value);
+=======
+// SQLite4Unity3d.SQLiteException
+struct  SQLiteException_t827126597  : public Exception_t1927440687
+{
+public:
+	// SQLite4Unity3d.SQLite3/Result SQLite4Unity3d.SQLiteException::<Result>k__BackingField
+	int32_t ___U3CResultU3Ek__BackingField_11;
+
+public:
+	inline static int32_t get_offset_of_U3CResultU3Ek__BackingField_11() { return static_cast<int32_t>(offsetof(SQLiteException_t827126597, ___U3CResultU3Ek__BackingField_11)); }
+	inline int32_t get_U3CResultU3Ek__BackingField_11() const { return ___U3CResultU3Ek__BackingField_11; }
+	inline int32_t* get_address_of_U3CResultU3Ek__BackingField_11() { return &___U3CResultU3Ek__BackingField_11; }
+	inline void set_U3CResultU3Ek__BackingField_11(int32_t value)
+	{
+		___U3CResultU3Ek__BackingField_11 = value;
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+<<<<<<< HEAD
 #endif // NOTNULLCONSTRAINTVIOLATIONEXCEPTION_T3522211949_H
+=======
+#endif // SQLITEEXCEPTION_T827126597_H
+#ifndef POLYTREE_T1344088046_H
+#define POLYTREE_T1344088046_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/PolyTree
+struct  PolyTree_t1344088046  : public PolyNode_t1431547530
+{
+public:
+	// System.Collections.Generic.List`1<Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/PolyNode> Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/PolyTree::m_AllPolys
+	List_1_t800668662 * ___m_AllPolys_7;
+
+public:
+	inline static int32_t get_offset_of_m_AllPolys_7() { return static_cast<int32_t>(offsetof(PolyTree_t1344088046, ___m_AllPolys_7)); }
+	inline List_1_t800668662 * get_m_AllPolys_7() const { return ___m_AllPolys_7; }
+	inline List_1_t800668662 ** get_address_of_m_AllPolys_7() { return &___m_AllPolys_7; }
+	inline void set_m_AllPolys_7(List_1_t800668662 * value)
+	{
+		___m_AllPolys_7 = value;
+		Il2CppCodeGenWriteBarrier((&___m_AllPolys_7), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // POLYTREE_T1344088046_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifndef NULLABLE_1_T3251239280_H
 #define NULLABLE_1_T3251239280_H
 #ifdef __clang__
@@ -5058,14 +6123,20 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // NULLABLE_1_T3251239280_H
+<<<<<<< HEAD
 #ifndef POLYTREE_T1344088046_H
 #define POLYTREE_T1344088046_H
+=======
+#ifndef NOTNULLCONSTRAINTVIOLATIONEXCEPTION_T3522211949_H
+#define NOTNULLCONSTRAINTVIOLATIONEXCEPTION_T3522211949_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
+<<<<<<< HEAD
 // Mapbox.VectorTile.Geometry.InteralClipperLib.InternalClipper/PolyTree
 struct  PolyTree_t1344088046  : public PolyNode_t1431547530
 {
@@ -5081,13 +6152,34 @@ public:
 	{
 		___m_AllPolys_7 = value;
 		Il2CppCodeGenWriteBarrier((&___m_AllPolys_7), value);
+=======
+// SQLite4Unity3d.NotNullConstraintViolationException
+struct  NotNullConstraintViolationException_t3522211949  : public SQLiteException_t827126597
+{
+public:
+	// System.Collections.Generic.IEnumerable`1<SQLite4Unity3d.TableMapping/Column> SQLite4Unity3d.NotNullConstraintViolationException::<Columns>k__BackingField
+	RuntimeObject* ___U3CColumnsU3Ek__BackingField_12;
+
+public:
+	inline static int32_t get_offset_of_U3CColumnsU3Ek__BackingField_12() { return static_cast<int32_t>(offsetof(NotNullConstraintViolationException_t3522211949, ___U3CColumnsU3Ek__BackingField_12)); }
+	inline RuntimeObject* get_U3CColumnsU3Ek__BackingField_12() const { return ___U3CColumnsU3Ek__BackingField_12; }
+	inline RuntimeObject** get_address_of_U3CColumnsU3Ek__BackingField_12() { return &___U3CColumnsU3Ek__BackingField_12; }
+	inline void set_U3CColumnsU3Ek__BackingField_12(RuntimeObject* value)
+	{
+		___U3CColumnsU3Ek__BackingField_12 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CColumnsU3Ek__BackingField_12), value);
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+<<<<<<< HEAD
 #endif // POLYTREE_T1344088046_H
+=======
+#endif // NOTNULLCONSTRAINTVIOLATIONEXCEPTION_T3522211949_H
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifndef RESPONSE_T557144579_H
 #define RESPONSE_T557144579_H
 #ifdef __clang__
@@ -5332,6 +6424,7 @@ public:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3100 = { sizeof (U3CDelayCachedResponseU3Ec__Iterator0_t850356768), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3100[5] = 
 {
@@ -5344,26 +6437,42 @@ extern const int32_t g_FieldOffsetTable3100[5] =
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3101 = { 0, -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3102 = { sizeof (MbTilesCache_t4235426636), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3102[4] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3100 = { 0, -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3101 = { sizeof (MbTilesCache_t4235426636), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3101[4] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	MbTilesCache_t4235426636::get_offset_of__disposed_0(),
 	MbTilesCache_t4235426636::get_offset_of__maxCacheSize_1(),
 	MbTilesCache_t4235426636::get_offset_of__lock_2(),
 	MbTilesCache_t4235426636::get_offset_of__mbTiles_3(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3103 = { sizeof (MemoryCache_t1161932639), -1, sizeof(MemoryCache_t1161932639_StaticFields), 0 };
 extern const int32_t g_FieldOffsetTable3103[4] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3102 = { sizeof (MemoryCache_t1161932639), -1, sizeof(MemoryCache_t1161932639_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable3102[4] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	MemoryCache_t1161932639::get_offset_of__maxCacheSize_0(),
 	MemoryCache_t1161932639::get_offset_of__lock_1(),
 	MemoryCache_t1161932639::get_offset_of__cachedResponses_2(),
 	MemoryCache_t1161932639_StaticFields::get_offset_of_U3CU3Ef__amU24cache0_3(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3104 = { sizeof (CacheItem_t3349332897)+ sizeof (RuntimeObject), sizeof(CacheItem_t3349332897_marshaled_pinvoke), 0, 0 };
 extern const int32_t g_FieldOffsetTable3104[2] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3103 = { sizeof (CacheItem_t3349332897)+ sizeof (RuntimeObject), sizeof(CacheItem_t3349332897_marshaled_pinvoke), 0, 0 };
+extern const int32_t g_FieldOffsetTable3103[2] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	CacheItem_t3349332897::get_offset_of_Timestamp_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	CacheItem_t3349332897::get_offset_of_Data_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3105 = { sizeof (U3CClearU3Ec__AnonStorey0_t3619870336), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3105[1] = 
 {
@@ -5371,6 +6480,15 @@ extern const int32_t g_FieldOffsetTable3105[1] =
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3106 = { sizeof (FileSource_t1347159135), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3106[6] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3104 = { sizeof (U3CClearU3Ec__AnonStorey0_t3619870336), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3104[1] = 
+{
+	U3CClearU3Ec__AnonStorey0_t3619870336::get_offset_of_mapId_0(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3105 = { sizeof (FileSource_t1347159135), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3105[6] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	FileSource_t1347159135::get_offset_of__requests_0(),
 	FileSource_t1347159135::get_offset_of__accessToken_1(),
@@ -5379,14 +6497,24 @@ extern const int32_t g_FieldOffsetTable3106[6] =
 	FileSource_t1347159135::get_offset_of_XRateLimitLimit_4(),
 	FileSource_t1347159135::get_offset_of_XRateLimitReset_5(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3107 = { sizeof (U3CproxyResponseU3Ec__AnonStorey1_t1202447043), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3107[2] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3106 = { sizeof (U3CproxyResponseU3Ec__AnonStorey1_t1202447043), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3106[2] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	U3CproxyResponseU3Ec__AnonStorey1_t1202447043::get_offset_of_callback_0(),
 	U3CproxyResponseU3Ec__AnonStorey1_t1202447043::get_offset_of_U24this_1(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3108 = { sizeof (U3CWaitForAllRequestsU3Ec__Iterator0_t4272187948), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3108[5] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3107 = { sizeof (U3CWaitForAllRequestsU3Ec__Iterator0_t4272187948), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3107[5] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	U3CWaitForAllRequestsU3Ec__Iterator0_t4272187948::get_offset_of_U24locvar0_0(),
 	U3CWaitForAllRequestsU3Ec__Iterator0_t4272187948::get_offset_of_U24this_1(),
@@ -5394,12 +6522,21 @@ extern const int32_t g_FieldOffsetTable3108[5] =
 	U3CWaitForAllRequestsU3Ec__Iterator0_t4272187948::get_offset_of_U24disposing_3(),
 	U3CWaitForAllRequestsU3Ec__Iterator0_t4272187948::get_offset_of_U24PC_4(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3109 = { 0, -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3110 = { sizeof (IAsyncRequestFactory_t2941902086), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3111 = { 0, -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3112 = { 0, -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3113 = { sizeof (MbTilesDb_t2144841024), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3113[6] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3108 = { 0, -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3109 = { sizeof (IAsyncRequestFactory_t2941902086), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3110 = { 0, -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3111 = { 0, -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3112 = { sizeof (MbTilesDb_t2144841024), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3112[6] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	MbTilesDb_t2144841024::get_offset_of__disposed_0(),
 	MbTilesDb_t2144841024::get_offset_of__dbPath_1(),
@@ -5408,6 +6545,7 @@ extern const int32_t g_FieldOffsetTable3113[6] =
 	0,
 	MbTilesDb_t2144841024::get_offset_of__pruneCacheCounter_5(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3114 = { sizeof (U3CGetTileU3Ec__AnonStorey0_t832259212), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3114[1] = 
 {
@@ -5420,12 +6558,31 @@ extern const int32_t g_FieldOffsetTable3115[1] =
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3116 = { sizeof (metadata_t2735697541), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3116[2] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3113 = { sizeof (U3CGetTileU3Ec__AnonStorey0_t832259212), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3113[1] = 
+{
+	U3CGetTileU3Ec__AnonStorey0_t832259212::get_offset_of_tileId_0(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3114 = { sizeof (U3CTileExistsU3Ec__AnonStorey1_t4093640743), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3114[1] = 
+{
+	U3CTileExistsU3Ec__AnonStorey1_t4093640743::get_offset_of_tileId_0(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3115 = { sizeof (metadata_t2735697541), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3115[2] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	metadata_t2735697541::get_offset_of_U3CnameU3Ek__BackingField_0(),
 	metadata_t2735697541::get_offset_of_U3CvalueU3Ek__BackingField_1(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3117 = { sizeof (MetaDataRequired_t1570823098), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3117[5] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3116 = { sizeof (MetaDataRequired_t1570823098), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3116[5] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	MetaDataRequired_t1570823098::get_offset_of_U3CTilesetNameU3Ek__BackingField_0(),
 	MetaDataRequired_t1570823098::get_offset_of_U3CTypeU3Ek__BackingField_1(),
@@ -5433,8 +6590,13 @@ extern const int32_t g_FieldOffsetTable3117[5] =
 	MetaDataRequired_t1570823098::get_offset_of_U3CDescriptionU3Ek__BackingField_3(),
 	MetaDataRequired_t1570823098::get_offset_of_U3CFormatU3Ek__BackingField_4(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3118 = { sizeof (tiles_t1582344175), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3118[5] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3117 = { sizeof (tiles_t1582344175), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3117[5] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	tiles_t1582344175::get_offset_of_U3Czoom_levelU3Ek__BackingField_0(),
 	tiles_t1582344175::get_offset_of_U3Ctile_columnU3Ek__BackingField_1(),
@@ -5442,16 +6604,26 @@ extern const int32_t g_FieldOffsetTable3118[5] =
 	tiles_t1582344175::get_offset_of_U3Ctile_dataU3Ek__BackingField_3(),
 	tiles_t1582344175::get_offset_of_U3CtimestampU3Ek__BackingField_4(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3119 = { sizeof (Resource_t2839633034), -1, sizeof(Resource_t2839633034_StaticFields), 0 };
 extern const int32_t g_FieldOffsetTable3119[4] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3118 = { sizeof (Resource_t2839633034), -1, sizeof(Resource_t2839633034_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable3118[4] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	Resource_t2839633034_StaticFields::get_offset_of_U3CU3Ef__amU24cache0_0(),
 	Resource_t2839633034_StaticFields::get_offset_of_U3CU3Ef__amU24cache1_1(),
 	Resource_t2839633034_StaticFields::get_offset_of_U3CU3Ef__amU24cache2_2(),
 	Resource_t2839633034_StaticFields::get_offset_of_U3CU3Ef__amU24cache3_3(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3120 = { sizeof (Response_t557144579), -1, sizeof(Response_t557144579_StaticFields), 0 };
 extern const int32_t g_FieldOffsetTable3120[12] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3119 = { sizeof (Response_t557144579), -1, sizeof(Response_t557144579_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable3119[12] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	Response_t557144579::get_offset_of_U3CRequestU3Ek__BackingField_0(),
 	Response_t557144579::get_offset_of_LoadedFromCache_1(),
@@ -5466,6 +6638,7 @@ extern const int32_t g_FieldOffsetTable3120[12] =
 	Response_t557144579::get_offset_of_Data_10(),
 	Response_t557144579_StaticFields::get_offset_of_U3CU3Ef__amU24cache0_11(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3121 = { sizeof (SQLiteException_t827126597), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3121[1] = 
 {
@@ -5483,6 +6656,25 @@ extern const int32_t g_FieldOffsetTable3123[1] =
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3124 = { sizeof (SQLiteOpenFlags_t2021628609)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
 extern const int32_t g_FieldOffsetTable3124[12] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3120 = { sizeof (SQLiteException_t827126597), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3120[1] = 
+{
+	SQLiteException_t827126597::get_offset_of_U3CResultU3Ek__BackingField_11(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3121 = { sizeof (NotNullConstraintViolationException_t3522211949), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3121[1] = 
+{
+	NotNullConstraintViolationException_t3522211949::get_offset_of_U3CColumnsU3Ek__BackingField_12(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3122 = { sizeof (U3CNotNullConstraintViolationExceptionU3Ec__AnonStorey0_t1241528588), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3122[1] = 
+{
+	U3CNotNullConstraintViolationExceptionU3Ec__AnonStorey0_t1241528588::get_offset_of_obj_0(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3123 = { sizeof (SQLiteOpenFlags_t2021628609)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable3123[12] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	SQLiteOpenFlags_t2021628609::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
@@ -5497,8 +6689,13 @@ extern const int32_t g_FieldOffsetTable3124[12] =
 	0,
 	0,
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3125 = { sizeof (CreateFlags_t3110178347)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
 extern const int32_t g_FieldOffsetTable3125[6] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3124 = { sizeof (CreateFlags_t3110178347)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable3124[6] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	CreateFlags_t3110178347::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
@@ -5507,8 +6704,13 @@ extern const int32_t g_FieldOffsetTable3125[6] =
 	0,
 	0,
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3126 = { sizeof (SQLiteConnection_t3529499386), -1, sizeof(SQLiteConnection_t3529499386_StaticFields), 0 };
 extern const int32_t g_FieldOffsetTable3126[18] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3125 = { sizeof (SQLiteConnection_t3529499386), -1, sizeof(SQLiteConnection_t3529499386_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable3125[18] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	SQLiteConnection_t3529499386::get_offset_of__open_0(),
 	SQLiteConnection_t3529499386::get_offset_of__busyTimeout_1(),
@@ -5529,69 +6731,115 @@ extern const int32_t g_FieldOffsetTable3126[18] =
 	SQLiteConnection_t3529499386_StaticFields::get_offset_of_U3CU3Ef__amU24cache1_16(),
 	SQLiteConnection_t3529499386_StaticFields::get_offset_of_U3CU3Ef__amU24cache2_17(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3127 = { sizeof (IndexedColumn_t674159988)+ sizeof (RuntimeObject), sizeof(IndexedColumn_t674159988_marshaled_pinvoke), 0, 0 };
 extern const int32_t g_FieldOffsetTable3127[2] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3126 = { sizeof (IndexedColumn_t674159988)+ sizeof (RuntimeObject), sizeof(IndexedColumn_t674159988_marshaled_pinvoke), 0, 0 };
+extern const int32_t g_FieldOffsetTable3126[2] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	IndexedColumn_t674159988::get_offset_of_Order_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	IndexedColumn_t674159988::get_offset_of_ColumnName_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3128 = { sizeof (IndexInfo_t848034765)+ sizeof (RuntimeObject), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3128[4] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3127 = { sizeof (IndexInfo_t848034765)+ sizeof (RuntimeObject), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3127[4] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	IndexInfo_t848034765::get_offset_of_IndexName_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	IndexInfo_t848034765::get_offset_of_TableName_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	IndexInfo_t848034765::get_offset_of_Unique_2() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	IndexInfo_t848034765::get_offset_of_Columns_3() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3129 = { sizeof (ColumnInfo_t4209372729), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3129[2] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3128 = { sizeof (ColumnInfo_t4209372729), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3128[2] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	ColumnInfo_t4209372729::get_offset_of_U3CNameU3Ek__BackingField_0(),
 	ColumnInfo_t4209372729::get_offset_of_U3CnotnullU3Ek__BackingField_1(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3130 = { sizeof (U3CInsertAllU3Ec__AnonStorey0_t3272736510), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3130[3] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3129 = { sizeof (U3CInsertAllU3Ec__AnonStorey0_t3272736510), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3129[3] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	U3CInsertAllU3Ec__AnonStorey0_t3272736510::get_offset_of_objects_0(),
 	U3CInsertAllU3Ec__AnonStorey0_t3272736510::get_offset_of_c_1(),
 	U3CInsertAllU3Ec__AnonStorey0_t3272736510::get_offset_of_U24this_2(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3131 = { sizeof (U3CInsertAllU3Ec__AnonStorey1_t3272736511), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3131[4] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3130 = { sizeof (U3CInsertAllU3Ec__AnonStorey1_t3272736511), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3130[4] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	U3CInsertAllU3Ec__AnonStorey1_t3272736511::get_offset_of_objects_0(),
 	U3CInsertAllU3Ec__AnonStorey1_t3272736511::get_offset_of_extra_1(),
 	U3CInsertAllU3Ec__AnonStorey1_t3272736511::get_offset_of_c_2(),
 	U3CInsertAllU3Ec__AnonStorey1_t3272736511::get_offset_of_U24this_3(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3132 = { sizeof (U3CInsertAllU3Ec__AnonStorey2_t3272736512), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3132[4] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3131 = { sizeof (U3CInsertAllU3Ec__AnonStorey2_t3272736512), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3131[4] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	U3CInsertAllU3Ec__AnonStorey2_t3272736512::get_offset_of_objects_0(),
 	U3CInsertAllU3Ec__AnonStorey2_t3272736512::get_offset_of_objType_1(),
 	U3CInsertAllU3Ec__AnonStorey2_t3272736512::get_offset_of_c_2(),
 	U3CInsertAllU3Ec__AnonStorey2_t3272736512::get_offset_of_U24this_3(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3133 = { sizeof (U3CUpdateU3Ec__AnonStorey3_t2136181598), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3133[2] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3132 = { sizeof (U3CUpdateU3Ec__AnonStorey3_t2136181598), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3132[2] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	U3CUpdateU3Ec__AnonStorey3_t2136181598::get_offset_of_pk_0(),
 	U3CUpdateU3Ec__AnonStorey3_t2136181598::get_offset_of_obj_1(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3134 = { sizeof (U3CUpdateAllU3Ec__AnonStorey4_t265642662), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3134[3] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3133 = { sizeof (U3CUpdateAllU3Ec__AnonStorey4_t265642662), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3133[3] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	U3CUpdateAllU3Ec__AnonStorey4_t265642662::get_offset_of_objects_0(),
 	U3CUpdateAllU3Ec__AnonStorey4_t265642662::get_offset_of_c_1(),
 	U3CUpdateAllU3Ec__AnonStorey4_t265642662::get_offset_of_U24this_2(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3135 = { sizeof (SQLiteConnectionString_t3251561909), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3135[3] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3134 = { sizeof (SQLiteConnectionString_t3251561909), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3134[3] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	SQLiteConnectionString_t3251561909::get_offset_of_U3CConnectionStringU3Ek__BackingField_0(),
 	SQLiteConnectionString_t3251561909::get_offset_of_U3CDatabasePathU3Ek__BackingField_1(),
 	SQLiteConnectionString_t3251561909::get_offset_of_U3CStoreDateTimeAsTicksU3Ek__BackingField_2(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3136 = { sizeof (TableAttribute_t2732753422), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3136[1] = 
 {
@@ -5606,11 +6854,28 @@ extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3138 = { sizeof (Prim
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3139 = { sizeof (AutoIncrementAttribute_t2551385678), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3140 = { sizeof (IndexedAttribute_t2684901191), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3140[3] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3135 = { sizeof (TableAttribute_t2732753422), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3135[1] = 
+{
+	TableAttribute_t2732753422::get_offset_of_U3CNameU3Ek__BackingField_0(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3136 = { sizeof (ColumnAttribute_t1775258172), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3136[1] = 
+{
+	ColumnAttribute_t1775258172::get_offset_of_U3CNameU3Ek__BackingField_0(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3137 = { sizeof (PrimaryKeyAttribute_t1888986135), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3138 = { sizeof (AutoIncrementAttribute_t2551385678), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3139 = { sizeof (IndexedAttribute_t2684901191), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3139[3] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	IndexedAttribute_t2684901191::get_offset_of_U3CNameU3Ek__BackingField_0(),
 	IndexedAttribute_t2684901191::get_offset_of_U3COrderU3Ek__BackingField_1(),
 	IndexedAttribute_t2684901191::get_offset_of_U3CUniqueU3Ek__BackingField_2(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3141 = { sizeof (IgnoreAttribute_t2062332784), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3142 = { sizeof (UniqueAttribute_t3806252083), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3143 = { sizeof (MaxLengthAttribute_t3545664484), -1, 0, 0 };
@@ -5626,6 +6891,23 @@ extern const int32_t g_FieldOffsetTable3144[1] =
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3145 = { sizeof (NotNullAttribute_t3892473118), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3146 = { sizeof (TableMapping_t3898710812), -1, sizeof(TableMapping_t3898710812_StaticFields), 0 };
 extern const int32_t g_FieldOffsetTable3146[14] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3140 = { sizeof (IgnoreAttribute_t2062332784), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3141 = { sizeof (UniqueAttribute_t3806252083), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3142 = { sizeof (MaxLengthAttribute_t3545664484), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3142[1] = 
+{
+	MaxLengthAttribute_t3545664484::get_offset_of_U3CValueU3Ek__BackingField_0(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3143 = { sizeof (CollationAttribute_t3767033145), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3143[1] = 
+{
+	CollationAttribute_t3767033145::get_offset_of_U3CValueU3Ek__BackingField_0(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3144 = { sizeof (NotNullAttribute_t3892473118), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3145 = { sizeof (TableMapping_t3898710812), -1, sizeof(TableMapping_t3898710812_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable3145[14] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	TableMapping_t3898710812::get_offset_of_U3CMappedTypeU3Ek__BackingField_0(),
 	TableMapping_t3898710812::get_offset_of_U3CTableNameU3Ek__BackingField_1(),
@@ -5642,8 +6924,13 @@ extern const int32_t g_FieldOffsetTable3146[14] =
 	TableMapping_t3898710812_StaticFields::get_offset_of_U3CU3Ef__amU24cache1_12(),
 	TableMapping_t3898710812_StaticFields::get_offset_of_U3CU3Ef__amU24cache2_13(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3147 = { sizeof (Column_t441055761), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3147[10] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3146 = { sizeof (Column_t441055761), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3146[10] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	Column_t441055761::get_offset_of__prop_0(),
 	Column_t441055761::get_offset_of_U3CNameU3Ek__BackingField_1(),
@@ -5656,6 +6943,7 @@ extern const int32_t g_FieldOffsetTable3147[10] =
 	Column_t441055761::get_offset_of_U3CIsNullableU3Ek__BackingField_8(),
 	Column_t441055761::get_offset_of_U3CMaxStringLengthU3Ek__BackingField_9(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3148 = { sizeof (U3CFindColumnWithPropertyNameU3Ec__AnonStorey0_t1731627883), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3148[1] = 
 {
@@ -5668,28 +6956,57 @@ extern const int32_t g_FieldOffsetTable3149[1] =
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3150 = { sizeof (Orm_t330478854), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3150[3] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3147 = { sizeof (U3CFindColumnWithPropertyNameU3Ec__AnonStorey0_t1731627883), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3147[1] = 
+{
+	U3CFindColumnWithPropertyNameU3Ec__AnonStorey0_t1731627883::get_offset_of_propertyName_0(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3148 = { sizeof (U3CFindColumnU3Ec__AnonStorey1_t2903436002), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3148[1] = 
+{
+	U3CFindColumnU3Ec__AnonStorey1_t2903436002::get_offset_of_columnName_0(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3149 = { sizeof (Orm_t330478854), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3149[3] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	0,
 	0,
 	0,
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3151 = { sizeof (SQLiteCommand_t2935685145), -1, sizeof(SQLiteCommand_t2935685145_StaticFields), 0 };
 extern const int32_t g_FieldOffsetTable3151[4] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3150 = { sizeof (SQLiteCommand_t2935685145), -1, sizeof(SQLiteCommand_t2935685145_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable3150[4] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	SQLiteCommand_t2935685145::get_offset_of__conn_0(),
 	SQLiteCommand_t2935685145::get_offset_of__bindings_1(),
 	SQLiteCommand_t2935685145::get_offset_of_U3CCommandTextU3Ek__BackingField_2(),
 	SQLiteCommand_t2935685145_StaticFields::get_offset_of_NegativePointer_3(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3152 = { sizeof (Binding_t1831577297), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3152[3] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3151 = { sizeof (Binding_t1831577297), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3151[3] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	Binding_t1831577297::get_offset_of_U3CNameU3Ek__BackingField_0(),
 	Binding_t1831577297::get_offset_of_U3CValueU3Ek__BackingField_1(),
 	Binding_t1831577297::get_offset_of_U3CIndexU3Ek__BackingField_2(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3153 = { 0, 0, 0, 0 };
 extern const int32_t g_FieldOffsetTable3153[8] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3152 = { 0, 0, 0, 0 };
+extern const int32_t g_FieldOffsetTable3152[8] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	0,
 	0,
@@ -5700,8 +7017,13 @@ extern const int32_t g_FieldOffsetTable3153[8] =
 	0,
 	0,
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3154 = { sizeof (PreparedSqlLiteInsertCommand_t794754523), -1, sizeof(PreparedSqlLiteInsertCommand_t794754523_StaticFields), 0 };
 extern const int32_t g_FieldOffsetTable3154[5] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3153 = { sizeof (PreparedSqlLiteInsertCommand_t794754523), -1, sizeof(PreparedSqlLiteInsertCommand_t794754523_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable3153[5] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	PreparedSqlLiteInsertCommand_t794754523::get_offset_of_U3CInitializedU3Ek__BackingField_0(),
 	PreparedSqlLiteInsertCommand_t794754523::get_offset_of_U3CConnectionU3Ek__BackingField_1(),
@@ -5709,15 +7031,26 @@ extern const int32_t g_FieldOffsetTable3154[5] =
 	PreparedSqlLiteInsertCommand_t794754523::get_offset_of_U3CStatementU3Ek__BackingField_3(),
 	PreparedSqlLiteInsertCommand_t794754523_StaticFields::get_offset_of_NullStatement_4(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3155 = { sizeof (BaseTableQuery_t3770317269), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3156 = { sizeof (Ordering_t1038862794), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3156[2] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3154 = { sizeof (BaseTableQuery_t3770317269), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3155 = { sizeof (Ordering_t1038862794), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3155[2] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	Ordering_t1038862794::get_offset_of_U3CColumnNameU3Ek__BackingField_0(),
 	Ordering_t1038862794::get_offset_of_U3CAscendingU3Ek__BackingField_1(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3157 = { 0, 0, 0, 0 };
 extern const int32_t g_FieldOffsetTable3157[15] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3156 = { 0, 0, 0, 0 };
+extern const int32_t g_FieldOffsetTable3156[15] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	0,
 	0,
@@ -5735,15 +7068,26 @@ extern const int32_t g_FieldOffsetTable3157[15] =
 	0,
 	0,
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3158 = { 0, 0, 0, 0 };
 extern const int32_t g_FieldOffsetTable3158[2] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3157 = { 0, 0, 0, 0 };
+extern const int32_t g_FieldOffsetTable3157[2] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	0,
 	0,
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3159 = { sizeof (SQLite3_t150757461), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3160 = { sizeof (Result_t1450270481)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
 extern const int32_t g_FieldOffsetTable3160[32] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3158 = { sizeof (SQLite3_t150757461), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3159 = { sizeof (Result_t1450270481)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable3159[32] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	Result_t1450270481::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
@@ -5778,8 +7122,13 @@ extern const int32_t g_FieldOffsetTable3160[32] =
 	0,
 	0,
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3161 = { sizeof (ExtendedResult_t1691412462)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
 extern const int32_t g_FieldOffsetTable3161[46] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3160 = { sizeof (ExtendedResult_t1691412462)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable3160[46] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	ExtendedResult_t1691412462::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
@@ -5828,16 +7177,26 @@ extern const int32_t g_FieldOffsetTable3161[46] =
 	0,
 	0,
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3162 = { sizeof (ConfigOption_t4001894229)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
 extern const int32_t g_FieldOffsetTable3162[4] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3161 = { sizeof (ConfigOption_t4001894229)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable3161[4] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	ConfigOption_t4001894229::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
 	0,
 	0,
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3163 = { sizeof (ColType_t2341528904)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
 extern const int32_t g_FieldOffsetTable3163[6] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3162 = { sizeof (ColType_t2341528904)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable3162[6] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	ColType_t2341528904::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
@@ -5846,15 +7205,26 @@ extern const int32_t g_FieldOffsetTable3163[6] =
 	0,
 	0,
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3164 = { sizeof (BearingFilter_t3685642986)+ sizeof (RuntimeObject), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3164[2] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3163 = { sizeof (BearingFilter_t3685642986)+ sizeof (RuntimeObject), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3163[2] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	BearingFilter_t3685642986::get_offset_of_Bearing_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	BearingFilter_t3685642986::get_offset_of_Range_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3165 = { sizeof (Compression_t35425688), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3166 = { sizeof (Constants_t3012120737), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3166[5] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3164 = { sizeof (Compression_t35425688), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3165 = { sizeof (Constants_t3012120737), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3165[5] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	0,
 	0,
@@ -5862,12 +7232,18 @@ extern const int32_t g_FieldOffsetTable3166[5] =
 	0,
 	0,
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3167 = { sizeof (Vector2dBounds_t2768535998)+ sizeof (RuntimeObject), sizeof(Vector2dBounds_t2768535998 ), 0, 0 };
 extern const int32_t g_FieldOffsetTable3167[2] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3166 = { sizeof (Vector2dBounds_t2768535998)+ sizeof (RuntimeObject), sizeof(Vector2dBounds_t2768535998 ), 0, 0 };
+extern const int32_t g_FieldOffsetTable3166[2] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	Vector2dBounds_t2768535998::get_offset_of_SouthWest_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	Vector2dBounds_t2768535998::get_offset_of_NorthEast_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3168 = { 0, 0, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3169 = { 0, 0, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3170 = { sizeof (BboxToVector2dBoundsConverter_t914855120), -1, 0, 0 };
@@ -5882,6 +7258,22 @@ extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3174 = { sizeof (Poly
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3175 = { sizeof (UnixTimestampUtils_t1358275867), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3176 = { sizeof (Mathd_t3856345012)+ sizeof (RuntimeObject), sizeof(Mathd_t3856345012 ), 0, 0 };
 extern const int32_t g_FieldOffsetTable3176[6] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3167 = { 0, 0, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3168 = { 0, 0, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3169 = { sizeof (BboxToVector2dBoundsConverter_t914855120), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3170 = { sizeof (JsonConverters_t3738359027), -1, sizeof(JsonConverters_t3738359027_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable3170[1] = 
+{
+	JsonConverters_t3738359027_StaticFields::get_offset_of_converters_0(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3171 = { sizeof (LonLatToVector2dConverter_t4098085794), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3172 = { sizeof (PolylineToVector2dListConverter_t1114442800), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3173 = { sizeof (PolylineUtils_t1307504287), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3174 = { sizeof (UnixTimestampUtils_t1358275867), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3175 = { sizeof (Mathd_t3856345012)+ sizeof (RuntimeObject), sizeof(Mathd_t3856345012 ), 0, 0 };
+extern const int32_t g_FieldOffsetTable3175[6] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	0,
 	0,
@@ -5890,24 +7282,40 @@ extern const int32_t g_FieldOffsetTable3176[6] =
 	0,
 	0,
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3177 = { sizeof (RectD_t1598124772)+ sizeof (RuntimeObject), sizeof(RectD_t1598124772 ), 0, 0 };
 extern const int32_t g_FieldOffsetTable3177[4] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3176 = { sizeof (RectD_t1598124772)+ sizeof (RuntimeObject), sizeof(RectD_t1598124772 ), 0, 0 };
+extern const int32_t g_FieldOffsetTable3176[4] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	RectD_t1598124772::get_offset_of_U3CMinU3Ek__BackingField_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	RectD_t1598124772::get_offset_of_U3CMaxU3Ek__BackingField_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	RectD_t1598124772::get_offset_of_U3CSizeU3Ek__BackingField_2() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	RectD_t1598124772::get_offset_of_U3CCenterU3Ek__BackingField_3() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3178 = { sizeof (Vector2d_t3730485367)+ sizeof (RuntimeObject), sizeof(Vector2d_t3730485367 ), 0, 0 };
 extern const int32_t g_FieldOffsetTable3178[3] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3177 = { sizeof (Vector2d_t3730485367)+ sizeof (RuntimeObject), sizeof(Vector2d_t3730485367 ), 0, 0 };
+extern const int32_t g_FieldOffsetTable3177[3] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	0,
 	Vector2d_t3730485367::get_offset_of_x_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	Vector2d_t3730485367::get_offset_of_y_2() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3179 = { sizeof (EnumExtensions_t3953792965), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3180 = { sizeof (VectorTileExtensions_t3003316871), -1, sizeof(VectorTileExtensions_t3003316871_StaticFields), 0 };
 extern const int32_t g_FieldOffsetTable3180[6] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3178 = { sizeof (EnumExtensions_t3953792965), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3179 = { sizeof (VectorTileExtensions_t3003316871), -1, sizeof(VectorTileExtensions_t3003316871_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable3179[6] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	VectorTileExtensions_t3003316871_StaticFields::get_offset_of_U3CU3Ef__amU24cache0_0(),
 	VectorTileExtensions_t3003316871_StaticFields::get_offset_of_U3CU3Ef__amU24cache1_1(),
@@ -5916,22 +7324,35 @@ extern const int32_t g_FieldOffsetTable3180[6] =
 	VectorTileExtensions_t3003316871_StaticFields::get_offset_of_U3CU3Ef__amU24cache4_4(),
 	VectorTileExtensions_t3003316871_StaticFields::get_offset_of_U3CU3Ef__amU24cache5_5(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3181 = { sizeof (VectorTileFeatureExtensions_t471493353), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3182 = { sizeof (U3CGeometryAsWgs84U3Ec__AnonStorey0_t1616374963), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3182[4] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3180 = { sizeof (VectorTileFeatureExtensions_t471493353), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3181 = { sizeof (U3CGeometryAsWgs84U3Ec__AnonStorey0_t1616374963), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3181[4] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	U3CGeometryAsWgs84U3Ec__AnonStorey0_t1616374963::get_offset_of_zoom_0(),
 	U3CGeometryAsWgs84U3Ec__AnonStorey0_t1616374963::get_offset_of_tileColumn_1(),
 	U3CGeometryAsWgs84U3Ec__AnonStorey0_t1616374963::get_offset_of_tileRow_2(),
 	U3CGeometryAsWgs84U3Ec__AnonStorey0_t1616374963::get_offset_of_feature_3(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3183 = { sizeof (InternalClipper_t250037988), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3184 = { sizeof (DoublePoint_t603255911)+ sizeof (RuntimeObject), sizeof(DoublePoint_t603255911 ), 0, 0 };
 extern const int32_t g_FieldOffsetTable3184[2] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3182 = { sizeof (InternalClipper_t250037988), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3183 = { sizeof (DoublePoint_t603255911)+ sizeof (RuntimeObject), sizeof(DoublePoint_t603255911 ), 0, 0 };
+extern const int32_t g_FieldOffsetTable3183[2] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	DoublePoint_t603255911::get_offset_of_X_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	DoublePoint_t603255911::get_offset_of_Y_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3185 = { sizeof (PolyTree_t1344088046), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3185[1] = 
 {
@@ -5939,6 +7360,15 @@ extern const int32_t g_FieldOffsetTable3185[1] =
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3186 = { sizeof (PolyNode_t1431547530), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3186[7] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3184 = { sizeof (PolyTree_t1344088046), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3184[1] = 
+{
+	PolyTree_t1344088046::get_offset_of_m_AllPolys_7(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3185 = { sizeof (PolyNode_t1431547530), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3185[7] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	PolyNode_t1431547530::get_offset_of_m_Parent_0(),
 	PolyNode_t1431547530::get_offset_of_m_polygon_1(),
@@ -5948,28 +7378,48 @@ extern const int32_t g_FieldOffsetTable3186[7] =
 	PolyNode_t1431547530::get_offset_of_m_Childs_5(),
 	PolyNode_t1431547530::get_offset_of_U3CIsOpenU3Ek__BackingField_6(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3187 = { sizeof (Int128_t3136052886)+ sizeof (RuntimeObject), sizeof(Int128_t3136052886 ), 0, 0 };
 extern const int32_t g_FieldOffsetTable3187[2] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3186 = { sizeof (Int128_t3136052886)+ sizeof (RuntimeObject), sizeof(Int128_t3136052886 ), 0, 0 };
+extern const int32_t g_FieldOffsetTable3186[2] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	Int128_t3136052886::get_offset_of_hi_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	Int128_t3136052886::get_offset_of_lo_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3188 = { sizeof (IntPoint_t2482359717)+ sizeof (RuntimeObject), sizeof(IntPoint_t2482359717 ), 0, 0 };
 extern const int32_t g_FieldOffsetTable3188[2] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3187 = { sizeof (IntPoint_t2482359717)+ sizeof (RuntimeObject), sizeof(IntPoint_t2482359717 ), 0, 0 };
+extern const int32_t g_FieldOffsetTable3187[2] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	IntPoint_t2482359717::get_offset_of_X_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	IntPoint_t2482359717::get_offset_of_Y_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3189 = { sizeof (IntRect_t2996071385)+ sizeof (RuntimeObject), sizeof(IntRect_t2996071385 ), 0, 0 };
 extern const int32_t g_FieldOffsetTable3189[4] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3188 = { sizeof (IntRect_t2996071385)+ sizeof (RuntimeObject), sizeof(IntRect_t2996071385 ), 0, 0 };
+extern const int32_t g_FieldOffsetTable3188[4] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	IntRect_t2996071385::get_offset_of_left_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	IntRect_t2996071385::get_offset_of_top_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	IntRect_t2996071385::get_offset_of_right_2() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	IntRect_t2996071385::get_offset_of_bottom_3() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3190 = { sizeof (ClipType_t2377340222)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
 extern const int32_t g_FieldOffsetTable3190[5] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3189 = { sizeof (ClipType_t2377340222)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable3189[5] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	ClipType_t2377340222::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
@@ -5977,15 +7427,25 @@ extern const int32_t g_FieldOffsetTable3190[5] =
 	0,
 	0,
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3191 = { sizeof (PolyType_t4167079442)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
 extern const int32_t g_FieldOffsetTable3191[3] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3190 = { sizeof (PolyType_t4167079442)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable3190[3] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	PolyType_t4167079442::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
 	0,
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3192 = { sizeof (PolyFillType_t1761575471)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
 extern const int32_t g_FieldOffsetTable3192[5] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3191 = { sizeof (PolyFillType_t1761575471)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable3191[5] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	PolyFillType_t1761575471::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
@@ -5993,16 +7453,26 @@ extern const int32_t g_FieldOffsetTable3192[5] =
 	0,
 	0,
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3193 = { sizeof (JoinType_t1181879188)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
 extern const int32_t g_FieldOffsetTable3193[4] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3192 = { sizeof (JoinType_t1181879188)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable3192[4] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	JoinType_t1181879188::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
 	0,
 	0,
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3194 = { sizeof (EndType_t2757989145)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
 extern const int32_t g_FieldOffsetTable3194[6] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3193 = { sizeof (EndType_t2757989145)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable3193[6] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	EndType_t2757989145::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
@@ -6011,22 +7481,37 @@ extern const int32_t g_FieldOffsetTable3194[6] =
 	0,
 	0,
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3195 = { sizeof (EdgeSide_t290854666)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
 extern const int32_t g_FieldOffsetTable3195[3] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3194 = { sizeof (EdgeSide_t290854666)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable3194[3] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	EdgeSide_t290854666::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
 	0,
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3196 = { sizeof (Direction_t3891152711)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
 extern const int32_t g_FieldOffsetTable3196[3] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3195 = { sizeof (Direction_t3891152711)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable3195[3] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	Direction_t3891152711::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
 	0,
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3197 = { sizeof (TEdge_t2833881561), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3197[18] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3196 = { sizeof (TEdge_t2833881561), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3196[18] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	TEdge_t2833881561::get_offset_of_Bot_0(),
 	TEdge_t2833881561::get_offset_of_Curr_1(),
@@ -6047,14 +7532,31 @@ extern const int32_t g_FieldOffsetTable3197[18] =
 	TEdge_t2833881561::get_offset_of_NextInSEL_16(),
 	TEdge_t2833881561::get_offset_of_PrevInSEL_17(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3198 = { sizeof (IntersectNode_t2292763627), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable3198[3] = 
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3197 = { sizeof (IntersectNode_t2292763627), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3197[3] = 
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 {
 	IntersectNode_t2292763627::get_offset_of_Edge1_0(),
 	IntersectNode_t2292763627::get_offset_of_Edge2_1(),
 	IntersectNode_t2292763627::get_offset_of_Pt_2(),
 };
+<<<<<<< HEAD
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3199 = { sizeof (MyIntersectNodeSort_t2719717089), -1, 0, 0 };
+=======
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3198 = { sizeof (MyIntersectNodeSort_t2719717089), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize3199 = { sizeof (LocalMinima_t1268459690), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable3199[4] = 
+{
+	LocalMinima_t1268459690::get_offset_of_Y_0(),
+	LocalMinima_t1268459690::get_offset_of_LeftBound_1(),
+	LocalMinima_t1268459690::get_offset_of_RightBound_2(),
+	LocalMinima_t1268459690::get_offset_of_Next_3(),
+};
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
