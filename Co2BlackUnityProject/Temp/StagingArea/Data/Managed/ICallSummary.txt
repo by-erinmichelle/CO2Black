@@ -208,6 +208,7 @@ UnityEngine.GameObject::GetComponentInParent
 UnityEngine.GameObject::Internal_AddComponentWithType
 UnityEngine.GameObject::CreatePrimitive
 UnityEngine.GameObject::Find
+UnityEngine.GameObject::FindGameObjectWithTag
 UnityEngine.GameObject::get_transform
 UnityEngine.Gizmos::INTERNAL_CALL_DrawLine
 UnityEngine.Gizmos::INTERNAL_CALL_DrawWireSphere

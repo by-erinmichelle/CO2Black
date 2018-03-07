@@ -5,9 +5,20 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+<<<<<<< HEAD
   - enabled: 0
     path: Assets/_Scenes/master6.unity
     guid: 067f31bcf3f6d4a448d53cfe48c7a8d8
   - enabled: 1
     path: Assets/_Scenes/lampBugs.unity
     guid: f40f6b73cb0394ed4877ce387dbd0240
+=======
+  - enabled: 1
+<<<<<<< HEAD
+    path: Assets/_Scenes/master6.unity
+    guid: 067f31bcf3f6d4a448d53cfe48c7a8d8
+=======
+    path: Assets/_Scenes/3rdmodUpdated.unity
+    guid: 26fd488f0edda47a3a12168df72020de
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
+>>>>>>> ad9ca5107d278aed55d62ccf0e5633979d1e11ef

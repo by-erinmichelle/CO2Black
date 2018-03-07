@@ -58,6 +58,10 @@
 <type fullname="introController" preserve="all"/>
 <type fullname="lampBtnsNOTRANS" preserve="all"/>
 <type fullname="exampleSceneScript" preserve="all"/>
+<<<<<<< HEAD
+<type fullname="learningLayerLamp" preserve="all"/>
+=======
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 <type fullname="learningLayerUp" preserve="all"/>
 <type fullname="Mapbox.Examples.Scripts.Utilities.DragRotate" preserve="all"/>
 <type fullname="Mapbox.Examples.SpawnOnGlobeExample" preserve="all"/>
@@ -148,6 +152,10 @@
 <type fullname="Mapbox.Unity.Utilities.SingletonScriptableObject`1" preserve="all"/>
 <type fullname="Mapbox.Unity.Utilities.TelemetryConfigurationButton" preserve="all"/>
 <type fullname="OnClickExample" preserve="all"/>
+<<<<<<< HEAD
+<type fullname="scri" preserve="all"/>
+=======
+>>>>>>> 25056486ad39fdd605c1b73e766e0a0829aa31a1
 <type fullname="UnityEngine.XR.iOS.Co2ARHitTest" preserve="all"/>
 <type fullname="badCollision" preserve="all"/>
 <type fullname="ballDrop" preserve="all"/>

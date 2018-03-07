@@ -21,7 +21,7 @@ public class laptopHit : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		Debug.Log (Input.touchCount);
+		Debug.Log ("workin");
 
 		int fingerCount = 0;
 		foreach (Touch touch in Input.touches) {
@@ -33,31 +33,38 @@ public class laptopHit : MonoBehaviour {
 			print("User has " + fingerCount + " finger(s) touching the screen");
 
 
-
-
 		if (Input.touchCount > 0) {
+
+			Debug.Log("touch");
+
 
 			Touch touch = Input.GetTouch (0);
 			if (touch.phase == TouchPhase.Began  && !EventSystem.current.IsPointerOverGameObject(0)) {
+
+				Debug.Log("touch2");
 
 				Ray ray = Camera.main.ScreenPointToRay (touch.position);
 				RaycastHit hit;
 
 				if (Physics.Raycast (ray, out hit, 100)) {
 
-                    if (hit.transform.gameObject.tag == "laptop"){
+					Debug.Log("raysent");
+
+                    if (hit.transform.tag == "screen1"){
 						Debug.Log ("plz");
 
-						laptopSelect = hit.transform.gameObject;
+						Destroy (GameObject.FindWithTag("screen1"));
+
+					
 						screen1.SetActive (false);
 						screen2.SetActive (true);
 
                     }
 
 
-					else if (hit.transform.gameObject.tag == "screen2"){
+					else if (hit.transform.tag == "screen2"){
 						Debug.Log ("popp");
-						screenTwoSelect = hit.transform.gameObject;
+
 						screen2.SetActive (false);
 						screen3.SetActive (true);
 					}
@@ -68,30 +75,5 @@ public class laptopHit : MonoBehaviour {
 
 
 
-//		if (screen2.activeInHierarchy && hit.transform.gameObject.tag == "laptop"){
-//			laptopSelect = hit.transform.gameObject;
-//			//						Destroy(laptopSelect);
-//			screen2.SetActive (false);
-//			screen3.SetActive (true);
-//		}
-//		if (Input.touchCount > 1) {
-//
-//			Touch touch = Input.GetTouch (0);
-//			if (touch.phase == TouchPhase.Began  && !EventSystem.current.IsPointerOverGameObject(0)) {
-//				Ray ray = Camera.main.ScreenPointToRay (touch.position);
-//				RaycastHit hit;
-//
-//				if (Physics.Raycast (ray, out hit, 100)) {
-//
-//					if (hit.transform.gameObject.tag == "laptop"){
-//						laptopSelect = hit.transform.gameObject;
-//						//						Destroy(laptopSelect);
-//						screen2.SetActive (false);
-//						screen3.SetActive (true);
-//					}
-//
-//				}
-//			}
-//		}
 	}
 }

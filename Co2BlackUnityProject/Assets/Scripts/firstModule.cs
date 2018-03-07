@@ -25,6 +25,8 @@ public class firstModule : MonoBehaviour {
 	public GameObject turnOff;
 	public GameObject lampSpotlight;
 
+	public GameObject learningLayerLamp;
+
 	public Material smokeHigh;
 
 //	public GameObject lampContainer;
@@ -59,7 +61,7 @@ public class firstModule : MonoBehaviour {
 			replaceBulb.SetActive (false);
 			lampShade.SetActive (true);
 		}
-		if (cflBulb.activeInHierarchy && !turnOff.activeInHierarchy) {
+		if (cflBulb.activeInHierarchy && !turnOff.activeInHierarchy || !learningLayerLamp.activeInHierarchy) {
 			dontForgetTrans.SetActive (true);
 			dontForget.SetActive (true);
 		}
@@ -85,6 +87,9 @@ public class firstModule : MonoBehaviour {
 			lampShade.SetActive (true);
 			lampShadeMat.DisableKeyword ("_EMISSION");
 			toSecondMod.SetActive (true);
+			turnOff.SetActive (false);
+			Destroy(dontForgetTrans);
+			Destroy(dontForget);
 		}
 
 	}

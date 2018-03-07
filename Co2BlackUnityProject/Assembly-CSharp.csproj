@@ -58,6 +58,7 @@
      <Compile Include="Assets\introController.cs" />
      <Compile Include="Assets\lampBtnsNOTRANS.cs" />
      <Compile Include="Assets\LazyFog\Scripts\exampleSceneScript.cs" />
+     <Compile Include="Assets\learningLayerLamp.cs" />
      <Compile Include="Assets\learningLayerUp.cs" />
      <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Directions\DirectionResource.cs" />
      <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Directions\Directions.cs" />
@@ -281,6 +282,7 @@
      <Compile Include="Assets\Mapbox\Unity\Utilities\TelemetryConfigurationButton.cs" />
      <Compile Include="Assets\Mapbox\Unity\Utilities\VectorExtensions.cs" />
      <Compile Include="Assets\OnClickExample.cs" />
+     <Compile Include="Assets\scri.cs" />
      <Compile Include="Assets\Scripts\appear.cs" />
      <Compile Include="Assets\Scripts\BackUpARHitTest.cs" />
      <Compile Include="Assets\Scripts\badCollision.cs" />
