@@ -848,7 +848,7 @@ extern RuntimeClass* U3CWaitU3Ec__Iterator0_t3224720862_il2cpp_TypeInfo_var;
 extern const uint32_t loadDelay_Wait_m840389309_MetadataUsageId;
 extern const uint32_t U3CWaitU3Ec__Iterator0_MoveNext_m1856221033_MetadataUsageId;
 extern const uint32_t U3CWaitU3Ec__Iterator0_Reset_m1757509210_MetadataUsageId;
-extern Il2CppCodeGenString* _stringLiteral230209981;
+extern Il2CppCodeGenString* _stringLiteral1658292754;
 extern const uint32_t loadDelayIntro_ModeSelect_m1963646597_MetadataUsageId;
 extern RuntimeClass* U3CWaitU3Ec__Iterator0_t2594885874_il2cpp_TypeInfo_var;
 extern const uint32_t loadDelayIntro_Wait_m219128831_MetadataUsageId;
@@ -30422,7 +30422,7 @@ extern "C"  void loadDelayIntro_ModeSelect_m1963646597 (loadDelayIntro_t19245460
 	{
 		MonoBehaviour_StartCoroutine_m4172460844(__this, _stringLiteral49675595, /*hidden argument*/NULL);
 		Color_t2020392075  L_0 = Color_get_black_m455352838(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Initiate_Fade_m2725295307(NULL /*static, unused*/, _stringLiteral230209981, L_0, (1.0f), /*hidden argument*/NULL);
+		Initiate_Fade_m2725295307(NULL /*static, unused*/, _stringLiteral1658292754, L_0, (1.0f), /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -30505,7 +30505,7 @@ IL_0040:
 
 IL_0045:
 	{
-		Application_LoadLevel_m2369150774(NULL /*static, unused*/, _stringLiteral230209981, /*hidden argument*/NULL);
+		Application_LoadLevel_m2369150774(NULL /*static, unused*/, _stringLiteral1658292754, /*hidden argument*/NULL);
 		__this->set_U24PC_2((-1));
 	}
 

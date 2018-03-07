@@ -13694,6 +13694,12 @@ extern "C" void Animator_INTERNAL_get_deltaPosition_m3275684743 ();
 extern "C" void Animator_set_applyRootMotion_m333705050 ();
 extern "C" void Animator_GetCurrentAnimatorStateInfo_m2354582050 ();
 extern "C" void Animator_set_speed_m3190202775 ();
+extern "C" void Animator_Play_m1354644779 ();
+extern "C" void Animator_Play_m577397764 ();
+extern "C" void Animator_Play_m1706432228 ();
+extern "C" void Animator_Play_m1244626253 ();
+extern "C" void Animator_Play_m1504254530 ();
+extern "C" void Animator_Play_m1824597217 ();
 extern "C" void Animator_get_hasBoundPlayables_m2257984562 ();
 extern "C" void Animator_StringToHash_m1845745834 ();
 extern "C" void Animator_SetFloatString_m4025347812 ();
@@ -23949,7 +23955,11 @@ extern "C" void BallUserControl__ctor_m1854748185 ();
 extern "C" void BallUserControl_Awake_m4216224384 ();
 extern "C" void BallUserControl_Update_m1471660078 ();
 extern "C" void BallUserControl_FixedUpdate_m1908019444 ();
+<<<<<<< HEAD
 extern const Il2CppMethodPointer g_MethodPointers[23932] = 
+=======
+extern const Il2CppMethodPointer g_MethodPointers[23935] = 
+>>>>>>> 2710811756972b6ff6b5ed8c58df5d86df5fddcc
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -37628,6 +37638,12 @@ extern const Il2CppMethodPointer g_MethodPointers[23932] =
 	Animator_set_applyRootMotion_m333705050,
 	Animator_GetCurrentAnimatorStateInfo_m2354582050,
 	Animator_set_speed_m3190202775,
+	Animator_Play_m1354644779,
+	Animator_Play_m577397764,
+	Animator_Play_m1706432228,
+	Animator_Play_m1244626253,
+	Animator_Play_m1504254530,
+	Animator_Play_m1824597217,
 	Animator_get_hasBoundPlayables_m2257984562,
 	Animator_StringToHash_m1845745834,
 	Animator_SetFloatString_m4025347812,
