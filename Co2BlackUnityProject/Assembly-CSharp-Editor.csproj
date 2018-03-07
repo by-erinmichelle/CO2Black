@@ -217,13 +217,13 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-1.0.55.2017.2.0b12">
- <HintPath>/Users/erinwiegman/Desktop/junior_year/Fall_17/Workshop-IDM_371/CO2BLACK/Co2BlackUnityProject/Assets/TextMesh Pro/Plugins/TextMeshPro-1.0.55.2017.2.0b12.dll</HintPath>
+ <HintPath>/Users/erinwiegman/dev_projects/co2black/CO2Black/Co2BlackUnityProject/Assets/TextMesh Pro/Plugins/TextMeshPro-1.0.55.2017.2.0b12.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-1.0.55.2017.2.0b12-Editor">
- <HintPath>/Users/erinwiegman/Desktop/junior_year/Fall_17/Workshop-IDM_371/CO2BLACK/Co2BlackUnityProject/Assets/TextMesh Pro/Plugins/Editor/TextMeshPro-1.0.55.2017.2.0b12-Editor.dll</HintPath>
+ <HintPath>/Users/erinwiegman/dev_projects/co2black/CO2Black/Co2BlackUnityProject/Assets/TextMesh Pro/Plugins/Editor/TextMeshPro-1.0.55.2017.2.0b12-Editor.dll</HintPath>
  </Reference>
  <Reference Include="Mapbox.Json">
- <HintPath>/Users/erinwiegman/Desktop/junior_year/Fall_17/Workshop-IDM_371/CO2BLACK/Co2BlackUnityProject/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
+ <HintPath>/Users/erinwiegman/dev_projects/co2black/CO2Black/Co2BlackUnityProject/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Users/erinwiegman/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@1.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>

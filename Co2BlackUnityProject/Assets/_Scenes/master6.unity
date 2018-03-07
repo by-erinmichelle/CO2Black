@@ -642,16 +642,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   instructions: {fileID: 613919910}
-  trashBagDialogue: {fileID: 0}
-  trashBagDialogue_trans: {fileID: 0}
-  boxDialogue: {fileID: 0}
-  boxDialogue_trans: {fileID: 0}
-  bottleDialogue: {fileID: 0}
-  bottleDialogue_trans: {fileID: 0}
-  foamCupDialogue: {fileID: 0}
-  foamCupDialogue_trans: {fileID: 0}
-  sodaDialogue: {fileID: 0}
-  sodaDialogue_trans: {fileID: 0}
+  trashBagDialogue: {fileID: 1239371177}
+  trashBagDialogue_trans: {fileID: 746729762}
+  boxDialogue: {fileID: 1655483122}
+  boxDialogue_trans: {fileID: 538450726}
+  bottleDialogue: {fileID: 567598920}
+  bottleDialogue_trans: {fileID: 237733596}
+  foamCupDialogue: {fileID: 1145670329}
+  foamCupDialogue_trans: {fileID: 497952055}
+  sodaDialogue: {fileID: 1782094132}
+  sodaDialogue_trans: {fileID: 1807197351}
 --- !u!1 &54304119
 GameObject:
   m_ObjectHideFlags: 0
@@ -6298,11 +6298,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
