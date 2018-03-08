@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/_Scenes/lampBugs.unity
+=======
+- path: Assets/_Scenes/3rdmodUpdated.unity
+>>>>>>> 7788413540bd5685588e7a25444b3dd6bbd84d73
   isLoaded: 1
   isActive: 1

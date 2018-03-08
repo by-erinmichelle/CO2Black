@@ -286,11 +286,15 @@ e97ff9540a49b92b779792c195839d33 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 5511a49b5104d2e14b66af50a17125f0 Assembly-CSharp.dll:.ParticlePainter
 b628e61ad61c0405a5dffa3f4ddde454 Assembly-CSharp.dll:.introController
 <<<<<<< HEAD
+205aa265482b692a5f4800afd83455fd Assembly-CSharp.dll:.co2Controller
+=======
+<<<<<<< HEAD
 096d82be4c15ad52d37ce4f86ac8d70b Assembly-CSharp.dll:.co2Controller
 e460db8af525eb7c78c76a025f4acae9 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Factories.TerrainFactory
 cdacd17d349023e814bb8917754c8cb6 Assembly-CSharp.dll:.thirdmod
 =======
 14bbadd631c6e8b209513206abd9fbcc Assembly-CSharp.dll:.co2Controller
+>>>>>>> ac581073108f911ebc4f4206d17af30caf91c4d7
 e460db8af525eb7c78c76a025f4acae9 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Factories.TerrainFactory
 fd80e751ebc02c4e0da66abcfca96e5c Assembly-CSharp.dll:.thirdmod
 >>>>>>> ad9ca5107d278aed55d62ccf0e5633979d1e11ef

@@ -124,6 +124,9 @@ public class co2Controller : MonoBehaviour {
 		public GameObject reject;
 		public GameObject reject_Trans;
 
+		public GameObject good;
+		public GameObject good_Trans;
+
 		public GameObject laptop;
 		public GameObject table;
 		public GameObject screen1;
@@ -155,16 +158,16 @@ public class co2Controller : MonoBehaviour {
 			gasEnergy_Trans.SetActive (false);
 			clean.SetActive (true);
 			allEnergy.SetActive (true);
-			allEnergy_Trans.SetActive (true);
+//			allEnergy_Trans.SetActive (true);
 //			gasEnergy.SetActive (false);
 		}
 
 		//	show "its simple" text
 		public void turnOnCleanText() {
 			allEnergy.SetActive (false);
-			allEnergy_Trans.SetActive (false);
-			getClean.SetActive (true);
-			getClean_Trans.SetActive (true);
+//			allEnergy_Trans.SetActive (false);
+//			getClean.SetActive (true);
+//			getClean_Trans.SetActive (true);
 
 		}
 		//	void OnCollisionEnter(Collision collision) {	
@@ -175,6 +178,12 @@ public class co2Controller : MonoBehaviour {
 		//
 		//		}
 		//	}
+
+
+
+
+	
+		
 
 		void Update () {
 
@@ -212,10 +221,12 @@ public class co2Controller : MonoBehaviour {
 
 							getClean.SetActive (false);
 							getClean_Trans.SetActive (false);
+							allEnergy.SetActive (false);
+
+							reject.SetActive (true);
+//							reject_Trans.SetActive (true);
 
 							Handheld.Vibrate();
-							reject.SetActive (true);
-							reject_Trans.SetActive (true);
 							
 
 							//						fireDefault.GetComponent<Animation> ().Play ();
@@ -223,6 +234,22 @@ public class co2Controller : MonoBehaviour {
 
 
 						}
+					else if (hit.transform.tag == "clean"){
+						Debug.Log ("yay");
+
+						getClean.SetActive (false);
+						getClean_Trans.SetActive (false);
+						allEnergy.SetActive (false);
+						reject.SetActive (false);
+
+						good.SetActive (true);
+						good_Trans.SetActive (true);
+
+
+
+
+					}
+
 
 
 					}
@@ -232,7 +259,7 @@ public class co2Controller : MonoBehaviour {
 
 
 		}
-
+		
 
 		//	hide all the models, show laptop first screen ui
 		public void hideAllModels() {
@@ -241,6 +268,8 @@ public class co2Controller : MonoBehaviour {
 			coal.SetActive (false);
 			gas.SetActive (false);
 			clean.SetActive (false);
+			good.SetActive (false);
+			good_Trans.SetActive (false);
 			laptop.SetActive (true);
 			table.SetActive (true);
 			screen1.SetActive (true);
@@ -255,3 +284,4 @@ public class co2Controller : MonoBehaviour {
 
 
 }
+
